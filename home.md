@@ -2,7 +2,7 @@
 title: Welcome
 description: 
 published: true
-date: 2025-02-05T13:35:28.641Z
+date: 2025-02-05T21:08:36.569Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:12.188Z
@@ -18,7 +18,7 @@ Welcome to the Leiden Cell Observatory Wiki. This documentation provides informa
 
 - **Image Analysis**: Guidelines and workflows for analyzing microscopy data, including available software tools and best practices.
 
-- **OMERO**: Complete documentation on using our OMERO system for data storage, organization, and sharing.
+- **OMERO**: Documentation on using our OMERO system for data storage, organization, and sharing.
 
 ## Getting Started
 
