@@ -1,8 +1,8 @@
 ---
-title: methods
+title: Writing Methods for Microscopy Experiments
 description: 
 published: true
-date: 2025-02-05T14:42:40.848Z
+date: 2025-02-05T14:43:48.924Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:45.990Z
