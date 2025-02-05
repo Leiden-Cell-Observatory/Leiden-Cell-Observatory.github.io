@@ -1,3 +1,13 @@
+---
+title: Citing the Cell Observatory
+description: 
+published: true
+date: 2025-02-05T14:43:19.085Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:42.971Z
+---
+
 # Citing the Cell Observatory
 
 ## Acknowledgments in Publications
