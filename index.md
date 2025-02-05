@@ -1,3 +1,13 @@
+---
+title: Welcome
+description: 
+published: true
+date: 2025-02-05T13:35:28.641Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:12.188Z
+---
+
 # Welcome {.unnumbered}
 
 Welcome to the Leiden Cell Observatory Wiki. This documentation provides information about our facility's microscopes, image analysis workflows, and data management through OMERO.
