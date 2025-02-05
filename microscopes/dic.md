@@ -13,6 +13,7 @@ dateCreated: 2025-02-05T20:44:03.000Z
 ## Hardware Controls
 
 ### Left Side Controls
+![Left side controls](images/dic/image1.png)
 - **Focus Wheel**: Main focus control (green)
 - **Focus Mode Switch**: Toggle between coarse and fine focus (dark blue)
 - **Sample Exchange Buttons**: (cyan)
@@ -23,6 +24,7 @@ dateCreated: 2025-02-05T20:44:03.000Z
 - **Ocular Light Block**: Red pin that blocks light to oculars when pushed in
 
 ### Right Side Controls
+![Right side controls](images/dic/image2.png)
 - **Focus Controls**: 
   - Focus wheel (green oval)
   - Sample loading positions (cyan)
@@ -35,6 +37,8 @@ dateCreated: 2025-02-05T20:44:03.000Z
   - Neutral density filter wheels (red)
   - Fluorescence light path adjustments (orange)
   - Beam path switch (purple)
+
+![Additional controls](images/dic/image3.png)
 
 ## Illumination System
 
@@ -52,6 +56,7 @@ The beam path switch offers three positions:
 ## Filter System
 
 ### Filter Wheel Positions
+![Filter wheel](images/dic/image4.png)
 1. UV (DAPI, Hoechst)
 2. CFP and cyan dyes
 3. GFP, FITC, green fluorescent dyes
@@ -67,14 +72,10 @@ The beam path switch offers three positions:
 - **D**: Darkfield (20x objectives and lower)
 - Adjustable condenser diaphragm for contrast/resolution control
 
-## DIC Imaging
-- Each objective has an adjustable DIC prism
-- Turn prism screw to optimize contrast for your sample
-- Condenser diaphragm affects contrast and resolution
-
 ## Software Operation (AxioVision)
 
 ### Initial Setup
+![AxioVision interface](images/dic/image6.png)
 1. Login to the system
 2. Start AxioVision
 3. Configure storage settings:
@@ -85,6 +86,7 @@ The beam path switch offers three positions:
 ### Image Acquisition
 
 #### Basic Imaging
+![Camera settings](images/dic/image9.png)
 1. Select correct objective in microscope menu
 2. Focus on sample
 3. Switch to live view
@@ -97,11 +99,13 @@ The beam path switch offers three positions:
 <!-- {blockquote:.is-warning} -->
 
 #### Multidimensional Acquisition
+![Multi-channel setup](images/dic/image11.png)
 - Predefined channel settings available
 - Individual exposure times per channel
 - Automatic overlay generation
 
 ### Keyboard Shortcuts
+![Keyboard controls](images/dic/image10.png)
 - Numpad 1-7: Filter wheel positions and shutter control
 - Spacebar/F2: Take snapshot
 - Each numpad number corresponds to specific filter settings:

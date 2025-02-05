@@ -15,6 +15,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 ### Sylvius Location (Room 6.5.31)
 
 #### Zeiss Stereo Zoom V16
+![Stereo Zoom V16](images/ibl/image1.jpeg)
 - **Location**: Sylvius, Rm. 6.5.31b
 - **Capabilities**:
   - Stereo fluorescence microscope
@@ -25,12 +26,16 @@ dateCreated: 2025-02-05T20:47:47.000Z
 - [Book Stereo Sylvius](https://www.supersaas.com/schedule/IBL_Stereo/Stereo_Sylvius)
 
 #### Zeiss V8
+![Zeiss V8](images/ibl/image2.jpeg)
 - **Location**: Sylvius, Rm. 6.5.31a
 - **Capabilities**:
   - Stereo light microscope
   - Manual focus and zoom control
   - Bresser digital color camera
 - [Book Stereo Sylvius](https://www.supersaas.com/schedule/IBL_Stereo/Stereo_Sylvius)
+
+### Gorlaeus Location
+![Stereo Fluorescence](images/ibl/image3.jpeg)
 
 #### Stereo Fluorescence Microscope
 - **Location**: Cell Observatory GW2.28
@@ -42,6 +47,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 ## Fluorescence Compound Microscopes
 
 ### [Zeiss Observer](/microscopes/widefield-observer)
+![Zeiss Observer](images/ibl/image4.jpeg)
 - **Location**: Sylvius, Rm. 6.5.31a
 - **Features**:
   - Widefield fluorescence with Colibri system
@@ -53,6 +59,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 - [Detailed Multi-well Imaging Guide](/microscopes/widefield-observer)
 
 ### Zeiss Axioscope A1
+![Zeiss Axioscope](images/ibl/image5.jpeg)
 - **Location**: Sylvius, Rm. 6.5.31a
 - **Features**:
   - Widefield fluorescence with Colibri system
@@ -60,6 +67,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 - [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)
 
 ### [Zeiss Imager M2 (DIC)](/microscopes/dic)
+![DIC Microscope](images/ibl/image6.jpeg)
 - **Location**: Sylvius, Rm. 6.5.35
 - **Features**:
   - Upright fluorescence microscope
@@ -81,6 +89,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 ## Confocal Microscopes
 
 ### Zeiss Airyscan 900
+![Airyscan](images/ibl/image7.jpeg)
 - **Location**: Sylvius, Rm. 6.5.32
 - **Specifications**:
   - Inverted confocal laser scanning microscope
@@ -93,6 +102,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 - [View Instructions](https://video.leidenuniv.nl/media/t/1_40bwf016)
 
 ### Zeiss LSM5 Exciter / AxioImager
+![LSM5](images/ibl/image8.jpeg)
 - **Location**: Sylvius, Rm. 6.5.32
 - **Specifications**:
   - Upright confocal laser scanning microscope
@@ -103,6 +113,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 - [View Instructions](https://video.leidenuniv.nl/media/t/1_6vcjjhfu)
 
 ### Leica TCS SPE
+![Leica SPE](images/ibl/image9.jpeg)
 - **Location**: Cell Observatory GW 2.30a
 - **Specifications**:
   - Inverted confocal laser scanning microscope
@@ -113,6 +124,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 - [View Instructions (Dutch)](https://video.leidenuniv.nl/media/t/1_498i179v)
 
 ### Leica SP8
+![Leica SP8](images/ibl/image10.jpeg)
 - **Location**: Cell Observatory GW 2.30a
 - **Specifications**:
   - Inverted confocal laser scanning microscope
@@ -125,6 +137,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 ## Electron Microscopes
 
 ### JEOL SEM 7600
+![SEM](images/ibl/image11.jpeg)
 - **Location**: Sylvius, Rm. 6.5.34
 - **Features**:
   - Conventional high vacuum scanning electron microscope
@@ -134,6 +147,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 - [Book SEM](https://www.supersaas.com/schedule/IBL_SEM/IBL_SEM)
 
 ### JEOL TEM 1400+
+![TEM](images/ibl/image12.jpeg)
 - **Location**: Cell Observatory GW2.24a
 - **Specifications**:
   - 120 kV transmission electron microscope
@@ -142,6 +156,7 @@ dateCreated: 2025-02-05T20:47:47.000Z
 ## Specialized Systems
 
 ### LEICA DM6000 (VAST)
+![VAST](images/ibl/image13.jpeg)
 - **Location**: Cell Observatory GW2.28
 - **Specifications**:
   - Leica SL confocal CTR 6000
