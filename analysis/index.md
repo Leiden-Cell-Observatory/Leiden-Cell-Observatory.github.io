@@ -1,3 +1,13 @@
+---
+title: index
+description: 
+published: true
+date: 2025-02-05T13:40:24.676Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:34:57.387Z
+---
+
 # Image Analysis
 
 This section provides resources and guidelines for analyzing microscopy data at the Leiden Cell Observatory.
