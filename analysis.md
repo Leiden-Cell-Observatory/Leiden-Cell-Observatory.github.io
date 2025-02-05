@@ -1,8 +1,8 @@
 ---
-title: index
+title: Image analysis
 description: 
 published: true
-date: 2025-02-05T13:40:24.676Z
+date: 2025-02-05T14:29:42.795Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:34:57.387Z
