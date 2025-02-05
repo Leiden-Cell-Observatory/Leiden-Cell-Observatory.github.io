@@ -2,7 +2,7 @@
 title: OMERO
 description: 
 published: true
-date: 2025-02-05T15:30:36.393Z
+date: 2025-02-05T15:30:47.541Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:39.982Z
@@ -38,7 +38,5 @@ For questions about OMERO:
 - Contact facility staff for specific issues
 - For script development or advanced analysis needs, consult with OMERO administrators
 
-::: {.callout-tip}
 ## Best Practice
 Always organize your data into projects and datasets before importing to maintain a clear structure in OMERO.
-:::
