@@ -1,3 +1,13 @@
+---
+title: Microscopes
+description: 
+published: true
+date: 2025-02-05T14:39:21.586Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:18.198Z
+---
+
 # Microscopes
 
 This section contains detailed information about the microscopes available at the Leiden Cell Observatory.
