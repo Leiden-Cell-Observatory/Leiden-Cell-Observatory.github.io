@@ -2,7 +2,7 @@
 title: Image analysis
 description: 
 published: true
-date: 2025-02-05T14:29:42.795Z
+date: 2025-02-05T15:39:48.988Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:34:57.387Z
@@ -14,15 +14,14 @@ This section provides resources and guidelines for analyzing microscopy data at 
 
 ## Available Software
 
-Segmentation with micro-sam
+- Fiji
+- CellProfiler
+- Segmentation with micro-sam
 
 ## Analysis Workflows
 
 *Content to be added*
 
-## Best Practices
-
-*Content to be added*
 
 ## Data Management
 

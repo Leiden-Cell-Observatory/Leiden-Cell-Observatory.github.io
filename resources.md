@@ -1,3 +1,13 @@
+---
+title: Resources
+description: 
+published: true
+date: 2025-02-05T15:28:49.161Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:51.956Z
+---
+
 # Learning Resources
 
 This section provides a curated collection of external resources for bioimage analysis, training materials, and useful tools.

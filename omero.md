@@ -1,3 +1,13 @@
+---
+title: OMERO
+description: 
+published: true
+date: 2025-02-05T15:30:47.541Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:39.982Z
+---
+
 # OMERO
 
 This section covers everything you need to know about using OMERO at the Leiden Cell Observatory.
@@ -13,8 +23,8 @@ OMERO (Open Microscopy Environment Remote Objects) is our primary platform for:
 ## Documentation Sections
 
 ### Data Management
-- [Importing Data](importing/index.qmd): Learn how to import various file formats into OMERO
-- [Data Analysis](analysis.qmd): Connect FIJI to OMERO and analyze your data
+- [Importing Data](omero/importing.md): Learn how to import various file formats into OMERO
+- [Data Analysis](analysis.md): Connect FIJI to OMERO and analyze your data
 
 ## Quick Links
 
@@ -28,7 +38,5 @@ For questions about OMERO:
 - Contact facility staff for specific issues
 - For script development or advanced analysis needs, consult with OMERO administrators
 
-::: {.callout-tip}
 ## Best Practice
 Always organize your data into projects and datasets before importing to maintain a clear structure in OMERO.
-:::
