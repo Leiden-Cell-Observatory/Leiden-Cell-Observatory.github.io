@@ -1,3 +1,13 @@
+---
+title: Conda for Python
+description: 
+published: true
+date: 2025-02-05T14:30:19.775Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:34:54.007Z
+---
+
 # Setting up conda for Python
 
 ## Installation

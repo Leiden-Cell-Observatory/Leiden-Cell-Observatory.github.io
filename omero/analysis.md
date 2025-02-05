@@ -1,3 +1,13 @@
+---
+title:  Data Analysis with OMERO
+description: 
+published: true
+date: 2025-02-05T14:46:22.267Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:21.282Z
+---
+
 # Data Analysis with OMERO
 
 There are different ways you can interact with data in OMERO.
@@ -101,9 +111,8 @@ If you need a plugin that isn't available, contact J.J. (Joost) Willemse  for as
 
 ### Large Dataset Downloads
 
-::: {.callout-important}
-The web browser downloads timeout after 1 minute (60s). For large datasets, use OMERO.insight client.
-:::
+> The web browser downloads timeout after 1 minute (60s). For large datasets, use OMERO.insight client.
+{.is-warning}
 
 1. In OMERO.insight:
    - Navigate to your dataset
@@ -119,12 +128,11 @@ The web browser downloads timeout after 1 minute (60s). For large datasets, use 
 Access server scripts through the web interface:
 ![Server scripts](images/media/image17.png)
 
-::: {.callout-warning}
-## Important Notes
-- Server is optimized for storage, not computation
-- Scripts may take significant time to process
-- All scripts must be tested on test-server first
-- **DO NOT develop or test scripts without admin consultation**
-:::
+> ## Important Notes
+> - Server is optimized for storage, not computation
+> - Scripts may take significant time to process
+> - All scripts must be tested on test-server first
+> - **DO NOT develop or test scripts without admin consultation**
+
 
 For new script development, contact Willemse, J.J. (Joost).

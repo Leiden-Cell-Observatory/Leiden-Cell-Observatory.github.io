@@ -1,12 +1,22 @@
+---
+title: High Content Screening Data
+description: 
+published: true
+date: 2025-02-05T14:25:20.668Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:27.775Z
+---
+
 # High-Content Screening Data
 
 This section covers importing and managing high-content screening (HCS) data in OMERO.
 
 ## Important Note
 
-::: {.callout-warning}
-Different file formats and the OMERO system don't always work as expected, especially with plate data and Nikon .nd2 file formats. OMERO may not correctly recognize well mapping if there are empty wells (including edge wells). For correctly importing plate data and screens, it's advised to do this first time with facility staff or during OMERO user meetings.
-:::
+
+>Different file formats and the OMERO system don't always work as expected, especially with plate data and Nikon .nd2 file formats. OMERO may not correctly recognize well mapping if there are empty wells (including edge wells). For correctly importing plate data and screens, it's advised to do this first time with facility staff or during OMERO user meetings.
+{.is-warning}
 
 ## Creating Plates from Images
 
@@ -115,10 +125,9 @@ HCS data should include:
    - Verify field positions
    - Validate channel information
 
-::: {.callout-tip}
-## Storage Considerations
-HCS data can be very large. Plan your import strategy and storage requirements in advance.
-:::
+>## Storage Considerations
+>HCS data can be very large. Plan your import strategy and storage requirements in advance.
+{.is-info}
 
 ## Additional Resources
 

@@ -1,3 +1,13 @@
+---
+title: Importing Data into OMERO
+description: 
+published: true
+date: 2025-02-05T14:29:00.997Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:30.859Z
+---
+
 # Importing Data into OMERO
 
 This section covers the general procedures for importing data into OMERO at the Leiden Cell Observatory.
@@ -54,16 +64,17 @@ Project folder
     └── subfolder II (experiment 2)
 ```
 
-::: {.callout-tip}
-## Planning Your Import
-Before starting a large import:
-1. Plan your project/dataset structure
-2. Prepare metadata if needed
-3. Consider file type specific requirements
-:::
+
+> ## Planning Your Import
+> Before starting a large import:
+> 1. Plan your project/dataset structure
+> 2. Prepare metadata if needed
+> 3. Consider file type specific requirements
+{.is-success}
+
 
 ## Next Steps
 
-- For specific file types, see [Microscope Files](microscope-files.qmd)
-- For high-content screening data, check [HCS Data](hcs-data.qmd)
-- To add metadata, refer to [Metadata Annotations](metadata.qmd)
+- For specific file types, see [Microscope Files](microscope-files.md)
+- For high-content screening data, check [HCS Data](hcs-data.md)
+- To add metadata, refer to [Metadata Annotations](metadata.md)
