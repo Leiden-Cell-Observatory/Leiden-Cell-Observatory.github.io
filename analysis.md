@@ -2,7 +2,7 @@
 title: Image analysis
 description: 
 published: true
-date: 2025-02-05T15:39:37.061Z
+date: 2025-02-05T15:39:48.988Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:34:57.387Z
@@ -22,9 +22,6 @@ This section provides resources and guidelines for analyzing microscopy data at 
 
 *Content to be added*
 
-## Best Practices
-
-*Content to be added*
 
 ## Data Management
 
