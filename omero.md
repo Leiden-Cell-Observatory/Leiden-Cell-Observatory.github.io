@@ -2,7 +2,7 @@
 title: OMERO
 description: 
 published: true
-date: 2025-02-05T15:29:31.459Z
+date: 2025-02-05T15:30:11.656Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:39.982Z
@@ -23,8 +23,8 @@ OMERO (Open Microscopy Environment Remote Objects) is our primary platform for:
 ## Documentation Sections
 
 ### Data Management
-- [Importing Data](importing/index.qmd): Learn how to import various file formats into OMERO
-- [Data Analysis](analysis.qmd): Connect FIJI to OMERO and analyze your data
+- [Importing Data](importing.md): Learn how to import various file formats into OMERO
+- [Data Analysis](analysis.md): Connect FIJI to OMERO and analyze your data
 
 ## Quick Links
 
