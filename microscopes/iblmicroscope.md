@@ -1,6 +1,6 @@
 ---
-title: IBL Microscopes Overview
-description: Overview of all microscopes available at IBL facilities
+title: IBL Microscopes
+description: Overview of all microscopes available at IBL facility
 published: true
 date: 2025-02-05T20:47:47.000Z
 tags: microscopes, equipment, facilities
