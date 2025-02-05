@@ -53,13 +53,12 @@ Choose the appropriate model:
 ### Saving Templates
 ![Save metadata](../images/metadata/image5.png)
 
-::: {.callout-tip}
-Save commonly used metadata configurations:
-1. Set up metadata for typical experiments
-2. Save as template
-3. Store templates with project documentation
-4. Share with team members as needed
-:::
+> Save commonly used metadata configurations:
+> 1. Set up metadata for typical experiments
+> 2. Save as template
+> 3. Store templates with project documentation
+> 4. Share with team members as needed
+<!-- {blockquote:.is-success} -->
 
 ### Searching with Metadata
 ![Search bar](../images/metadata/image6.png)
@@ -104,6 +103,5 @@ Save commonly used metadata configurations:
 3. Verify metadata before final import
 4. Keep documentation up to date
 
-::: {.callout-note}
-Regular metadata organization makes data more discoverable and analysis more efficient.
-:::
+> Regular metadata organization makes data more discoverable and analysis more efficient.
+<!-- {blockquote:.is-info} -->

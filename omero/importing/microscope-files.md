@@ -26,10 +26,9 @@ For Nikon1 and Nikon2 microscopes with Jobs HCS datasets:
    - Files can be organized into plates
    - Optional conversion to plate format after import
 
-::: {.callout-warning}
-## Known BioFormats Issue
-There's a known issue with BioFormats reading .nd2 files that contain Jobs-acquisition of plate data with multi-time in combination with multi-channel.
-:::
+> ## Known BioFormats Issue
+> There's a known issue with BioFormats reading .nd2 files that contain Jobs-acquisition of plate data with multi-time in combination with multi-channel.
+<!-- {blockquote:.is-warning} -->
 
 ## File Organization
 
@@ -84,7 +83,6 @@ During import, you can monitor progress:
    - Check metadata preservation
    - Validate image organization
 
-::: {.callout-tip}
-## Preventing Issues
-If you are not sure about the import of you data ask for help or test a single file before starting a large batch to ensure proper handling of your specific file type.
-:::
+> ## Preventing Issues
+> If you are not sure about the import of you data ask for help or test a single file before starting a large batch to ensure proper handling of your specific file type.
+<!-- {blockquote:.is-info} -->

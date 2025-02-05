@@ -28,6 +28,5 @@ More information on the Cell Observatory Teams
 
 *Content to be added*
 
-::: {.callout-note}
-Contact facility staff for specific workstation requirements.
-:::
+> Contact facility staff for specific workstation requirements.
+<!-- {blockquote:.is-info} -->

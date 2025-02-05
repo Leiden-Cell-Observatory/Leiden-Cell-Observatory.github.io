@@ -29,10 +29,9 @@ Access downloads through the OMERO web interface:
    - PNG format
    - TIFF format
 
-::: {.callout-warning}
-## Browser Timeout Limitation
-Web browser downloads automatically disconnect after 1 minute (60s). For large datasets, use OMERO.insight instead.
-:::
+> ## Browser Timeout Limitation
+> Web browser downloads automatically disconnect after 1 minute (60s). For large datasets, use OMERO.insight instead.
+<!-- {blockquote:.is-warning} -->
 
 ## OMERO.insight Downloads
 
@@ -45,9 +44,8 @@ Web browser downloads automatically disconnect after 1 minute (60s). For large d
 4. Select export format:
    ![Export format selection](images/media/image16.png)
 
-::: {.callout-tip}
-Downloads proceed in the background - no progress bar is shown, but the process remains active.
-:::
+> Downloads proceed in the background - no progress bar is shown, but the process remains active.
+<!-- {blockquote:.is-success} -->
 
 ## Export Formats
 
@@ -100,6 +98,5 @@ Choose based on intended use:
 3. Document any format conversions
 4. Keep local copies organized
 
-::: {.callout-note}
-Consider storage requirements and network capacity when planning large downloads.
-:::
+> Consider storage requirements and network capacity when planning large downloads.
+<!-- {blockquote:.is-info} -->

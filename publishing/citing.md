@@ -37,19 +37,17 @@ Here's how to combine multiple acknowledgments:
 "Part of the work has been performed in the Leiden Cell Observatory (LCO). The [specific microscope] was supported by [grant number]. Data management was facilitated through [infrastructure grant]."
 ```
 
-::: {.callout-important}
-## Required Citations
-Always include:
-
-1. The Cell Observatory facility acknowledgment
-2. Specific equipment grants used
-:::
+> ## Required Citations
+> Always include:
+> 
+> 1. The Cell Observatory facility acknowledgment
+> 2. Specific equipment grants used
+<!-- {blockquote:.is-danger} -->
 
 ## Additional Requirements
 
 - Include relevant grant numbers
 - Include technical details of equipment used in methods section
 
-::: {.callout-note}
-Contact facility staff if you're unsure about which acknowledgments to include in your publication.
-:::
+> Contact facility staff if you're unsure about which acknowledgments to include in your publication.
+<!-- {blockquote:.is-info} -->

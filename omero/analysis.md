@@ -97,9 +97,8 @@ There are different ways you can interact with data in OMERO.
    ![Results attachment](images/media/image11.png)
    ![Detailed results](images/media/image12.png)
 
-::: {.callout-note}
-If you need a plugin that isn't available, contact J.J. (Joost) Willemse  for assistance.
-:::
+> If you need a plugin that isn't available, contact J.J. (Joost) Willemse  for assistance.
+<!-- {blockquote:.is-info} -->
 
 ## Exporting Data
 
@@ -112,7 +111,7 @@ If you need a plugin that isn't available, contact J.J. (Joost) Willemse  for as
 ### Large Dataset Downloads
 
 > The web browser downloads timeout after 1 minute (60s). For large datasets, use OMERO.insight client.
-{.is-warning}
+<!-- {blockquote:.is-warning} -->
 
 1. In OMERO.insight:
    - Navigate to your dataset
@@ -133,6 +132,6 @@ Access server scripts through the web interface:
 > - Scripts may take significant time to process
 > - All scripts must be tested on test-server first
 > - **DO NOT develop or test scripts without admin consultation**
-
+<!-- {blockquote:.is-danger} -->
 
 For new script development, contact Willemse, J.J. (Joost).

@@ -28,6 +28,3 @@ More on Alice: [Alice Wiki](https://pubappslu.atlassian.net/wiki/spaces/HPCWIKI/
 
 *Content to be added*
 
-::: {.callout-note}
-For HPC access and support, contact the facility staff or ISSC HPC team.
-:::
