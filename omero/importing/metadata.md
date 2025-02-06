@@ -1,3 +1,13 @@
+---
+title: Metadata in OMERO
+description: 
+published: true
+date: 2025-02-06T18:31:26.752Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:33.892Z
+---
+
 # Metadata Annotations
 
 This section covers how to add and manage metadata annotations in OMERO.
