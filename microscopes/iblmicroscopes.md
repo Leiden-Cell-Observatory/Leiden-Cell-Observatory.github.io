@@ -1,21 +1,11 @@
 ---
 title: IBL microscopes
-description: 
+description: Overview of all microscopes available at IBL facility
 published: true
-date: 2025-02-06T18:28:50.986Z
+date: 2025-02-06T18:30:22.200Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-06T18:28:50.986Z
----
-
----
-title: IBL Microscopes
-description: Overview of all microscopes available at IBL facility
-published: true
-date: 2025-02-05T20:47:47.000Z
-tags: microscopes, equipment, facilities
-editor: markdown
-dateCreated: 2025-02-05T20:47:47.000Z
 ---
 
 # IBL Microscopes
