@@ -2,7 +2,7 @@
 title: Segmentation with micro-sam
 description: 
 published: true
-date: 2025-02-22T00:29:37.083Z
+date: 2025-02-22T00:30:22.581Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:00.354Z
@@ -27,3 +27,5 @@ conda env create --file environment.yml -n micro-sam
 ```bash
 napari
 ```
+
+## finetuning a model for automatic segmentation 
