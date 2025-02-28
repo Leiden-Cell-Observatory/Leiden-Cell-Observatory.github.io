@@ -2,10 +2,10 @@
 title: Getting Started with OMERO
 description: Guide for new OMERO users at Leiden University
 published: true
-date: 2025-02-05T20:48:59.000Z
+date: 2025-02-28T20:26:17.476Z
 tags: omero, guide, registration
 editor: markdown
-dateCreated: 2025-02-05T20:48:59.000Z
+dateCreated: 2025-02-05T21:07:17.687Z
 ---
 
 # Getting Started with OMERO
@@ -26,19 +26,14 @@ Contact any of the following administrators for registration and OMERO-related q
 
 ## First Time Login
 
-> Important: First login must be done within the university network (LAN or WLAN)
+> Important: Login must be done within the university network (LAN or WLAN)
 <!-- {blockquote:.is-warning} -->
-
-![OMERO login screen](images/getting-started/image1.png)
 
 1. Visit [OMERO Web Portal](https://omeroweb.services.universiteitleiden.nl/)
 2. Login using your ULCN credentials
 3. Logout after successful login
 4. Inform your admin that you've completed the first login
 5. Wait for confirmation that you've been assigned to the correct group before importing data
-
-After successful login, you'll see your group assignment:
-![Group assignment](images/getting-started/image2.png)
 
 ## Remote Access
 
@@ -68,10 +63,8 @@ For uploading data from your computer or downloading large datasets, you'll need
 1. Start OMERO.insight
 2. Click the tool icon
 3. Add the Leiden server:
-   ![OMERO.insight configuration](images/getting-started/image3.png)
    - Press the + sign
    - Enter server address: `omero.services.universiteitleiden.nl`
-   ![Server configuration](images/getting-started/image4.png)
    - Click Apply
 4. Login using your ULCN credentials
 
