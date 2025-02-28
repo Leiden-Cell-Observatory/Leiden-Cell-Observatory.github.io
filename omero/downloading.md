@@ -2,7 +2,7 @@
 title: Downloading from OMERO
 description: 
 published: true
-date: 2025-02-05T15:31:23.186Z
+date: 2025-02-28T20:24:28.723Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:24.344Z
@@ -98,5 +98,3 @@ Choose based on intended use:
 3. Document any format conversions
 4. Keep local copies organized
 
-> Consider storage requirements and network capacity when planning large downloads.
-<!-- {blockquote:.is-info} -->
