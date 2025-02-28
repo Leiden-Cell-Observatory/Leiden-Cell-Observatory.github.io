@@ -2,7 +2,7 @@
 title: Importing Data into OMERO
 description: 
 published: true
-date: 2025-02-28T20:19:42.764Z
+date: 2025-02-28T20:22:43.229Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:30.859Z
@@ -75,6 +75,6 @@ Project folder
 
 ## Next Steps
 
-- For specific file types, see [Microscope Files](microscope-files.md)
-- For high-content screening data, check [HCS Data](hcs-data.md)
-- To add metadata, refer to [Metadata Annotations](metadata.md)
+- For specific file types, see [Microscope Files](importing/microscope-files.md)
+- For high-content screening data, check [HCS Data](importing/hcs-data.md)
+- To add metadata, refer to [Metadata Annotations](importing/metadata.md)
