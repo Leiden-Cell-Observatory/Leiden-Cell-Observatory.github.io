@@ -2,7 +2,7 @@
 title: Welcome
 description: 
 published: true
-date: 2025-02-28T20:16:28.357Z
+date: 2025-02-28T20:16:39.443Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:12.188Z
@@ -10,7 +10,7 @@ dateCreated: 2025-02-05T10:35:12.188Z
 
 # Welcome {.unnumbered}
 
-Welcome to the Leiden Cell Observatory Wiki. This documentation provides information about our facility's microscopes, image analysis workflows, and image data management with OMERO.
+Welcome to the Leiden Cell Observatory Wiki. This documentation provides information about the facility's microscopes, image analysis workflows, and image data management with OMERO.
 
 ## What's Inside
 
