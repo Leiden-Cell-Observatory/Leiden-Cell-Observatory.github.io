@@ -1,3 +1,13 @@
+---
+title: microscope-files
+description: 
+published: true
+date: 2025-02-28T20:23:40.035Z
+tags: 
+editor: markdown
+dateCreated: 2025-02-05T10:35:36.957Z
+---
+
 # Microscope-Specific File Types
 
 This section covers importing procedures for different microscope file formats.
@@ -27,7 +37,7 @@ For Nikon1 and Nikon2 microscopes with Jobs HCS datasets:
    - Optional conversion to plate format after import
 
 > ## Known BioFormats Issue
-> There's a known issue with BioFormats reading .nd2 files that contain Jobs-acquisition of plate data with multi-time in combination with multi-channel.
+> There's a known issue with BioFormats reading .nd2 files that contain Jobs-acquisitions of plate data with multi-time in combination with multi-channel.
 <!-- {blockquote:.is-warning} -->
 
 ## File Organization
@@ -59,7 +69,11 @@ When importing:
 2. OMERO will use the metadata for proper organization
 3. Verify plate structure after import
 
+## Zeiss
+
+
 ## Additional File Types
+
 
 ## Import Progress
 
