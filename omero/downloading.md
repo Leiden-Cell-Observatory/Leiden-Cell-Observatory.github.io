@@ -2,7 +2,7 @@
 title: Downloading from OMERO
 description: 
 published: true
-date: 2025-02-28T20:24:28.723Z
+date: 2025-02-28T20:25:09.132Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:24.344Z
@@ -91,10 +91,4 @@ Choose based on intended use:
    - Verify metadata retention
    - Test sample files
 
-## Tips for Success
-
-1. Use OMERO.insight for large downloads
-2. Maintain original file organization
-3. Document any format conversions
-4. Keep local copies organized
 
