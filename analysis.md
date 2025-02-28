@@ -2,7 +2,7 @@
 title: Image analysis
 description: 
 published: true
-date: 2025-02-09T09:52:17.258Z
+date: 2025-02-28T20:17:22.816Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:34:57.387Z
@@ -12,17 +12,12 @@ dateCreated: 2025-02-05T10:34:57.387Z
 
 This section provides resources and guidelines for analyzing microscopy data at the Leiden Cell Observatory.
 
-## Available Software
+## Software
 
 - Fiji
 - CellProfiler
 - Segmentation with micro-sam
 
 ## Analysis Workflows
-
-*Content to be added*
-
-
-## Data Management
 
 *Content to be added*
