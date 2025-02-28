@@ -2,7 +2,7 @@
 title: Importing Data into OMERO
 description: 
 published: true
-date: 2025-02-05T14:29:00.997Z
+date: 2025-02-28T20:19:42.764Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:35:30.859Z
@@ -15,9 +15,9 @@ This section covers the general procedures for importing data into OMERO at the 
 ## Overview
 
 OMERO.insight is the primary tool for importing data. This client is:
-- Pre-installed on all Microscope PCs
-- Available for download on personal computers
-- Designed for efficient data upload and organization
+- Pre-installed on all microscope PC's
+- Available for download on computers (Windows, Mac, Linux) 
+	https://www.openmicroscopy.org/omero/downloads/
 
 ## Basic Import Workflow
 
