@@ -2,7 +2,7 @@
 title: Image analysis
 description: 
 published: true
-date: 2025-02-28T20:17:22.816Z
+date: 2025-03-01T08:50:04.357Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:34:57.387Z
@@ -16,7 +16,11 @@ This section provides resources and guidelines for analyzing microscopy data at 
 
 - Fiji
 - CellProfiler
-- Segmentation with micro-sam
+- ilastik
+- Stardist
+- TrackMate
+- Cellpose
+- micro-sam
 
 ## Analysis Workflows
 
