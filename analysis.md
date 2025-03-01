@@ -2,7 +2,7 @@
 title: Image analysis
 description: 
 published: true
-date: 2025-03-01T08:50:04.357Z
+date: 2025-03-01T08:50:14.886Z
 tags: 
 editor: markdown
 dateCreated: 2025-02-05T10:34:57.387Z
