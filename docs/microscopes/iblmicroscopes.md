@@ -1,13 +1,3 @@
----
-title: IBL microscopes
-description: Overview of all microscopes available at IBL facility
-published: true
-date: 2025-02-06T18:30:22.200Z
-tags: 
-editor: markdown
-dateCreated: 2025-02-06T18:28:50.986Z
----
-
 # IBL Microscopes
 
 ## Stereo Microscopes
@@ -46,7 +36,7 @@ dateCreated: 2025-02-06T18:28:50.986Z
 
 ## Fluorescence Compound Microscopes
 
-### [Zeiss Observer](/microscopes/widefield-observer)
+### [Zeiss Observer](widefield-observer.md)
 ![Zeiss Observer](images/ibl/image4.jpeg)
 - **Location**: Sylvius, Rm. 6.5.31a
 - **Features**:
@@ -56,7 +46,7 @@ dateCreated: 2025-02-06T18:28:50.986Z
   - Hamamatsu EMCCD
   - Multi-well imaging capability
 - [Book Observer](https://www.supersaas.com/schedule/IBL_FluoWide/Observer_widefield)
-- [Detailed Multi-well Imaging Guide](/microscopes/widefield-observer)
+- [Detailed Multi-well Imaging Guide](widefield-observer.md)
 
 ### Zeiss Axioscope A1
 ![Zeiss Axioscope](images/ibl/image5.jpeg)
@@ -66,7 +56,7 @@ dateCreated: 2025-02-06T18:28:50.986Z
   - DAPI, GFP, and mCherry filters
 - [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)
 
-### [Zeiss Imager M2 (DIC)](/microscopes/dic)
+### [Zeiss Imager M2 (DIC)](dic.md)
 ![DIC Microscope](images/ibl/image6.jpeg)
 - **Location**: Sylvius, Rm. 6.5.35
 - **Features**:
@@ -76,15 +66,15 @@ dateCreated: 2025-02-06T18:28:50.986Z
   - Filter blocks for DAPI, CFP, GFP, YFP, mCherry, DIC
   - Custom filter options available (consult Gerda or Joost)
 - [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)
-- [Detailed DIC Manual](/microscopes/dic)
+- [Detailed DIC Manual](dic.md)
 
-### [Nikon A1](/microscopes/a1)
+### [Nikon A1](a1.md)
 - **Location**: Listed under Nikon Systems
 - **Features**:
   - LED-based fluorescence excitation
   - Multiple fluorescence channels
   - Phase contrast capability
-- [Detailed A1 Manual](/microscopes/a1)
+- [Detailed A1 Manual](a1.md)
 
 ## Confocal Microscopes
 
@@ -168,4 +158,3 @@ dateCreated: 2025-02-06T18:28:50.986Z
 - [Book VAST](https://www.supersaas.com/schedule/IBL_VAST/VAST)
 
 > Contact facility staff for training before first use of any microscope system.
-<!-- {blockquote:.is-info} -->

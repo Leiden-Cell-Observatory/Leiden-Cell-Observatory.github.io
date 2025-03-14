@@ -1,0 +1,86 @@
+site_name: Leiden Cell Observatory Wiki
+repo_url: https://github.com/Leiden-Cell-Observatory/CellObs_wikijs
+repo_name: Leiden-Cell-Observatory/CellObs_wikijs
+theme:
+  name: material
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - navigation.expand
+    - navigation.prune
+    - navigation.collapsible
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - assets/custom.css
+
+nav:
+  - Home: index.md
+  - Image analysis:
+    - analysis/index.md
+    - What tool to use?: analysis/tool.md
+    - CellPose: analysis/cellpose.md
+    - CellProfiler: analysis/cellprofiler.md
+    - Python:
+      - Conda: analysis/conda.md
+      - napari: analysis/napari.md
+    - Fiji: analysis/Fiji.md
+    - GitHub: analysis/github.md
+    - Ilastik: analysis/ilastik.md
+    - Micro-SAM: analysis/micro-sam.md
+    - TrackMate: analysis/Trackmate.md
+    - Computing:
+      - computing/index.md
+      - HPC: computing/hpc.md
+      - Workstations: computing/workstations.md
+  - Microscopes:
+    - microscopes/index.md
+    - IBL Microscopes: microscopes/iblmicroscopes.md
+    - Manuals:
+      - A1: microscopes/a1.md
+      - DIC: microscopes/dic.md
+      - Widefield Observer: microscopes/widefield-observer.md
+  - OMERO:
+    - omero/index.md
+    - Analysis: omero/analysis.md
+    - Downloading: omero/downloading.md
+    - Getting Started: omero/getting-started.md
+    - Importing: 
+      - Overview: omero/importing.md
+      - Microscope Files: omero/importing/microscope-files.md
+      - HCS Data: omero/importing/hcs-data.md
+      - Metadata: omero/importing/metadata.md
+  - Publishing:
+    - publishing/index.md
+    - Citing: publishing/citing.md
+    - Methods: publishing/methods.md
+  - Resources: resources.md
+  - Contributing: contributing.md
+  - Contact: contact.md

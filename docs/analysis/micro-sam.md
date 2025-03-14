@@ -17,7 +17,7 @@ In order to use the micro-sam toolkit it is advisble to use a computer with a de
 
 micro-sam can be use to interactively segment images (2D, 3D, time series) in napari. It can also be used to fine-tune the Segment Anything model to allow for automatic instance segmentation of your images.
 
-![micro-sam.png](/micro-sam.png)
+![micro-sam.png](micro-sam.png)
 
 ## Installation
 It is adviced to install micro-sam in a conda environment. Check [here](conda.md) to install conda.

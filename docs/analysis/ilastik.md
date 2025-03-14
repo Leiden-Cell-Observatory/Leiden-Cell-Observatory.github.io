@@ -16,4 +16,4 @@ Can be installed here:
 After training the model can be used in Fiji to apply to a large number of images in batch. 
 It can even be used in TrackMate to track segmented objects.
 
-Also van be combined with CellProfiler.
+Also can be combined with CellProfiler.

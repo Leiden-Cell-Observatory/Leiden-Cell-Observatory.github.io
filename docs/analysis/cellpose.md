@@ -12,7 +12,7 @@ dateCreated: 2025-03-11T06:28:30.906Z
 
 https://cellpose.readthedocs.io/en/latest/
 
-![cellpose.png](/cellpose.png){.align-center}
+![cellpose.png](cellpose.png){.align-center}
 
 install via conda
 ```

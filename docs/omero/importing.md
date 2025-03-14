@@ -1,13 +1,3 @@
----
-title: Importing Data into OMERO
-description: 
-published: true
-date: 2025-02-28T20:23:48.386Z
-tags: 
-editor: markdown
-dateCreated: 2025-02-05T10:35:30.859Z
----
-
 # Importing Data into OMERO
 
 This section covers the general procedures for importing data into OMERO at the Leiden Cell Observatory.
@@ -17,7 +7,7 @@ This section covers the general procedures for importing data into OMERO at the 
 OMERO.insight is the primary tool for importing data. This client is:
 - Pre-installed on all microscope PC's
 - Available for download on computers (Windows, Mac, Linux) 
-	https://www.openmicroscopy.org/omero/downloads/
+https://www.openmicroscopy.org/omero/downloads/
 
 ## Basic Import Workflow
 
@@ -64,14 +54,11 @@ Project folder
     └── subfolder II (experiment 2)
 ```
 
-
-> ## Planning Your Import
-> Before starting a large import:
-> 1. Plan your project/dataset structure
-> 2. Prepare metadata if needed
-> 3. Consider file type specific requirements
-{.is-success}
-
+!!! success "Planning Your Import"
+    Before starting a large import:
+    1. Plan your project/dataset structure
+    2. Prepare metadata if needed
+    3. Consider file type specific requirements
 
 ## Next Steps
 

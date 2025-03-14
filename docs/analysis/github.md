@@ -28,7 +28,7 @@ Useful tools:
 - Create a github repository at github.com e.g. name it "My Fiji scripts"
 - Use github desktop or git command line ...
 
-![fiji-my-scripts.png](/fiji-my-scripts.png){.align-center}
+![fiji-my-scripts.png](fiji-my-scripts.png){.align-center}
 
 ## Cell Observatory Github
 github.com/Leiden-Cell-Observatory

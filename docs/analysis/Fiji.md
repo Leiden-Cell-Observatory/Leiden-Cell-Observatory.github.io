@@ -13,12 +13,12 @@ Your content here
 
 ## writing Fiji macros
 
-writing first macros's
+writing your first macros's
 record your steps via recorder
-check reference here.for all functions
+check reference here. for all functions
 
-## writing scripts
-Using Jython, Groovy or beanshell more complex scripts van be written.
+## writing more advanced scripts
+Using Jython, Groovy or Beanshell more complex scripts can be written.
 
 ## maintaining your scripts
 see GitHub page for info
