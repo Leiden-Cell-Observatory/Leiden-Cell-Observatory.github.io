@@ -1,11 +1,11 @@
 ---
-title: Segmentation with micro-sam
+title: micro-sam
 description: 
 published: true
-date: 2025-02-22T00:30:50.228Z
+date: 2025-03-14T14:50:47.952Z
 tags: 
 editor: markdown
-dateCreated: 2025-02-05T10:35:00.354Z
+dateCreated: 2025-03-11T06:28:40.282Z
 ---
 
 # Segmentation with micro-sam
@@ -17,12 +17,17 @@ In order to use the micro-sam toolkit it is advisble to use a computer with a de
 
 micro-sam can be use to interactively segment images (2D, 3D, time series) in napari. It can also be used to fine-tune the Segment Anything model to allow for automatic instance segmentation of your images.
 
+![micro-sam.png](/micro-sam.png)
+
 ## Installation
 It is adviced to install micro-sam in a conda environment. Check [here](conda.md) to install conda.
 
 ```bash
 conda env create --file environment.yml -n micro-sam
+conda install -c conda-forge micro_sam
 ```
+
+To open the micro-sam plugins:
 
 ```bash
 napari
