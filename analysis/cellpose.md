@@ -2,11 +2,33 @@
 title: Cellpose
 description: Deep learning model for object segmentatation
 published: true
-date: 2025-02-22T00:19:27.502Z
+date: 2025-03-14T14:45:04.141Z
 tags: 
 editor: markdown
-dateCreated: 2025-02-22T00:19:27.502Z
+dateCreated: 2025-03-11T06:28:30.906Z
 ---
 
 # Cellpose
-Your content here
+
+https://cellpose.readthedocs.io/en/latest/
+
+![cellpose.png](/cellpose.png){.align-center}
+
+install via conda
+```
+conda create -n cellpose 
+conda activate cellpose
+pip install cellpose
+```
+
+with CUDA GPU:
+```
+conda create -n cellpose pytorch=1.8.2 cudatoolkit=10.2 -c pytorch-lts
+conda activate cellpose
+pip install cellpose
+```
+
+run gui via command line: ```cellpose```
+
+## Considerations
+- 
