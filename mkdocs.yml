@@ -20,6 +20,8 @@ theme:
         icon: material/brightness-4
         name: Switch to dark mode
   features:
+    - content.code.copy
+    - content.code.annotate 
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
@@ -44,6 +46,7 @@ extra_css:
 nav:
   - Home: index.md
   - Image analysis:
+    - Getting Started: started.md
     - analysis/index.md
     - What tool to use?: analysis/tool.md
     - CellPose: analysis/cellpose.md
