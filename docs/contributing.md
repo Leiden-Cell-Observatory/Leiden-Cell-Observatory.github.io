@@ -4,5 +4,5 @@ This wiki is for all of us, so if you think something is missing, feel free to c
 
 For people at Leiden University you can join the Cell Observatory Github. Then we can give you permission to contribute.
 
-Or if you prefer can you post your contribution on the Cell Observatory MS Teams website and it will be added here.
+Or if you prefer can you post your contribution on the Cell Observatory MS Teams website and it will be added here :smile:.
 
