@@ -1,10 +1,10 @@
 name: ci 
 
 
-on:
-  push:
-    branches:
-      - docs
+#on:
+#  push:
+#    branches:
+ #     - docs
 permissions:
   contents: write
 jobs:
