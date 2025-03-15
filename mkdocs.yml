@@ -45,6 +45,13 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Microscopes:
+    - microscopes/index.md
+    - IBL Microscopes: microscopes/iblmicroscopes.md
+    - Manuals:
+      - A1: microscopes/a1.md
+      - DIC: microscopes/dic.md
+      - Widefield Observer: microscopes/widefield-observer.md
   - Image analysis:
     - Getting Started: started.md
     - analysis/index.md
@@ -63,23 +70,17 @@ nav:
       - computing/index.md
       - HPC: computing/hpc.md
       - Workstations: computing/workstations.md
-  - Microscopes:
-    - microscopes/index.md
-    - IBL Microscopes: microscopes/iblmicroscopes.md
-    - Manuals:
-      - A1: microscopes/a1.md
-      - DIC: microscopes/dic.md
-      - Widefield Observer: microscopes/widefield-observer.md
-  - OMERO:
-    - omero/index.md
-    - Analysis: omero/analysis.md
-    - Downloading: omero/downloading.md
-    - Getting Started: omero/getting-started.md
-    - Importing: 
-      - Overview: omero/importing.md
-      - Microscope Files: omero/importing/microscope-files.md
-      - HCS Data: omero/importing/hcs-data.md
-      - Metadata: omero/importing/metadata.md
+  - Data Management:
+    - OMERO:
+      - omero/index.md
+      - Analysis: omero/analysis.md
+      - Downloading: omero/downloading.md
+      - Getting Started: omero/getting-started.md
+      - Importing: 
+        - Overview: omero/importing.md
+        - Microscope Files: omero/importing/microscope-files.md
+        - HCS Data: omero/importing/hcs-data.md
+        - Metadata: omero/importing/metadata.md
   - Publishing:
     - publishing/index.md
     - Citing: publishing/citing.md
