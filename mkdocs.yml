@@ -77,8 +77,9 @@ nav:
       - Microscope Files: omero/importing/microscope-files.md
       - HCS Data: omero/importing/hcs-data.md
       - Metadata: omero/importing/metadata.md
-  - Publishing:
+  - Publishing
     - publishing/index.md
+    - Sharing data: publishing/sharing_data.md
     - Citing: publishing/citing.md
     - Methods: publishing/methods.md
   - Resources: resources.md
