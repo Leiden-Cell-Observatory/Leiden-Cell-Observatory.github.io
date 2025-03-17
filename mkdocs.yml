@@ -1,5 +1,6 @@
 site_name: Leiden Cell Observatory Wiki
 repo_url: https://github.com/Leiden-Cell-Observatory/CellObs_wikijs
+edit_uri: edit/docs/docs/
 repo_name: Leiden-Cell-Observatory/CellObs_wikijs
 theme:
   name: material
@@ -28,17 +29,27 @@ theme:
     - navigation.indexes
     - navigation.top
     - toc.follow
+    - navigation.footer
     - navigation.expand
     - navigation.prune
     - navigation.collapsible
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.path
+    - content.action.edit
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Leiden-Cell-Observatory
+    - icon: material/home
+      link: https://www.universiteitleiden.nl/en/science/cell-observatory
 
 extra_css:
   - assets/custom.css
@@ -88,3 +99,8 @@ nav:
   - Resources: resources.md
   - Contributing: contributing.md
   - Contact: contact.md
+
+copyright: >
+  © Copyright 2024 Leiden Cell Observatory, Leiden University.
+  All content is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">
+  Creative Commons Attribution 4.0 International License</a>.
