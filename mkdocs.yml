@@ -94,6 +94,7 @@ nav:
         - Metadata: omero/importing/metadata.md
   - Publishing:
     - publishing/index.md
+    - Sharing data: publishing/sharing_data.md
     - Citing: publishing/citing.md
     - Methods: publishing/methods.md
   - Resources: resources.md
