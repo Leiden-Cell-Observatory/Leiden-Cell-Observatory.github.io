@@ -16,7 +16,7 @@ This section provides guidelines and resources for publishing your microscopy da
 - Use consistent display settings within figure panels
 
 ### Data Availability
-- Consider depositing raw data in public [repositories](/publishing/sharing_data.md)
+- Consider depositing raw data in public [repositories](sharing_data.md)
 - Include analysis scripts and workflows
 - Document software versions and parameters
 - Link to protocols and detailed methods
