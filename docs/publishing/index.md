@@ -12,12 +12,11 @@ This section provides guidelines and resources for publishing your microscopy da
 ### Data Presentation
 - Include scale bars in all microscopy images
 - Clearly state any image processing steps
-- Provide resolution and imaging parameters
-- Include appropriate controls
+- Provide relevant imaging parameters
 - Use consistent display settings within figure panels
 
 ### Data Availability
-- Consider depositing raw data in public repositories
+- Consider depositing raw data in public [repositories](/publishing/sharing_data.md)
 - Include analysis scripts and workflows
 - Document software versions and parameters
 - Link to protocols and detailed methods

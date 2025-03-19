@@ -8,23 +8,4 @@ The Alice cluster provides high-performance computing capabilities for more dema
 
 More on Alice: [Alice Wiki](https://pubappslu.atlassian.net/wiki/spaces/HPCWIKI/pages/37519361/ALICE)
 
-## Getting Access
-
-*Content to be added*
-
-## Available Resources
-
-*Content to be added*
-
-## Software and Modules
-
-*Content to be added*
-
-## Example Workflows
-
-*Content to be added*
-
-## Support and Documentation
-
-*Content to be added*
 
