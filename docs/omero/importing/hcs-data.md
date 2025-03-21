@@ -1,15 +1,15 @@
 # High-Content Screening (HCS) Data
 
-This guide covers importing and managing high-content screening data in OMERO.
+Importing HCS data into OMERO requires specific file handeling especially when .
 
 ## HCS Data Structure
 
-OMERO supports the hierarchical organization of HCS data:
-- Plate
-  - Well
-    - Field
-      - Channel
-        - Timepoint
+OMERO handles the hierarchical organization of HCS data:
+- Screen
+   - Plate
+     - Well
+        - Field
+          - Image with channels and timepoints
 
 ## Import Considerations
 
@@ -25,37 +25,22 @@ OMERO supports the hierarchical organization of HCS data:
 3. Document plate layouts
 4. Preserve screen/plate relationships
 
-## Best Practices
+## Conversion from Dataset to plate
+Whereas in some instances the data is directly imported as a plate (e.g. [ImageXpress](microscope-files.md#ImageXpress) however for some file formats this has to be done manually after importing.
 
-### Before Import
-1. **Organize Data**
-   - Group plates by screen
-   - Maintain consistent naming
-   - Document experimental conditions
+Use can use a OMERO script for this which are available in the OMERO web interface at the right top (gear icon).
+The basic script is available via:
 
-2. **Prepare Metadata**
-   - Create plate layouts
-   - Document treatments
-   - Note quality control metrics
+``` OMERO scripts -> util_scripts -> Dataset to Plate ```
 
-### During Import
-1. **Verify Plate Structure**
-   - Check well detection
-   - Confirm field count
-   - Validate channel settings
+First select your data set, then load the script, than the parameters depending how your plate has been imaged (from left ot right, top to bottom, etc.). 
 
-2. **Add Annotations**
-   - Screen information
-   - Experimental conditions
-   - Quality metrics
+![Dataset to Plate](../images/convert_dataset_toplate.png)
 
-### After Import
-1. **Validate Data**
-   - Check plate layout
-   - Verify well positions
-   - Confirm metadata
-
-2. **Organization**
-   - Group related plates
-   - Add screen-level annotations
-   - Link to protocols
+When you have not started imaging at well A1, or when you have imaged bi-directional you can use the alternative scripts:
+   
+   ``` OMERO scripts -> util_scripts -> Dataset to Plate Choose Start position ```
+   - Here you can define a start position.
+  
+   ``` OMERO scripts -> util_scripts -> Dataset to Plate Start direction ```
+  - This script allows for bidirectional conversion

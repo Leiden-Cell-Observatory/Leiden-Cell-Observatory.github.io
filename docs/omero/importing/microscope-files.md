@@ -14,19 +14,16 @@ OMERO supports most common microscopy formats including:
 ## Import Guidelines
 
 ### Nikon ND2 Files
-- Keep associated metadata files together
-- Import complete ND2 files, not exported TIFFs
-- Verify all channels are preserved
 
 ### Zeiss Files
-- For LSM files, ensure metadata is preserved
-- With CZI files, check all scenes are included
-- Maintain folder structure for multi-file datasets
+- CZI files
+- 
+
+### ImageXpress
 
 ### TIFF Series
 - Keep sequential naming intact
 - Include any companion metadata files
-- Maintain channel order and naming
 
 ## Best Practices
 

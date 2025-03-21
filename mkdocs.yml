@@ -64,8 +64,8 @@ nav:
       - DIC: microscopes/dic.md
       - Widefield Observer: microscopes/widefield-observer.md
   - Image analysis:
-    - Getting Started: started.md
     - analysis/index.md
+    - Getting Started: started.md
     - What tool to use?: analysis/tool.md
     - CellPose: analysis/cellpose.md
     - CellProfiler: analysis/cellprofiler.md
@@ -84,19 +84,21 @@ nav:
   - Data Management:
     - OMERO:
       - omero/index.md
-      - Analysis: omero/analysis.md
-      - Downloading: omero/downloading.md
       - Getting Started: omero/getting-started.md
       - Importing: 
         - Overview: omero/importing.md
         - Microscope Files: omero/importing/microscope-files.md
         - HCS Data: omero/importing/hcs-data.md
-        - Metadata: omero/importing/metadata.md
+        - Metadata: omero/importing/metadata.md      
+      - Downloading: omero/downloading.md
+      - Analysis: omero/analysis.md
+
   - Publishing:
     - publishing/index.md
     - Sharing data: publishing/sharing_data.md
-    - Citing: publishing/citing.md
-    - Methods: publishing/methods.md
+    - Methods: publishing/methods.md    
+    - Citing Cell Observatory: publishing/citing.md
+    
   - Resources: resources.md
   - Contributing: contributing.md
   - Contact: contact.md

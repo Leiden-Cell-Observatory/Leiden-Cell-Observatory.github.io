@@ -35,6 +35,10 @@ OMERO uses a two-level organization system:
 - Projects (top level)
 - Datasets (within projects)
 
+For image screens it has:
+- Screens (top level)
+- Plates (within screens)
+
 ### Recommended Folder Structure
 
 When preparing data for import:

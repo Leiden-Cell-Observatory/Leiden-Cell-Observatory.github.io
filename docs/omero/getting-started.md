@@ -14,8 +14,8 @@ dateCreated: 2025-02-05T21:07:17.687Z
 
 To access OMERO, you need to be approved in the ULCN system. Please follow these steps:
 
-1. [Fill in the registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=dn8qytfbwE6RCGs9Uk-3yI5fAkzqGzlOrBwKM7sS2VtUOFpGWlM1WkFIQVkySjk4MVE3OVRWMFFBNiQlQCN0PWcu)
-2. Wait for approval from an OMERO admin
+1. Fill in the registration form available at the Leiden Cell Observatory - MS Teams
+2. Wait for approval from an OMERO admin 
 3. Complete your first login (see below)
 
 ### OMERO Administrators
@@ -47,7 +47,7 @@ You can access OMERO from outside the university through several methods:
    - Access through [Remote Workplace Portal](https://www.staff.universiteitleiden.nl/ict/working-from-home/remote-workplace/science/institute-of-biology-leiden-ibl?cf=science&cd=institute-of-biology-leiden-ibl)
 
 3. **EduVPN**
-   - Set up [EduVPN](https://www.surf.nl/en/getting-started-with-eduvpn) for a secure connection
+   - Set up [EduVPN](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/knowledgeitem?unid=600a6741-6a77-415c-85e1-ffbbf4839755) for a secure connection, then you are able to access OMERO directly from your PC.
 
 ## OMERO.insight Installation
 
