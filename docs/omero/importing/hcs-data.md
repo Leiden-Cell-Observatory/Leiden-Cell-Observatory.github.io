@@ -33,9 +33,9 @@ Screen
 
 1)  Open the ND2-file on the microscope PCs or on the Nis-elements analysis computer.
 
-2)  Go to ```File \> Import/Export ND document \> Split multipoints```.
+2)  Go to ```File > Import/Export ND document > Split multipoints```.
 
-3)  Write down a descriptive prefix (be as specific as possible) and select a folder where you want to store the nd2 documents. Click on ```\[Split\]```.
+3)  Write down a descriptive prefix (be as specific as possible) and select a folder where you want to store the nd2 documents. Click on ```[Split]```.
 
 4)  Now you should have a ND2 file for every well (and if multiple sites were imaged, every wellsite). This is something the OMERO system does recognize.
 
@@ -47,16 +47,16 @@ Screen
 
 2)  Export the images from the MetaXpress database to the fileserver. This will generate an additional .HTD file, which contains the metadata of the images (including which images belong to a plate, which is recognized by the string at the end of each image filename).
 
-    - In the Imagexpress software at the top menu press ```Screening -> Plate Utilities ```
-    - Select ```Export images```
-    - Choose project and export to hard drive
+- In the Imagexpress software at the top menu press ```Screening -> Plate Utilities```
+- Select ```Export images```
+- Choose project and export to the hard drive
 
 ![](images/imagexpress1.png)
 
 !!! warning "Always export"
     Plates/screens that are copied directly from the database without export will not be recognized by the OMERO system. This can be fixed by manually create a .HTD file defining the plate layout. However, this approach is not recommended!
 
-1)  Continue now at "uploading the images".
+3)  Continue now at "uploading the images".
    
 ## Conversion from Dataset to plate
 Whereas in some instances the data is directly imported as a plate however for some file formats this has to be done manually after importing.

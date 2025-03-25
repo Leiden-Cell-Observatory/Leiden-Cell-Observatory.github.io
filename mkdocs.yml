@@ -81,22 +81,22 @@ nav:
       - computing/index.md
       - HPC: computing/hpc.md
       - Workstations: computing/workstations.md
-  - Data Management:
-    - OMERO:
-      - omero/index.md
-      - Getting Started: omero/getting-started.md
-      - Importing: 
-        - Overview: omero/importing.md
-        - Microscope Files: omero/importing/microscope-files.md
-        - HCS Data: omero/importing/hcs-data.md
-        - Metadata: omero/importing/metadata.md      
-      - Downloading: omero/downloading.md
-      - Analysis: 
-        - omero/analysis.md
-        - Fiji: omero/analysis/analysis_fiji.md
-        - Python: omero/analysis/analysis_python.md
-        - R: omero/analysis/analysis_r.md
-        - CellProfiler: omero/analysis/analysis_cellprofiler.md
+  - OMERO:
+    - omero/index.md
+    - Getting Started: omero/getting-started.md
+    - Importing: 
+      - Overview: omero/importing.md
+      - File Formats: omero/importing/microscope-files.md
+      - HCS Data: omero/importing/hcs-data.md
+      - Metadata: omero/importing/metadata.md      
+    - Downloading: omero/downloading.md
+    - Figures: omero/figure-creation.md
+    - Analysis: 
+      - omero/analysis.md
+      - Fiji: omero/analysis/analysis_fiji.md
+      - Python: omero/analysis/analysis_python.md
+      - R: omero/analysis/analysis_r.md
+      - CellProfiler: omero/analysis/analysis_cellprofiler.md
 
   - Publishing:
     - publishing/index.md

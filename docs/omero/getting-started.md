@@ -70,13 +70,14 @@ For uploading data from your computer or downloading large datasets, you'll need
    
 ![](images/getting-started/image3.png)
 
-1. Add the Leiden server:
+3. Add the Leiden server:
    - Press the + sign
    - Enter server address: `omero.services.universiteitleiden.nl`
    - Click Apply
 ![](images/getting-started/image4.png)  
 
-1. Login using your ULCN credentials
+4. Login using your ULCN credentials
+5. Now continue with [importing](importing.md) images or [downloading](downloading.md) data from OMERO
 
-> After your account is set up, you'll be able to see all data in your assigned group. Contact your OMERO admin if you need access to additional groups.
-<!-- {blockquote:.is-info} -->
+!!! info "OMERO Groups"
+    After your account is set up, you'll be able to see all data in your assigned group. Contact your OMERO admin if you need access to additional groups.
