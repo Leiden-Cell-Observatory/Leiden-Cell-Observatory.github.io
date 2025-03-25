@@ -7,11 +7,11 @@
    - If you get errors, repeat the update (the updater might need multiple attempts)
    - After seeing "Updated successfully. Please restart ImageJ!" message, restart Fiji
 
-![Update success message](images/media/image1.png)
+![Update success message](../images/media/image1.png)
 
 3. After restart, update again and click "Manage Update Sites"
 
-![Manage update sites](images/media/image2.png)
+![Manage update sites](../images/media/image2.png)
 
 4. Enable these required sites:
    - Fiji legacy
@@ -19,7 +19,7 @@
    - ImageScience
    - Leiden University
 
-![Update sites selection](images/media/image3.png)
+![Update sites selection](../images/media/image3.png)
 
 5. Click Close and Apply Changes
 6. Restart Fiji
@@ -90,9 +90,9 @@
 
 ### Quick Downloads
 - Use download button (yellow) on OMERO web interface:
-![Download button](images/media/image13.png)
+![Download button](../images/media/image13.png)
 - Choose export format:
-![Export options](images/media/image14.png)
+![Export options](../images/media/image14.png)
 
 ### Large Dataset Downloads
 
@@ -102,16 +102,16 @@
 1. In OMERO.insight:
    - Navigate to your dataset
    - Click download button
-   ![Download in insight](images/media/image15.png)
+   ![Download in insight](../images/media/image15.png)
 
 2. Select export format:
-   ![Export format selection](images/media/image16.png)
+   ![Export format selection](../images/media/image16.png)
    - Download proceeds in background
 
 ## Server Scripts
 
 Access server scripts through the web interface:
-![Server scripts](images/media/image17.png)
+![Server scripts](../images/media/image17.png)
 
 > ## Important Notes
 > - Server is optimized for storage, not computation
