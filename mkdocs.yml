@@ -91,7 +91,12 @@ nav:
         - HCS Data: omero/importing/hcs-data.md
         - Metadata: omero/importing/metadata.md      
       - Downloading: omero/downloading.md
-      - Analysis: omero/analysis.md
+      - Analysis: 
+        - omero/analysis.md
+        - Fiji: omero/analysis/analysis_fiji.md
+        - Python: omero/analysis/analysis_python.md
+        - R: omero/analysis/analysis_r.md
+        - CellProfiler: omero/analysis/analysis_cellprofiler.md
 
   - Publishing:
     - publishing/index.md

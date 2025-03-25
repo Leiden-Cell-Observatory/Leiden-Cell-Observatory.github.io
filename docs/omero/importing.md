@@ -13,7 +13,7 @@ https://www.openmicroscopy.org/omero/downloads/
 
 1. **Prepare Your Data**
    - Organize files in a clear structure
-   - Consider project/dataset organization
+   - Use project/dataset organization
    - Prepare any metadata you want to include
 
 2. **Launch OMERO.insight**
@@ -25,6 +25,7 @@ https://www.openmicroscopy.org/omero/downloads/
    - Use File > Import or the import icon
    - Select files for import
    - Choose or create projects/datasets
+   - Use the omero.mde plugin to add [metadata](importing/metadata.md)
    - Add any tags or annotations
    - Review and start import
 

@@ -13,6 +13,20 @@ OMERO supports several types of metadata annotations:
 
 ## Adding Metadata During Import
 
+mde
+
+## Adding Metadata template to OMERO
+### Attaching a description, metadata and quantified results to your images
+
+To make the data FAIR, you will have to attach metadata to your images. Items to add are the metadata template (mandatory), library files (if applicable) and the plate layouts. At the right side of the screen you can add those items.
+
+1)  Give your plate a short, descriptive description by clicking on the pencil icon (figure 11, red box). It is optional to add some tags as well. This might help to retrieve the data more easy later on.
+
+2)  Add the (mandatory) attachments to the file using the attachment section (figure 11, green box). This includes the metadata template in pdf format and all additional files.
+
+> ![alt text](images/attachement.png)
+> *Overview of screen where you can describe the data that is in a plate and add the attachments.*
+
 ### Basic Annotations
 1. **Tags**
    - Use consistent naming

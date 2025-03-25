@@ -1,6 +1,6 @@
 # OMERO
 
-OMERO (Open Microscopy Environment Remote Objects) is the primary platform for microscopy data management, storage, and sharing.
+OMERO (Open Microscopy Environment Remote Objects) is the primary platform for microscopy data management, storage, and sharing at Leiden University.
 
 ## Key Features
 
