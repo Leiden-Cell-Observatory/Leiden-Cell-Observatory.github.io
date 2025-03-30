@@ -1,6 +1,6 @@
 # Metadata Annotations
 
-This guide covers how to add and manage metadata annotations in OMERO.
+Here is describes how to add and manage metadata annotations in OMERO.
 
 ## Types of Metadata
 
@@ -8,8 +8,7 @@ OMERO supports several types of metadata annotations:
 - Tags
 - Key-value pairs
 - Comments
-- Files
-- Ratings
+- Files (attachements)
 
 ## Adding Metadata During Import
 
@@ -53,6 +52,12 @@ OMERO supports several types of metadata annotations:
 
 ![](images/image6.png)
 
+## Metadata templates
+
+### Minimal Information for High Content Screening in Microscopy Experiments (MIHCSME)
+
+
+https://fairdomhub.org/investigations/575
 
 ## Adding Metadata templates to OMERO
 ### Attaching a description, metadata and quantified results to your images

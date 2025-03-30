@@ -34,6 +34,8 @@ Common practice is to maintain your image analysis scripts and other code in a v
 
 When publishing a paper that includes image analysis, it is a good idea to include a link to the code repository in the paper. This allows others to reproduce your analysis and to build on your work.
 
+The Cell Observatory also has its own Github repository where you can share your code with others, see <https://github.com/Leiden-Cell-Observatory/>
+
 It is worth to consider to release a specific version of the code at time of publication and to assign a DOI to this version. This allows others to refer to the exact version of the code that was used in the paper and to reproduce your results
 .
 One way to do so is to deposit your Github code at Zenodo. Zenodo will create a DOI for the code at time of deposition. This DOI can be included in the paper.

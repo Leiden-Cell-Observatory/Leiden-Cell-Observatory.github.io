@@ -1,5 +1,9 @@
 ## Fiji image analysis for OMERO
 
+While an official OMERO plugin for Fiji exists, which allows to load images from OMERO directly in Fiji and upload results and ROIs back to OMERO, at Leiden University we have our own developed plugin, which allows to directly run developed Fiji script on images in OMERO.
+
+By following the steps below, you can install the required plugins and run your analysis on images in Fiji.
+
 ### Installation Steps
 
 1. Install Fiji
