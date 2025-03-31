@@ -6,28 +6,28 @@ This section covers the general procedures for importing data into OMERO at the 
 
 OMERO.insight is the primary tool for importing data. This client is:
 - Pre-installed on all microscope PC's
-- Available for download on computers (Windows, Mac, Linux) 
-https://www.openmicroscopy.org/omero/downloads/
+- Available for download on computers (Windows, Mac, Linux): <https://www.openmicroscopy.org/omero/downloads>
 
 ## Basic Import Workflow
 
 1. **Prepare Your Data**
-   - Organize files in a clear structure
-   - Use project/dataset organization
-   - Prepare any metadata you want to include
+    - Organize files in a clear structure
+    - Adhere to a structured format that matches the organization of you Electronic Lab Journal (RSpace)
+    - Use project/dataset organization
+    - Prepare any metadata you want to include at time of import
 
 2. **Launch OMERO.insight**
-   - Connect to server: omero.services.universiteitleiden.nl
-   - Login with ULCN credentials
-   - Navigate to your group/project space
+    - [Connect](getting-started.md#configuring-omeroinsight) to server: omero.services.universiteitleiden.nl
+    - Login with ULCN credentials
+    - Navigate to your group/project space
 
 3. **Import Process**
-   - Use File > Import or the import icon
-   - Select files for import
-   - Choose or create projects/datasets
-   - Use the omero.mde plugin to add [metadata](importing/metadata.md)
-   - Add any tags or annotations
-   - Review and start import
+    - Use File > Import or the import icon
+    - Select files for import
+    - Choose or create projects/datasets
+    - Use the omero.mde plugin to add [metadata](importing/metadata.md)
+    - Add any tags or annotations
+    - Review and start import
 
 ## Data Organization
 
@@ -36,31 +36,32 @@ OMERO uses a two-level organization system:
 - Projects (top level)
 - Datasets (within projects)
 
+Organize Datasets within Projects; avoid storing Datasets outside Projects
+
+```
+✅ Recommended Structure:
+Project 1
+├── Dataset 1 (Experiment 1)
+│   └── image 1, etc.
+└── Dataset 2 (Experiment 2)
+    └── image 1, etc.
+
+❌
+├Dataset 1 (Experiment 1)
+│└── image 1, etc.
+└Dataset 2 (Experiment 2)
+ └── image 1, etc.
+
+```
+
 For image screens it has:
 - Screens (top level)
 - Plates (within screens)
 
-### Recommended Folder Structure
-
-When preparing data for import:
-
-```
-✅ Recommended Structure:
-Project folder (selected folder)
-├── subfolder 1
-│   └── image 1, etc.
-└── subfolder 2
-    └── image 1, etc.
-
-❌ Avoid:
-Project folder
-└── subfolder 1
-    ├── subfolder I (experiment 1)
-    └── subfolder II (experiment 2)
-```
 
 !!! success "Planning Your Import"
     Before starting a large import:
+
     1. Plan your project/dataset structure
     2. Prepare metadata if needed
     3. Consider file type specific requirements

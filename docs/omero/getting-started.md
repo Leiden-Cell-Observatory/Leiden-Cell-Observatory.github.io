@@ -15,18 +15,12 @@ dateCreated: 2025-02-05T21:07:17.687Z
 To access OMERO, you need to be approved in the ULCN system. Please follow these steps:
 
 1. Fill in the registration form available at the Leiden Cell Observatory - [MS Teams](https://teams.microsoft.com/l/team/19%3ab81c0617db254f208231d04f388a3fe4%40thread.tacv2/conversations?groupId=4c025f8e-1bea-4e39-ac1c-0a33bb12d95b&tenantId=ca2a7f76-dbd7-4ec0-9108-6b3d524fb7c8)
-2. Wait for approval from an OMERO admin 
+2. Wait for approval from an [OMERO admin](index.md/#omero-administrators)
 3. Complete your first login (see below)
-
-### OMERO Administrators
-
-Contact any of the following administrators for registration and OMERO-related questions:
-- Joost Willemse (IBL)
-- Sylvia Le Dévédec (LACDR)
 
 ## First Time Login
 
-> Important: Login must be done within the university network (LAN or WLAN)
+> Important: Login must be done within the university network
 <!-- {blockquote:.is-warning} -->
 
 1. Visit [OMERO Web Portal](https://omeroweb.services.universiteitleiden.nl/)
@@ -66,6 +60,9 @@ For uploading data from your computer or downloading large datasets, you'll need
 ### Configuring OMERO.insight
 
 1. Start OMERO.insight
+
+![](getting-started/images/getting-started_05.jpeg)
+
 2. Click the tool icon
    
 ![](getting-started/images/getting-started_03.png)
@@ -74,10 +71,11 @@ For uploading data from your computer or downloading large datasets, you'll need
    - Press the + sign
    - Enter server address: `omero.services.universiteitleiden.nl`
    - Click Apply
+
 ![](getting-started/images/getting-started_04.png)
 
 4. Login using your ULCN credentials
 5. Now continue with [importing](importing.md) images or [downloading](downloading.md) data from OMERO
 
 !!! info "OMERO Groups"
-    After your account is set up, you'll be able to see all data in your assigned group. Contact your OMERO admin if you need access to additional groups.
+    After your account is set up, you'll be able to see all data in your assigned group. Contact a OMERO admin if you need access to additional groups.

@@ -1,6 +1,6 @@
 # Metadata Annotations
 
-Here is describes how to add and manage metadata annotations in OMERO.
+Here we how to add and manage metadata annotations in OMERO.
 
 ## Types of Metadata
 
@@ -12,11 +12,13 @@ OMERO supports several types of metadata annotations:
 
 ## Adding Metadata During Import
 
+Using OMERO.insight experimental metadata can be added 
+
 ### Setting up OMERO insight for metadata annotations
 
 1.  Save the OMERO mde configuration file in the "Users\\\$User\\OMERO" folder, save it as mdeConfiguration.xml
 
-> You can find the file here: [mdeConfiguration.xml](https://leidenuniv1.sharepoint.com/:u:/r/sites/CellObservatory-OMERO/Shared%20Documents/General/Metadata/mdeConfiguration.xml?csf=1&web=1&e=fpXQDx)
+> You can find the file here: [mdeConfiguration.xml](https://github.com/Leiden-Cell-Observatory/metadata_templates/tree/main/mde_templates)
 
 2.  Use OMERO insight normally to [import](../importing.md) data
 
@@ -55,18 +57,20 @@ OMERO supports several types of metadata annotations:
 ## Metadata templates
 
 ### Minimal Information for High Content Screening in Microscopy Experiments (MIHCSME)
+Next to adding metadata through OMERO.insight the metadata template in Excel to describe your screen at different levels (Study, Assay, and per Plate and Well) should be used. 
 
+The template can be found at [this repository](https://github.com/Leiden-Cell-Observatory/metadata_templates/tree/main/MIHCSME_template), with some filled-in examples.
 
-https://fairdomhub.org/investigations/575
+The templates can also be found here: <https://fairdomhub.org/investigations/575>
 
 ## Adding Metadata templates to OMERO
 ### Attaching a description, metadata and quantified results to your images
 
-To make the data FAIR, you will have to attach metadata to your images. Items to add are the metadata template (mandatory), library files (if applicable) and the plate layouts. At the right side of the screen you can add those items.
+The current recommendation is to attach metadata template to your images in OMERO. Items to add are the metadata template (mandatory), library files (if applicable) and the plate layouts. At the right side of the screen you can add those items.
 
-1)  Give your plate a short, descriptive description by clicking on the pencil icon (figure 11, red box). It is optional to add some tags as well. This might help to retrieve the data more easy later on.
+1)  Give your plate a short, descriptive description by clicking on the pencil icon (red box). It is optional to add some tags as well. This might help to retrieve the data more easy later on.
 
-2)  Add the (mandatory) attachments to the file using the attachment section (figure 11, green box). This includes the metadata template in pdf format and all additional files.
+2)  Add the (mandatory) attachments to the file using the attachment section (green box). This includes the metadata template in pdf format and all additional files.
 
 ![alt text](metadata/images/metadata_07.png)
 

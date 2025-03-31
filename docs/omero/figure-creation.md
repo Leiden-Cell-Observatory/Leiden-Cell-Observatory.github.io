@@ -1,12 +1,17 @@
 # Build figures with OMERO
 
-A very helpful feature of OMERO is the ability to generate figure panels of your images directly from the web interface. This guide covers how to create figures in OMERO.
+A very helpful feature of OMERO is the ability to generate figure panels of your images directly from the web interface. This guide covers the basics to create figures in OMERO.
 
-1)  Select the plate where you are interested in and click on a/multiple wells.
+You can find some movies on how to build figures on the official OMERO website <https://www.openmicroscopy.org/omero/figure/>
+And a user manual: <https://omero-guides.readthedocs.io/en/latest/figure/docs/omero_figure.html>
+
+## OMERO.figure
+
+1)  Select the dataset or plate where you are interested in and click on one or multiple wells.
 
 2)  Click on the publication options button (figure 1).
 
-3)  Now you will get three options: Split View figure (1), Thumbnail figure (2) and Make Movie (3, only when you can image live). The split view figure will create a split view (figure 9) of the selected well(s), the thumbnail will create an small image (or set of images of your plate) and the movie makes a movie.
+3)  Now you will get three options: Split View figure (1), Thumbnail figure (2) and Make Movie (3, only when you can image live). The split view figure will create a split view (figure 2) of the selected well(s), the thumbnail will create an small image (or set of images of your plate) and the movie makes a movie.
 
 4)  Choose the option you would like and follow the steps in the menu. Once the figure/movie is ready, you can download it or show it in the browser by clicking on the \[Activities\] button and choose one of the options.
 
