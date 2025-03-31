@@ -1,0 +1,65 @@
+/* Custom primary color for light mode */
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: rgb(0, 17, 88);
+    --md-primary-fg-color--light: rgb(51, 68, 139);
+    --md-primary-fg-color--dark: rgb(0, 10, 51);
+}
+
+/* Custom primary color for dark mode */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: rgb(0, 17, 88);
+    --md-primary-fg-color--light: rgb(51, 68, 139);
+    --md-primary-fg-color--dark: rgb(0, 10, 51);
+}
+
+/* Increase spacing below header */
+.md-header {
+    margin-bottom: 1.5rem;
+}
+
+/* Fix dark mode navigation text color */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link:active {
+    color: #8cb4ff !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+    color: #a1c0ff !important;
+}
+
+/* Fix dark mode URL colors */
+[data-md-color-scheme="slate"] .md-content a {
+    color: #8cb4ff !important;
+}
+
+[data-md-color-scheme="slate"] .md-content a:hover {
+    color: #a1c0ff !important;
+}
+
+/* Header styles for light mode */
+[data-md-color-scheme="default"] {
+    --md-header-color: rgb(0, 51, 153);
+}
+
+[data-md-color-scheme="default"] .md-content h1,
+[data-md-color-scheme="default"] .md-content h2,
+[data-md-color-scheme="default"] .md-content h3,
+[data-md-color-scheme="default"] .md-content h4,
+[data-md-color-scheme="default"] .md-content h5,
+[data-md-color-scheme="default"] .md-content h6 {
+    color: var(--md-header-color);
+}
+
+/* Header styles for dark mode */
+[data-md-color-scheme="slate"] {
+    --md-header-color: rgb(102, 153, 255);
+}
+
+[data-md-color-scheme="slate"] .md-content h1,
+[data-md-color-scheme="slate"] .md-content h2,
+[data-md-color-scheme="slate"] .md-content h3,
+[data-md-color-scheme="slate"] .md-content h4,
+[data-md-color-scheme="slate"] .md-content h5,
+[data-md-color-scheme="slate"] .md-content h6 {
+    color: var(--md-header-color);
+}

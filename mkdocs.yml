@@ -1,0 +1,115 @@
+site_name: Leiden Cell Observatory Wiki
+repo_url: https://github.com/Leiden-Cell-Observatory/CellObs_wikijs
+edit_uri: edit/docs/docs/
+repo_name: Leiden-Cell-Observatory/CellObs_wikijs
+theme:
+  name: material
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    - content.code.copy
+    - content.code.annotate 
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - navigation.footer
+    - navigation.expand
+    - navigation.prune
+    - navigation.collapsible
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - content.action.edit
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Leiden-Cell-Observatory
+    - icon: material/home
+      link: https://www.universiteitleiden.nl/en/science/cell-observatory
+
+extra_css:
+  - assets/custom.css
+
+nav:
+  - Home: index.md
+  - Microscopes:
+    - microscopes/index.md
+    - IBL Microscopes: microscopes/iblmicroscopes.md
+    - Manuals:
+      - A1: microscopes/a1.md
+      - DIC: microscopes/dic.md
+      - Widefield Observer: microscopes/widefield-observer.md
+  - OMERO:
+    - omero/index.md
+    - Getting Started: omero/getting-started.md
+    - Importing: 
+      - Overview: omero/importing.md
+      - File Formats: omero/importing/microscope-files.md
+      - HCS Data: omero/importing/hcs-data.md
+      - Metadata: omero/importing/metadata.md      
+    - Downloading: omero/downloading.md
+    - Figures: omero/figure-creation.md
+    - Analysis: 
+      - omero/analysis.md
+      - Fiji: omero/analysis/analysis_fiji.md
+      - Python: omero/analysis/analysis_python.md
+      - R: omero/analysis/analysis_r.md
+      - CellProfiler: omero/analysis/analysis_cellprofiler.md
+  - High-Content Screening:
+    - hcs/index.md
+  - Image analysis:
+    - analysis/index.md
+    - Getting Started: started.md
+    - What tool to use?: analysis/tool.md
+    - CellPose: analysis/cellpose.md
+    - CellProfiler: analysis/cellprofiler.md
+    - Python:
+      - Conda: analysis/conda.md
+      - napari: analysis/napari.md
+    - Fiji: analysis/Fiji.md
+    - GitHub: analysis/github.md
+    - Ilastik: analysis/ilastik.md
+    - Micro-SAM: analysis/micro-sam.md
+    - TrackMate: analysis/Trackmate.md
+    - Computing:
+      - computing/index.md
+      - HPC: computing/hpc.md
+      - Workstations: computing/workstations.md
+  - Publishing:
+    - publishing/index.md
+    - Sharing data: publishing/sharing_data.md
+    - Methods: publishing/methods.md    
+    - Citing Cell Observatory: publishing/citing.md
+    
+  - Resources: resources.md
+  - Contributing: contributing.md
+  - Contact: contact.md
+
+copyright: >
+  © Copyright 2024 Leiden Cell Observatory, Leiden University.
+  All content is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">
+  Creative Commons Attribution 4.0 International License</a>.
