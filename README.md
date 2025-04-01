@@ -85,7 +85,7 @@ For more advanced formatting features available in Material for MkDocs, refer to
 
 ## Working with images
 
-Images (.png or .jpeg) should be organized in subdirectories that match the structure of your markdown files:
+Images should be organized in subdirectories that match the structure of your markdown files:
 
 ```
 docs/
@@ -106,4 +106,41 @@ Reference images in your markdown using relative paths:
 
 ```markdown
 ![Description of image](getting-started/images/getting-started_01.png)
+```
+
+## Linking between pages
+
+You can link to other pages within your wiki using relative paths:
+
+```markdown
+<!-- Link to a page in the same directory -->
+[Link to another page](another-page.md)
+
+<!-- Link to a page in a subdirectory -->
+[Link to a page in a subfolder](subfolder/page.md)
+
+<!-- Link to a page in a parent directory (one level up) -->
+[Link to a page one level up](../another-page.md)
+
+<!-- Link to a page in a different directory (two levels up) -->
+[Link to a page in a different section](../../different-section/page.md)
+```
+
+## Linking to specific sections
+
+You can link to specific headings within a page using anchor links (hashtags):
+
+```markdown
+<!-- Link to a section on the same page -->
+[Link to a section](#section-name)
+
+<!-- Link to a section on another page -->
+[Link to a section on another page](another-page.md#section-name)
+```
+
+Note that the section name in the link should be the heading text converted to lowercase, with spaces replaced by hyphens, and any punctuation removed.
+
+For example, to link to a section with the heading "Setting Up Your Environment", use:
+```markdown
+[Link to setup section](#setting-up-your-environment)
 ```
