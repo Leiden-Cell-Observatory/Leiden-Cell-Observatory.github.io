@@ -38,6 +38,7 @@ theme:
     - navigation.path
     - content.action.edit
   logo: logo/LCO_logo.png
+  favicon: logo/favicon.ico
 
 markdown_extensions:
   - admonition
