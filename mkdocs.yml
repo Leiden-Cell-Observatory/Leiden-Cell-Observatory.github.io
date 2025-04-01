@@ -1,7 +1,7 @@
 site_name: Leiden Cell Observatory Wiki
-repo_url: https://github.com/Leiden-Cell-Observatory/CellObs_wikijs
-edit_uri: edit/docs/docs/
-repo_name: Leiden-Cell-Observatory/CellObs_wikijs
+repo_url: https://github.com/Leiden-Cell-Observatory/Leiden-Cell-Observatory.github.io
+edit_uri: edit/main/docs/
+repo_name: Leiden-Cell-Observatory.github.io
 theme:
   name: material
   palette:
@@ -37,6 +37,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.path
     - content.action.edit
+  logo: logo/LCO_logo.png
 
 markdown_extensions:
   - admonition
