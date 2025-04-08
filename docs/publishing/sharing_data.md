@@ -9,6 +9,8 @@ The BioImage Archive accepts microscopy data from all different modalities.
 
 More info:
 - <https://www.ebi.ac.uk/bioimage-archive/submit/>
+- [FAIR cookbook BIA submission](https://faircookbook.elixir-europe.org/content/recipes/applied-examples/BIA_submission.html)
+- [Quick Tour at BIA](https://www.ebi.ac.uk/training/online/courses/bioimage-archive-quick-tour/)
 
 ### IDR
 <https://idr.openmicroscopy.org/>
