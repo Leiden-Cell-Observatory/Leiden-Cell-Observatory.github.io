@@ -78,3 +78,83 @@
     width: auto !important; /* Maintain aspect ratio */
 }
 
+/* GitHub-style section anchors */
+.headerlink {
+	--permalink-size: 16px; /* for font-relative sizes, 0.6em is a good choice */
+	--permalink-spacing: 4px;
+
+	width: calc(var(--permalink-size) + var(--permalink-spacing));
+	height: var(--permalink-size);
+	vertical-align: middle;
+	background-color: var(--md-default-fg-color--lighter);
+	background-size: var(--permalink-size);
+	mask-size: var(--permalink-size);
+	-webkit-mask-size: var(--permalink-size);
+	mask-repeat: no-repeat;
+	-webkit-mask-repeat: no-repeat;
+	visibility: visible;
+	display: none;
+	mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg>');
+	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg>');
+	cursor: pointer;
+}
+
+[id]:target .headerlink {
+	background-color: var(--md-typeset-a-color);
+}
+
+.headerlink:hover {
+	background-color: var(--md-accent-fg-color) !important;
+}
+
+/* Position the permalinks to the right of headers */
+@media screen and (min-width: 76.25em) {
+	h1, h2, h3, h4, h5, h6 {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		column-gap: 0.2em; /* fixes spaces in titles */
+	}
+
+	.headerlink {
+		margin-left: 8px !important;
+	}
+}
+
+/* Remove previous permalink styling */
+.md-typeset .headerlink::before {
+    content: none;
+}
+
+/* Hide the default hash/octothorp permalink symbol */
+.md-typeset .headerlink .md-icon {
+    display: none;
+}
+
+/* Show anchor on hover */
+.md-typeset h1:hover .headerlink,
+.md-typeset h2:hover .headerlink,
+.md-typeset h3:hover .headerlink,
+.md-typeset h4:hover .headerlink,
+.md-typeset h5:hover .headerlink,
+.md-typeset h6:hover .headerlink {
+    display: inline-block;
+}
+
+/* Anchor hover effect */
+.md-typeset .headerlink:hover,
+.md-typeset .headerlink:focus {
+    color: var(--md-accent-fg-color);
+}
+
+/* Remove left padding that was for left-positioned permalinks */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    padding-left: 0;
+    margin-left: 0;
+}
+
