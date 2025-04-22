@@ -42,10 +42,7 @@ You can access OMERO from outside the university through several methods:
    - Request access via [Remote Desktop Form](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/service?unid=706c4daac08c42378d32b7a1fa1582ab&from=bd8e572c-ca86-48d2-bd1b-55886728bdd8)
    - Connect to your university PC
 
-2. **Remote Workplace**
-   - Access through [Remote Workplace Portal](https://www.staff.universiteitleiden.nl/ict/working-from-home/remote-workplace/science/institute-of-biology-leiden-ibl?cf=science&cd=institute-of-biology-leiden-ibl)
-
-3. **EduVPN**
+2. **EduVPN**
    - Set up [EduVPN](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/knowledgeitem?unid=600a6741-6a77-415c-85e1-ffbbf4839755) for a secure connection, then you are able to access OMERO directly from your PC.
 
 ## OMERO.insight Installation
@@ -54,8 +51,9 @@ For uploading data from your computer or downloading large datasets, you'll need
 
 1. Download [OMERO.insight](https://www.openmicroscopy.org/omero/downloads/)
 2. Request installation:
-   - Submit a [software request](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/serviceflow?unid=12e20347d517424a9c47edd22da4e9cc&from=a06b2d1a-e4da-49b9-ba8a-41117a176176&openedFromService=true), or
-   - Request a [semi-managed account](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/serviceflow?unid=2c19d2f22cde4c509ff4958b173a2fba&from=b62ab85e-2bd2-4b36-9ba7-d85f263ac5db&openedFromService=true)
+
+      - Submit a [software request](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/serviceflow?unid=12e20347d517424a9c47edd22da4e9cc&from=a06b2d1a-e4da-49b9-ba8a-41117a176176&openedFromService=true), or
+      - Request a [semi-managed account](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/serviceflow?unid=2c19d2f22cde4c509ff4958b173a2fba&from=b62ab85e-2bd2-4b36-9ba7-d85f263ac5db&openedFromService=true)
 
 ### Configuring OMERO.insight
 

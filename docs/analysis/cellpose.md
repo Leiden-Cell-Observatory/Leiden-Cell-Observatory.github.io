@@ -12,23 +12,21 @@ dateCreated: 2025-03-11T06:28:30.906Z
 
 https://cellpose.readthedocs.io/en/latest/
 
-![cellpose.png](images/cellpose_01.png){.align-center}
+![cellpose.png](images/cellpose_01.png)
 
-install via conda
+install cellpose with GUI via conda. Check [here](conda.md) to install conda first.
 ```
 conda create -n cellpose 
 conda activate cellpose
-pip install cellpose
+pip install cellpose[gui]
 ```
 
-with CUDA GPU:
+and with CUDA GPU:
 ```
 conda create -n cellpose pytorch=1.8.2 cudatoolkit=10.2 -c pytorch-lts
 conda activate cellpose
-pip install cellpose
+pip isntall cellpose[gui]
 ```
 
 run gui via command line: ```cellpose```
 
-## Considerations
-- 

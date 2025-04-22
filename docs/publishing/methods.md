@@ -26,9 +26,3 @@ This section provides guidelines for writing methods sections in scientific publ
 
 !!! info "Citation Reminder"
     Remember to include appropriate citations as described in the [Citations](citing.md) section.
-
-!!! info "Method Writing Tips"
-    - Include all relevant microscope settings
-    - Specify software versions used
-    - Document any image processing steps
-    - Describe analysis workflows in detail

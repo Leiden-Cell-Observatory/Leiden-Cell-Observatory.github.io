@@ -44,8 +44,11 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
   - toc:
       permalink: ''
+  - sane_lists
+  - pymdownx.blocks.caption
 
 extra:
   social:

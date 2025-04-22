@@ -10,9 +10,9 @@ dateCreated: 2025-02-05T10:35:24.344Z
 
 # Downloading and Exporting Data
 
-This section covers how to download and export data from OMERO.
+This page describes how to download and export data from OMERO.
 
-## Web Interface Downloads
+## OMERO.web Downloads
 
 ### Quick Downloads
 Access downloads through the OMERO web interface:
@@ -29,9 +29,8 @@ Access downloads through the OMERO web interface:
 
 ![Download from OMERO web](downloading/images/downloading_01.png)
 
-> ## Browser Timeout Limitation
-> Web browser downloads automatically disconnect after 1 minute (60s). For large datasets, use OMERO.insight instead.
-<!-- {blockquote:.is-warning} -->
+!!! warning "Web Browser Timeout Limitation"
+    Connections via the web browser automatically disconnect after 1 minute (60s), so often you won't be able to download large files. For larger datasets, use OMERO.insight instead.
 
 ## OMERO.insight Downloads
 
@@ -42,12 +41,11 @@ Access downloads through the OMERO web interface:
    ![Download in insight](downloading/images/downloading_02.png)
 4. Select export format
 
-> Downloads proceed in the background - no progress bar is shown, but the process remains active.
-<!-- {blockquote:.is-success} -->
+Downloads proceed in the background - no progress bar is shown, but the process remains active.
 
 ## Fiji Downloads
 
-Alternatively you can use the OMERO Fiji plugin for downloading data. 
+Alternatively you can use the OMERO Fiji plugin for downloading data. You can find more information [here](../analysis/analysis_fiji/#exporting-data)
 
 ## Export Formats
 
@@ -58,20 +56,10 @@ Alternatively you can use the OMERO Fiji plugin for downloading data.
 - **TIFF**: For analysis software
 
 ### Format Selection
-Choose based on intended use:
-- Analysis: Original or OME-TIFF
-- Presentation: JPEG/PNG
-- Archive: Original format
+Choose based on intended use:  
 
-## Batch Downloads
+- Analysis: Original or OME-TIFF  
+- Presentation: JPEG/PNG  
+- Archive: Original format  
 
-### Dataset Export
-1. Select entire dataset
-2. Choose export format
-3. Select destination folder
-4. Wait for background process
 
-### Project Export
-- Can export entire projects
-- Maintains folder structure
-- Includes annotations if selected

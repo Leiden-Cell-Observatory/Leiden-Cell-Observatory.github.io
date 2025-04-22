@@ -1,6 +1,6 @@
 # Welcome to the Leiden Cell Observatory
 
-Welcome to the Leiden Cell Observatory Documentation. This documentation provides information about the facility's microscopes, image analysis workflows, and image data management with OMERO.
+Welcome to the Leiden Cell Observatory Wiki. This documentation provides information about the facility's microscopes, image analysis workflows, and image data management with OMERO.
 
 For general information please visit our website [Cell Observatory](https://www.universiteitleiden.nl/en/science/cell-observatory)
 
@@ -25,4 +25,4 @@ If you're new to the Cell Observatory:
 4. Publishing your paper with microscopy data? Check out the [publication section](publishing/index.md).
 
 !!! info "Need Help?"
-    Contact facility staff for guidance on selecting the most appropriate systems and workflows for your experiments.
+    [Contact facility staff](contact.md) for guidance on selecting the most appropriate systems and support on data management and image analysis workflows for your experiments.

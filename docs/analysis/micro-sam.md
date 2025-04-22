@@ -10,7 +10,7 @@ micro-sam can be use to interactively segment images (2D, 3D, time series) in na
 ![micro-sam.png](images/micro-sam_01.png)
 
 ## Installation
-It is adviced to install micro-sam in a conda environment. Check [here](conda.md) to install conda.
+It is advised to install micro-sam in a conda environment. Check [here](conda.md) to install conda.
 
 ```bash
 conda env create --file environment.yml -n micro-sam
