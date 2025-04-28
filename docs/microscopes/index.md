@@ -4,10 +4,8 @@ The Cell Observatory houses several state-of-the-art microscopes for various ima
 
 ## Available Systems
 
-- [Nikon A1](a1.md) - Confocal microscope system
-- [DIC Microscopy](dic.md) - Differential Interference Contrast microscopy
+- [LACDR Microscopes](lacdrmicroscopes.md) - Overview of LACDR microscopy systems
 - [IBL Microscopes](iblmicroscopes.md) - Overview of IBL microscopy systems
-- [Widefield Observer](widefield-observer.md) - Widefield fluorescence microscope
 
 ## Choosing a Microscope
 
