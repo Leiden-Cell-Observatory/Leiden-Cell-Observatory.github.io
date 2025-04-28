@@ -1,5 +1,9 @@
 # LACDR microscopes
 
+- [Nikon 2](lacdrmicroscopes.md#nikon-2)
+- [Nikon 3](lacdrmicroscopes.md#nikon-3)
+- [Nikon 4](lacdrmicroscopes.md#nikon-4)
+
 ## Nikon 2
 **Location:** GW.2.26a  
 
