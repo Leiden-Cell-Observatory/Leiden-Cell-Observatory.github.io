@@ -157,4 +157,3 @@
     - HeNe: 543, 633 nm
 - [Book VAST](https://www.supersaas.com/schedule/IBL_VAST/VAST)
 
-> Contact facility staff for training before first use of any microscope system.
