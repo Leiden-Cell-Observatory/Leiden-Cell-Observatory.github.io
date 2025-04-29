@@ -16,20 +16,6 @@ Screen
              └── Image (with channels and/or timepoints)
 ```
 
-## Import Considerations
-
-### Metadata Requirements
-- Plate layout information
-- Well naming conventions
-- Experimental conditions
-- Treatment annotations
-
-### File Organization
-1. Maintain original plate structure
-2. Keep metadata files with raw data
-3. Document plate layouts
-4. Preserve screen/plate relationships
-
 ## File Formats
 ### Pre-processing of Nikon data
 
@@ -60,7 +46,7 @@ Exporting the images from the MetaXpress database will generate an additional ``
 !!! warning "Always export"
     Plates/screens that are copied directly from the database without export will not be recognized by the OMERO system. This can be fixed by manually create a .HTD file defining the plate layout. However, this approach is not recommended!
    
-## Conversion from Dataset to plate
+## Conversion from Dataset to Plate
 Whereas in some instances the data is directly imported as a plate, however for some file formats this has to be done manually after importing.
 
 You can use a OMERO script for this which are available in the OMERO.web interface at the right top (gear icon).

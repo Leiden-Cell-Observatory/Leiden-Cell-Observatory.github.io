@@ -44,8 +44,8 @@ OMERO.insight is the primary tool for importing data. This client is:
 
 ### Project Structure
 OMERO uses a two-level organization system:
-- Projects (top level)
-- Datasets (within projects)
+- Projects (top level)  
+- Datasets (within projects)  
 
 Organize Datasets within Projects; avoid storing Datasets outside Projects
 
@@ -67,9 +67,9 @@ Project 1 (ISA: Study)
 To include the ISA:Investigation in the OMERO structure you should annotate the Project with metadata. This can be done with the [omero.mde](importing/metadata.md) plugin.
 
 
-For (High-content) imaging screens OMERO offers:
-- Screens (top level)
-- Plates (within screens)
+For (High-content) imaging screens OMERO offers: 
+- Screens (top level)  
+- Plates (within screens)  
 
 !!! success "Planning Your Import"
     Before starting a large import:

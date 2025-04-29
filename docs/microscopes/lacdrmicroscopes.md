@@ -21,7 +21,7 @@ Nikon 2 is a fully automated inverted confocal microscope best suited for fixed 
 **Filters available**: 450/50, 482/35, 525/50, 540/30, 515/30, 595/50, 585/65, 700/75
 
 ### Software/Automation
-**Software**: NiS elements 5,02,03  
+**Software**: NiS elements 5.02.03  
 **Automation**: Jobs & ND acquisition  
 **GA version**: (TBD)
 
@@ -34,7 +34,7 @@ Nikon 3 is a fully automated inverted confocal microscope capable of fast imagin
 **Stage**: Nikon, encoded with MCL nano drive Piezo insert  
 **Confocal scanner modalities**: Nikon A1R MP Galvano and resonant, single and bidirectional.  
 **Incubation**: OKO lab incubator with temperature and CO2 control settings  
-**Detectors**: Channel 1 and 4 PMT, channels 2 and 3 GaAsP. 1 transmission detector
+**Detectors**: Channel 1 and 4: PMT, channels 2 and 3: GaAsP. 1 transmission detector
 
 ### Lasers and filters
 **Laser lines**: 405nm, 488nm. 561nm, 640nm  

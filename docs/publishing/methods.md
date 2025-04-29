@@ -7,20 +7,6 @@ This section provides guidelines for writing methods sections in scientific publ
 ### General Guidelines
 *Content to be added*
 
-### Required Information
-*Content to be added*
-
-### Common Mistakes to Avoid
-*Content to be added*
-
-## High-Content Screening Methods
-
-### Data Analysis Documentation
-*Content to be added*
-
-### Example Templates
-*Content to be added*
-
 ## Useful resources
 [Community-developed checklists for publishing images and image analyses](https://quarep-limi.github.io/WG12_checklists_for_image_publishing/intro.html)
 

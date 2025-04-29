@@ -27,10 +27,9 @@ Since IDR is based on OMERO it might be possible to transfer data from OMERO to 
 Please check here:  
 - <https://idr.openmicroscopy.org/about/submission.html>
 
-### Zenodo
+### Zenodo  
 
-
-Zenodo (<http://zenodo.org/>) is a general repository for scientific data that allows you to share any kind of data. Zenodo allows you to upload your data to the repository and to share it with others. Zenodo also allows you to publish your data and to assign a DOI to it.
+Zenodo (<http://zenodo.org/>) is a general repository for scientific data that allows you to share any kind of data. Zenodo allows you to upload your data to the repository and to share it with others. Zenodo also allows you to publish your data and to assign a DOI to it.  
 
 Submission to Zenodo is free of charge, but normally it is limited to 50GB per dataset.
 
@@ -41,11 +40,11 @@ Common practice is to maintain your image analysis scripts and other code in a v
 
 When publishing a paper that includes image analysis, it is a good idea to include a link to the code repository in the paper. This allows others to reproduce your analysis and to build on your work.
 
-The Cell Observatory also has its own Github repository where you can share your code with others, see <https://github.com/Leiden-Cell-Observatory/> . Please reach out if you would like to create a repository in the Cell Observatory Github.
+The Cell Observatory also has its own Github repository where you can share your code with others, see <https://github.com/Leiden-Cell-Observatory/> . Please reach out if you would like to create a repository at the Cell Observatory Github.
 
-It is worth to consider to create a release of the version of the code at time of publication and to assign a DOI to this version. This allows others to refer to the exact version of the code that was used in the paper and to reproduce your results.
+It is worth to consider to create a release of the version of the code at time of publication and to assign a DOI to this version. This allows to refer to the exact version of the code that was used in the paper and to reproduce your results.
 .
-One way to get a DOI i is to deposit your Github code at Zenodo. Zenodo will create a DOI for the code at time of deposition. This DOI can be included in the paper. 
+One way to get a DOI is to deposit your Github code at Zenodo. Zenodo will create a DOI for the code at time of deposition. This DOI can be included in the paper. 
 - Login at Zenodo with your ORCID account
 - Connect Zenodo with your Github account
 - Enable the Zenodo Github integration for your repository

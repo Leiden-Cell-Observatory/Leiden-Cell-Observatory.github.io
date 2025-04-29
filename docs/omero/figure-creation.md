@@ -2,8 +2,8 @@
 
 A very helpful feature of OMERO is the ability to generate figure panels of your images directly from the web interface. This guide covers the basics to create figures in OMERO.
 
-You can find some movies on how to build figures on the official OMERO website <https://www.openmicroscopy.org/omero/figure/>
-And a user manual on OMERO.figure: <https://omero-guides.readthedocs.io/en/latest/figure/docs/omero_figure.html>
+You can find some movies on how to build figures on the official OMERO website <https://www.openmicroscopy.org/omero/figure/>  
+And a user manual on OMERO.figure: <https://omero-guides.readthedocs.io/en/latest/figure/docs/omero_figure.html>  
 
 ## OMERO.figure
 

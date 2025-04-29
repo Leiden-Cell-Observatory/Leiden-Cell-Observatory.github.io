@@ -30,16 +30,16 @@ Access downloads through the OMERO web interface:
 ![Download from OMERO web](downloading/images/downloading_01.png)
 
 !!! warning "Web Browser Timeout Limitation"
-    Connections via the web browser automatically disconnect after 1 minute (60s), so often you won't be able to download large files. For larger datasets, use OMERO.insight instead.
+    Connections via the web browser automatically disconnect after 1 minute (60s), so often you won't be able to download large files. For larger datasets, use OMERO.insight instead.  
 
 ## OMERO.insight Downloads
 
 ### Large Dataset Downloads
-1. Launch and log into OMERO.insight
-2. Navigate to your dataset
-3. Click the download button
-   ![Download in insight](downloading/images/downloading_02.png)
-4. Select export format
+1. Launch and log into OMERO.insight  
+2. Navigate to your dataset  
+3. Click the download button  
+   ![Download in insight](downloading/images/downloading_02.png)  
+4. Select export format 
 
 Downloads proceed in the background - no progress bar is shown, but the process remains active.
 
