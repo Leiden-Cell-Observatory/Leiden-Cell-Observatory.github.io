@@ -30,17 +30,19 @@
 
 #### Leica TCS SPE  
 ![Leica SPE](images/ibl/image9.jpeg)  
+
 - **Location**: Cell Observatory GW 2.30a  
 - **Specifications**:  
-    - Inverted confocal laser scanning microscope  
-    - One spectral detector channel for fluorescence  
-    - One transmitted light channel  
-    - Laser lines: 488, 532, and 633 nm  
+      - Inverted confocal laser scanning microscope  
+      - One spectral detector channel for fluorescence  
+      - One transmitted light channel  
+      - Laser lines: 488, 532, and 633 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
 - [View Instructions (Dutch)](https://video.leidenuniv.nl/media/t/1_498i179v)  
 
 #### Leica SP8  
 ![Leica SP8](images/ibl/image10.jpeg)  
+
 - **Location**: Cell Observatory GW 2.30a  
 - **Specifications**:  
     - Inverted confocal laser scanning microscope  
@@ -63,6 +65,7 @@
 
 #### JEOL SEM 7600  
 ![SEM](images/ibl/image11.jpeg)  
+
 - **Location**: Sylvius, Rm. 6.5.34  
 - **Specifications**:  
     - Conventional high vacuum scanning electron microscope equipped with digital imaging  
@@ -73,6 +76,7 @@
 
 #### JEOL TEM 1400+  
 ![TEM](images/ibl/image12.jpeg)  
+
 - **Location**: Cell Observatory GW2.24a  
 - **Specifications**:  
     - 120 kV transmission electron microscope  
@@ -82,6 +86,7 @@
 
 #### [Zeiss Observer](widefield-observer.md)  
 ![Zeiss Observer](images/ibl/image4.jpeg)  
+
 - **Location**: Sylvius, Rm. 6.5.31a  
 - **Features**:  
     - Widefield fluorescence with Colibri system  
@@ -94,6 +99,7 @@
 
 #### Zeiss Axioscope A1  
 ![Zeiss Axioscope](images/ibl/image5.jpeg)  
+
 - **Location**: Sylvius, Rm. 6.5.31a  
 - **Features**:  
     - Widefield fluorescence with Colibri system  
@@ -102,6 +108,7 @@
 
 #### [Zeiss Imager M2 (DIC)](dic.md)  
 ![DIC Microscope](images/ibl/image6.jpeg)  
+
 - **Location**: Sylvius, Rm. 6.5.35  
 - **Features**:  
     - Upright fluorescence microscope  
@@ -114,6 +121,7 @@
 
 #### LEICA DM6000 (VAST)  
 ![VAST](images/ibl/image13.jpeg)  
+
 - **Location**: Cell Observatory GW2.28  
 - **Specifications**:  
     - Leica SL confocal CTR 6000  
@@ -128,6 +136,7 @@
 
 #### Zeiss Axiozoom  V16  
 ![Stereo Zoom V16](images/ibl/image1.jpeg)  
+
 - **Location**: Sylvius, Rm. 6.5.31b  
 - **Capabilities**:  
     - Stereo fluorescence microscope  
@@ -139,19 +148,21 @@
 
 #### LEICA M205 FA (2)
 ![Stereo Fluorescence](images/ibl/image3.jpeg)  
+
 - **Location**: Cell Observatory GW2.28  
 - **Capabilities**:  
-  - Stereo fluorescence microscope  
-  - Multiple filters (GFP, DSR, YFP, CFP, CY5, Alexa 405)  
-  - Leica DFC 345FX camera  
+    - Stereo fluorescence microscope  
+    - Multiple filters (GFP, DSR, YFP, CFP, CY5, Alexa 405)  
+    - Leica DFC 345FX camera  
 - [Book Stereo Gorlaeus](https://www.supersaas.com/schedule/IBL_Stereo/Stereo_Gorlaeus)
 
 #### Zeiss V8  
 ![Zeiss V8](images/ibl/image2.jpeg)  
+
 - **Location**: Sylvius, Rm. 6.5.31a  
 - **Capabilities**:  
-  - Stereo light microscope  
-  - Manual focus and zoom control  
-  - Bresser digital color camera  
+    - Stereo light microscope  
+    - Manual focus and zoom control  
+    - Bresser digital color camera  
 - [Book Stereo Sylvius](https://www.supersaas.com/schedule/IBL_Stereo/Stereo_Sylvius)
 
