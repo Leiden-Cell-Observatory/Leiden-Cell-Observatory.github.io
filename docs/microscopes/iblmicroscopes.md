@@ -115,7 +115,7 @@
     - DIC optics  
     - Zeiss AxioCam MRc 5 digital color camera  
     - Filter blocks for DAPI, CFP, GFP, YFP, mCherry, DIC  
-    - Custom filter options available (consult Gerda or Joost)  
+    - Custom filter options available (consult Bas or Joost)  
 - [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)  
 - [Detailed DIC Manual](dic.md)   
 
