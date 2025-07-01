@@ -7,8 +7,8 @@ OMERO (Open Microscopy Environment Remote Objects) is the primary platform for m
 Contact any of the following administrators for registration and OMERO-related questions:
 
 - Joost Willemse (IBL)
-
 - Sylvia Le Dévédec (LACDR)
+- Amit Cherian (LIC)
 
 ## OMERO Key Features
 
