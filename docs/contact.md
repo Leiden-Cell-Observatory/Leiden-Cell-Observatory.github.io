@@ -22,6 +22,9 @@ For more information visit the [Leiden Cell Observatory - Our People](https://ww
 - **Joost Willemse (IBL) - [Profile](https://www.universiteitleiden.nl/en/staffmembers/joost-willemse#tab-1){:target="_blank"}**  
     &nbsp;&nbsp;&nbsp;&nbsp;Email: [jwillemse@biology.leidenuniv.nl](mailto:jwillemse@biology.leidenuniv.nl)
 
+- **Amit Cherian (LIC) - [Profile]https://www.universiteitleiden.nl/en/staffmembers/amit-cherian#tab-1{:target="_blank"}**  
+    &nbsp;&nbsp;&nbsp;&nbsp;Email: [jwillemse@biology.leidenuniv.nl](mailto:a.cherian@lic.leidenuniv.nl)
+
 ---
 
 ## Operators
