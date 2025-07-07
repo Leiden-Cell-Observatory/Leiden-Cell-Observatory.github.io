@@ -49,6 +49,9 @@ markdown_extensions:
       permalink: ''
   - sane_lists
   - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
   social:
@@ -75,8 +78,8 @@ nav:
     - Getting Started: omero/getting-started.md
     - Importing: 
       - Overview: omero/importing.md
-      - File Formats: omero/importing/microscope-files.md
-      - HCS Data: omero/importing/hcs-data.md
+      - File formats: omero/importing/microscope-files.md
+      - HCS data: omero/importing/hcs-data.md
       - Metadata: omero/importing/metadata.md      
     - Downloading: omero/downloading.md
     - Figures: omero/figure-creation.md

@@ -41,13 +41,58 @@
     --md-header-color: rgb(0, 51, 153);
 }
 
-[data-md-color-scheme="default"] .md-content h1,
-[data-md-color-scheme="default"] .md-content h2,
-[data-md-color-scheme="default"] .md-content h3,
-[data-md-color-scheme="default"] .md-content h4,
-[data-md-color-scheme="default"] .md-content h5,
+[data-md-color-scheme="default"] .md-content h1 {
+    color: rgb(0, 17, 88); /* Keep H1 prominent */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="default"] .md-content h2 {
+    color: rgb(85, 85, 85); /* Darker gray, closer to text */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="default"] .md-content h3 {
+    color: rgb(102, 102, 102); /* Medium gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="default"] .md-content h4 {
+    color: rgb(119, 119, 119); /* Lighter gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="default"] .md-content h5 {
+    color: rgb(136, 136, 136); /* Even lighter gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
 [data-md-color-scheme="default"] .md-content h6 {
-    color: var(--md-header-color);
+    color: rgb(153, 153, 153); /* Lightest gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
 }
 
 /* Header styles for dark mode */
@@ -55,13 +100,58 @@
     --md-header-color: rgb(102, 153, 255);
 }
 
-[data-md-color-scheme="slate"] .md-content h1,
-[data-md-color-scheme="slate"] .md-content h2,
-[data-md-color-scheme="slate"] .md-content h3,
-[data-md-color-scheme="slate"] .md-content h4,
-[data-md-color-scheme="slate"] .md-content h5,
+[data-md-color-scheme="slate"] .md-content h1 {
+    color: rgb(153, 185, 255); /* Keep H1 prominent */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-content h2 {
+    color: rgb(200, 200, 200); /* Light gray for dark mode */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 {
+    color: rgb(180, 180, 180); /* Slightly darker gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .md-content h4 {
+    color: rgb(160, 160, 160); /* Medium gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .md-content h5 {
+    color: rgb(140, 140, 140); /* Darker gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
 [data-md-color-scheme="slate"] .md-content h6 {
-    color: var(--md-header-color);
+    color: rgb(120, 120, 120); /* Darkest readable gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
 }
 
 /* Logo positioning and sizing */
@@ -156,5 +246,34 @@
 .md-typeset h6 {
     padding-left: 0;
     margin-left: 0;
+}
+
+/* Reduce line spacing in lists */
+.md-typeset ul,
+.md-typeset ol {
+    line-height: 1.4; /* Reduce from default ~1.6 */
+}
+
+.md-typeset ul li,
+.md-typeset ol li {
+    margin-bottom: 0.25rem; /* Reduce space between list items */
+}
+
+/* For nested lists */
+.md-typeset ul ul,
+.md-typeset ol ol,
+.md-typeset ul ol,
+.md-typeset ol ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Optional: Even tighter spacing for compact lists */
+.md-typeset .compact-list {
+    line-height: 1.2;
+}
+
+.md-typeset .compact-list li {
+    margin-bottom: 0.1rem;
 }
 
