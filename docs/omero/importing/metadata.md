@@ -1,4 +1,4 @@
-# Metadata Annotations
+# Metadata annotations
 
 By providing metadata annotations to your imaging data.
 
@@ -9,7 +9,8 @@ OMERO supports several types of metadata annotations:
 - Tags  
 - Key-value pairs  
 - Comments  
-- Files (attachements)  
+- Files (attachements)
+- ROIs  
 
 ## Adding Metadata During Import
 

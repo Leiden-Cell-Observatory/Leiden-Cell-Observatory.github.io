@@ -23,31 +23,33 @@ To access OMERO, you need to be approved in the ULCN system. Please follow these
 > Important: Login must be done within the university network
 <!-- {blockquote:.is-warning} -->
 
-1. Visit [OMERO Web Portal](https://omeroweb.services.universiteitleiden.nl/)
+1. Visit the [OMERO Web Portal](https://omeroweb.services.universiteitleiden.nl/)
 
 ![](getting-started/images/getting-started_01.png)
 
 2. Login using your ULCN credentials
 3. Logout after successful login
 4. Inform your admin that you've completed the first login
-5. Wait for confirmation that you've been assigned to the correct group before importing any data
+5. :warning: Wait for confirmation that you've been assigned to the correct group before importing any data
 
 ![](getting-started/images/getting-started_02.png)
 
 ## Remote Access
 
-You can access OMERO from outside the university through several methods:
+You can access OMERO from outside the university through different methods:   
 
-1. **Remote Desktop Connection**
-   - Request access via [Remote Desktop Form](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/service?unid=706c4daac08c42378d32b7a1fa1582ab&from=bd8e572c-ca86-48d2-bd1b-55886728bdd8)
-   - Connect to your university PC
+1. Remote Desktop Connection   
+
+    - Request access via [Remote Desktop Form](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/service?unid=706c4daac08c42378d32b7a1fa1582ab&from=bd8e572c-ca86-48d2-bd1b-55886728bdd8)   
+    - Connect to your university PC
+
 
 2. **EduVPN**
-   - Set up [EduVPN](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/knowledgeitem?unid=600a6741-6a77-415c-85e1-ffbbf4839755) for a secure connection, then you are able to access OMERO directly from your PC.
+    - Set up [EduVPN](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/knowledgeitem?unid=600a6741-6a77-415c-85e1-ffbbf4839755) for a secure connection, then you are able to access OMERO directly from your PC.
 
 ## OMERO.insight Installation
 
-For uploading data from your computer or downloading large datasets, you'll need OMERO.insight:
+For uploading data from your computer or downloading larger datasets, you'll need OMERO.insight:
 
 1. Download [OMERO.insight](https://www.openmicroscopy.org/omero/downloads/)
 2. Request installation:

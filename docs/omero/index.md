@@ -1,6 +1,9 @@
 # OMERO
 
-OMERO (Open Microscopy Environment Remote Objects) is the primary platform for microscopy data management, storage, and sharing at Leiden University. Almost all microscopes are connected to OMERO for data storage. This wiki provides an overview of OMERO features and best practices for working with microscopy data. By maintaining your image data in an organized way in OMERO, you can easily access and share your data. By using OMERO to organize the imaging data together with experimental and imaging metadata you will increase the FAIRness of your data.
+OMERO (Open Microscopy Environment Remote Objects) is the primary platform for microscopy data management, storage, and sharing at Leiden University.   
+Almost all our microscopes are connected to OMERO for data storage. This wiki provides an overview of OMERO features and best practices for working with microscopy data.    
+By maintaining your image data in an organized way in OMERO, it will help you to easily access and share your data.   
+By using OMERO to organize the imaging data together with experimental and imaging metadata you will increase the FAIRness of your data.
 
 ### OMERO Administrators
 
@@ -10,7 +13,7 @@ Contact any of the following administrators for registration and OMERO-related q
 - Sylvia Le Dévédec (LACDR)
 - Amit Cherian (LIC)
 
-## OMERO Key Features
+## OMERO features
 
 - Backed up image data storage
 - Metadata management

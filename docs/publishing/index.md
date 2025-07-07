@@ -3,7 +3,7 @@
 This section provides guidelines and resources for publishing your microscopy data and analysis.
 
 ## Publishing Guidelines
-- [Data Repositories](sh) - Information on where to publish your microscopy data
+- [Data Repositories](sharing_data.md) - Information on where to publish your microscopy data
 - [Writing Methods](methods.md) - Templates and guidelines for writing microscopy methods sections
 - [Citing](citing.md) - How to properly cite microscopy equipment and software
 

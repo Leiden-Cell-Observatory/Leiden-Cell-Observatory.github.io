@@ -1,9 +1,13 @@
 # Python with OMERO
 
+With Python you can interact with OMERO extensively. It is possible to upload data, annotations and ROIs. It is also possible to obtain image data directly as an (e.g. numpy) array so you can do your analysis with the data directly.
+
+For working with OMERO you need to install the OMERO Python API packages.
+
 ## Installation
 [omero-py](https://omero.readthedocs.io/en/stable/developers/Python.html) - official Python bindings for OMERO
 
-[ezomero](https://thejacksonlaboratory.github.io/ezomero/) - package with convenience functions for working with OMERO in Python
+[ezomero](https://thejacksonlaboratory.github.io/ezomero/) - an additional package with convenience functions for working with OMERO in Python
 
 Communication with OMERO via Python requires the OMERO Ice package. Compiling those from scratch can be difficult hence binaries are available for different operating systems and Python versions: <https://www.glencoesoftware.com/blog/2023/12/08/ice-binaries-for-omero.html>
 

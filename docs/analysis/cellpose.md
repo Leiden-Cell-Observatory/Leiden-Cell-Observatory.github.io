@@ -30,3 +30,4 @@ pip isntall cellpose[gui]
 
 run gui via command line: ```cellpose```
 
+Try the latest Cellpose version online at [HuggingFace](https://huggingface.co/spaces/mouseland/cellpose)

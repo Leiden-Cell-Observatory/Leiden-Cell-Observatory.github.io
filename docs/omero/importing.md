@@ -1,6 +1,7 @@
 # Importing Data into OMERO
 
-This section covers the general procedures for importing data into OMERO at the Leiden Cell Observatory. The power of OMERO is that it allows to organize our imaging data in a structured way. This makes the data findable and accessible for your research group. To make this possible, the data needs to be uploaded in a structured way and need to include the correct metadata. If you are not sure how to approach this, please contact the [OMERO admins](index.md#omero-administrators) or the data steward at your institute for help.
+This section covers the general procedures for importing data into OMERO at the Leiden Cell Observatory. OMERO allows to organize our imaging data in a structured way. This makes the data findable and accessible for your research group.  
+To make this possible, the data needs to be uploaded in a structured way and need to include the correct metadata. If you are not sure how to approach this, please contact the [OMERO admins](index.md#omero-administrators) or the data steward at your institute for help.
 
 ## Overview
 
@@ -12,7 +13,7 @@ OMERO.insight is the primary tool for importing data. This client is:
 ## Basic Import Workflow
 
 1. **Prepare Your Data**
-    - To make data accessible to others, use a consistent naming convention of your Project and Dataset names.
+    - To make data accessible to others, use a consistent naming convention of your `Project` and `Dataset` names.
     - It is advised to organize your data according to the ISA model, which is a standard for organizing and sharing scientific data. This model organizes data in a hierarchical structure, which is similar to the way we organize our data in OMERO. The ISA model consists of three main components:
 
         - **Investigation:** An overarching description of the research project, this can be a consortium with multiple collaborators
@@ -28,16 +29,16 @@ OMERO.insight is the primary tool for importing data. This client is:
     - Prepare any metadata you want to include at the time of import.
 
 2. **Launch OMERO.insight**
-    - [Connect](getting-started.md#configuring-omeroinsight) to server: omero.services.universiteitleiden.nl
+    - [Connect](getting-started.md#configuring-omeroinsight) to the server: `omero.services.universiteitleiden.nl`
     - Login with ULCN credentials
-    - Navigate to your group/project space
+    - Navigate to your Group/project space
 
 3. **Import Process**
-    - Use File > Import or the import icon
-    - Select files for import
+    - Use `File > Import` or the import icon
+    - Select the files for import
     - Choose or create projects/datasets or Screens/Plates
     - Use the omero.mde plugin to add [metadata](importing/metadata.md)
-    - Add any tags or annotations
+    - Add any additional tags or annotations
     - Review and start import
 
 ## Data Organization
@@ -75,7 +76,7 @@ For (High-content) imaging screens OMERO offers:
     Before starting a large import:
 
     1. Plan your project/dataset structure
-    2. Prepare metadata at time of import
+    2. Prepare experimental metadata at time of import
     3. Consider file type specific requirements
 
 ## Next Steps
