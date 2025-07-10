@@ -14,20 +14,16 @@ https://cellpose.readthedocs.io/en/latest/
 
 ![cellpose.png](images/cellpose_01.png)
 
-install cellpose with GUI via conda. Check [here](conda.md) to install conda first.
+install cellpose with GUI via conda. Check [here](conda.md) to learn how to install conda first.
 ```
 conda create -n cellpose 
 conda activate cellpose
 pip install cellpose[gui]
 ```
 
-and with CUDA GPU:
-```
-conda create -n cellpose pytorch=1.8.2 cudatoolkit=10.2 -c pytorch-lts
-conda activate cellpose
-pip isntall cellpose[gui]
-```
-
 run gui via command line: ```cellpose```
 
-Try the latest Cellpose version online at [HuggingFace](https://huggingface.co/spaces/mouseland/cellpose)
+If you have a GPU with CUDA capabilities and have CUDA installed, pip will install the GPU enable version of pytorch. Then CellPose should work on the GPU. You can check if your GPU is found when starting CellPose via the command line, and also in the GUI it is indicated when the GPU is used. Check [here](https://github.com/MouseLand/cellpose#gpu-version-cuda-on-windows-or-linux) for troubleshooting.   
+If you have issues running CellPose on your own PC, please try to make use of one of the image analysis workstations available at the CellObservatory. Or you can make use of HPC with a remote desktop environment or setting up X-forwarding.
+
+Try the latest Cellpose version (CellPose-SAM) online at [HuggingFace](https://huggingface.co/spaces/mouseland/cellpose)
