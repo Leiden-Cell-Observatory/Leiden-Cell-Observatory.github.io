@@ -11,8 +11,9 @@ More on Alice: [Alice Wiki](https://pubappslu.atlassian.net/wiki/spaces/HPCWIKI/
 With Alice it is possible to connect to a desktop environment to run GUI applications like QuPath or Cellpose.   
 Furthermore it is possible to run containers via singularity or apptainer, this allows to run analysis tools in a contained environment.
 Some examples of container definitions for image analysis tools can be found here:   
-- https://github.com/TheJacksonLaboratory/rit-imageanalysis-containers
-- https://git.embl.org/grp-cbbcs/container-recipes/
+
+- [github.com/TheJacksonLaboratory/rit-imageanalysis-containers](https://github.com/TheJacksonLaboratory/rit-imageanalysis-containers)   
+- [git.embl.org/grp-cbbcs/container-recipes](https://git.embl.org/grp-cbbcs/container-recipes/)   
 
 ## Alternatives
 At LUMC there is [SHARK](https://pubappslu.atlassian.net/wiki/spaces/HPCWIKI/pages/37519859/Getting+an+account+on+SHARK) 
