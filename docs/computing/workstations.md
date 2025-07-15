@@ -1,5 +1,4 @@
 # Image Analysis Workstations
 
-This section describes the available image analysis workstations at the Leiden Cell Observatory.
-When you need more computing resources e.g. GPU for imaging processing we might be able to help.
-For now you can find more information via the Cell Observatory MS Teams or reach out to one the people from the Cell Observatory.
+In case your image analysis requires more computing resources for example a dedicated GPU for AI based image processing, we might be able to help.
+At the Cell Observatory several image analysis workstations are available with a dedicated GPU. Please reach out to the people of the Cell Observatory for advice.
