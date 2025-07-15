@@ -39,7 +39,7 @@ For more information visit the [Leiden Cell Observatory - Our People](https://ww
 
 ---
 
-## OMERO
+## OMERO/Image Analysis support
 
 - **Maarten Paul - [Profile](https://www.universiteitleiden.nl/en/staffmembers/maarten-paul#tab-1){:target="_blank"}**  
     &nbsp;&nbsp;&nbsp;&nbsp;Email: [m.w.paul@lacdr.leidenuniv.nl](mailto:m.w.paul@lacdr.leidenuniv.nl)
