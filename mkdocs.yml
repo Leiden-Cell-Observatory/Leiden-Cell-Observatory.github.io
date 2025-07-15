@@ -89,11 +89,8 @@ nav:
       - Python: omero/analysis/analysis_python.md
       - R: omero/analysis/analysis_r.md
       - CellProfiler: omero/analysis/analysis_cellprofiler.md
-  - High-Content Screening:
-    - hcs/index.md
   - Image analysis:
     - analysis/index.md
-    - Getting Started: started.md
     - What tool to use?: analysis/tool.md
     - CellPose: analysis/cellpose.md
     - CellProfiler: analysis/cellprofiler.md
@@ -109,6 +106,8 @@ nav:
       - computing/index.md
       - HPC: computing/hpc.md
       - Workstations: computing/workstations.md
+    - High-Content Screening:
+      - hcs/index.md
   - Publishing:
     - publishing/index.md
     - Sharing data: publishing/sharing_data.md
