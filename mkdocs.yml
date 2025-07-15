@@ -106,8 +106,8 @@ nav:
       - computing/index.md
       - HPC: computing/hpc.md
       - Workstations: computing/workstations.md
-    - High-Content Screening:
-      - hcs/index.md
+  - High-Content Screening:
+    - hcs/index.md
   - Publishing:
     - publishing/index.md
     - Sharing data: publishing/sharing_data.md
