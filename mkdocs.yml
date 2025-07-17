@@ -94,7 +94,7 @@ nav:
     - analysis/index.md
     - CellProfiler: analysis/cellprofiler.md
     - Fiji: analysis/Fiji.md
-    - QuPath: analysis/QuPath.md
+    - QuPath: analysis/qupath.md
     - Ilastik: analysis/ilastik.md
     - GitHub: analysis/github.md
     - CellPose: analysis/cellpose.md
