@@ -56,23 +56,11 @@ First you need to load a OMERO mde configuration file. This file contains the me
 
 ![](metadata/images/metadata_06.png)
 
-## Metadata templates
-
-### Minimal Information for High Content Screening in Microscopy Experiments (MIHCSME)
-Next to adding metadata through OMERO.insight the metadata template in Excel to describe your screen at different levels (Study, Assay, and per Plate and Well) should be used. 
-
-The template can be found at [this repository](https://github.com/Leiden-Cell-Observatory/metadata_templates/tree/main/MIHCSME_template), with some filled-in examples.
-
-The templates can also be found here: <https://fairdomhub.org/investigations/575>
-
-## Adding Metadata templates to OMERO
-### Attaching a description, metadata and quantified results to your images
+## Attaching metadata template to your images
 
 The current recommendation is to attach metadata template to your images in OMERO. Items to add are the metadata template (mandatory), library files (if applicable) and the plate layouts. At the right side of the screen you can add those items.
 
-1)  Give your plate a short, descriptive description by clicking on the pencil icon (red box). It is optional to add some tags as well. This might help to retrieve the data more easy later on.
-
-2)  Add the (mandatory) attachments to the file using the attachment section (green box). This includes the metadata template in pdf format and all additional files.
+Add the attachments to the file using the attachment section (green box). This includes the metadata template in xlsx format and all additional files.
 
 ![alt text](metadata/images/metadata_07.png)
 
