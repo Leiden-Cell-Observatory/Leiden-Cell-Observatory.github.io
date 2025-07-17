@@ -80,7 +80,8 @@ nav:
       - Overview: omero/importing.md
       - File formats: omero/importing/microscope-files.md
       - HCS data: omero/importing/hcs-data.md
-      - Metadata: omero/importing/metadata.md      
+      - Metadata: omero/importing/metadata.md
+      - HCS metadata: omero/importing/mihcsme.md
     - Downloading: omero/downloading.md
     - Figures: omero/figure-creation.md
     - Analysis: 
