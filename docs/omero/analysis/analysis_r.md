@@ -1,6 +1,6 @@
 # R Analysis with OMERO
 
-A library to connect R with OMERO exists, however it has limited functionality, and it is rather outdated, compared to the Python or Fiji libraries.
+A library (romero.gateway) to connect R with OMERO exists, however it has limited functionality, and it is rather outdated, compared to the Python or Fiji libraries.
 
 A better alternative is to use the Python API/ezomero in Rstudio. 
 
@@ -11,10 +11,9 @@ An script and Rmarkdown document showcasing how it can used to work with tables,
 It can be found on the Leiden Cell Observatory github: https://github.com/Leiden-Cell-Observatory/OMERO_scripts/tree/main/R
 
 ## romero.gateway
+This is the official r-omero package. You can find more information how to install it in Rstudio:
+<https://omero-guides.readthedocs.io/en/latest/r/docs/rstudio.html>   
 
-You can find more information here how to install it in Rstudio:
-<https://omero-guides.readthedocs.io/en/latest/r/docs/rstudio.html>
-
-Some more details explanations including example notebooks can be found here:
+More detailed explanations including example notebooks can be found here:
 <https://omero-guides.readthedocs.io/en/latest/r/docs/r_walkthrough.html>
 
