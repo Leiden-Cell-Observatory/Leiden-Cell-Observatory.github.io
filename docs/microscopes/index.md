@@ -9,8 +9,8 @@ The Cell Observatory houses state-of-the-art microscopes for various imaging app
 - LIC Microscopes
 
 ### LUMC
-- LUMC Light Microscopy Facility  
-Microscopes at LUMC are also available for university employees, but usage is charged by a hour tarif. For questions reach out to lightmicroscopy@lumc.nl .   
+**LUMC Light Microscopy Facility**   
+Microscopes at LUMC are also available for university employees, but usage is charged via an hour tariff. For questions you can reach out to `lightmicroscopy@lumc.nl` .   
 Here you can find an [overview of microscopes and filters](https://ccb.lumc.nl/upload/files/overzicht_microscopen_filtercubes_updateJul2025_web.pdf){:target="_blank"}.
 
 ## Choosing a Microscope
