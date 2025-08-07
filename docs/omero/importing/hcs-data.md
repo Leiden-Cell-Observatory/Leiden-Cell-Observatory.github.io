@@ -1,8 +1,6 @@
 # High-Content Screening (HCS) Data
 
-Especially uploading plate data, e.g. in Nikon format, to OMERO can be challenging. 
-
-OMERO does not always recognizes the mapping of the wells correctly if there are any empty wells on your plate. This includes the edge wells, which is for our imaging set-up almost always the case. 
+Properly uploading plate data to OMERO will depend on the microscope data format of your data. OMERO does not always recognizes the mapping of the wells correctly if there are any empty wells on your plate. This includes the edge wells, which is for our imaging set-up almost always the case. 
 Thus, some pre-processing of the images is required. For correctly importing plate data and screens into OMERO it is advised to do this first time together with somebody experienced.
 
 ![alt text](hcs-data/images/hcs-data_03.png)
@@ -68,4 +66,4 @@ When you have not started imaging at well A1, or when you have imaged bi-directi
   - This script allows for bidirectional conversion when you have imaged in a zigzag pattern.
 
 !!! question "Different Imaging Patterns"
-    When you have imaged in a different patterns, e.g. there is not an equal number of images per well reach out to the facility for help. There are ways to upload data via a script which can handle more complicated situations.
+    When you have imaged in a different patterns, e.g. there is not an equal number of images per well reach out to the facility for help. There are ways to upload data via a (Python) script which can handle more complicated situations. Please reach out if you need help.
