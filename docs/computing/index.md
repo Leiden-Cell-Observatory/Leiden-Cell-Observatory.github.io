@@ -12,7 +12,6 @@ The Cell Observatory provides access to various computing resources to support y
 - Use local workstations for:
   - Interactive analysis sessions
   - Small to medium datasets
-  - Real-time visualization needs
 
 - Use HPC for:
   - Large-scale batch processing
