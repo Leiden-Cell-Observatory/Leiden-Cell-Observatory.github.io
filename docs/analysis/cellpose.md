@@ -52,6 +52,9 @@ In Fiji go to `Help > Update`, click on `Manage Update Sites` and add the `PTBIO
 After restarting Fiji it should be available at `Plugins > BIOP > Cellpose/Omnipose'.   
 You will need to configure the plugin with the path to your Cellpose installation. With 'conda env list' in the terminal, you can find the path to your Cellpose environment. Then, set the path in the Fiji plugin configuration.
 For the latest cellpose model you can set cpsam as the --pretrained model.
+
+If you want to convert the cellpose images to ROIs in Fiji you can use the same update site to run `Plugins > BIOP > Image Analysis > ROIs > Label Image to ROIs`.
+
 The update site: [https://wiki-biop.epfl.ch/en/ipa/fiji/update-site](https://wiki-biop.epfl.ch/en/ipa/fiji/update-site)
 More information about the plugin: [https://github.com/BIOP/ijl-utilities-wrappers](https://github.com/BIOP/ijl-utilities-wrappers)
 
