@@ -24,8 +24,10 @@ This section provides a curated collection of external resources for bioimage an
 - [Image analysis with Python](https://datacarpentry.github.io/image-processing/) - Data Carpentry lesson on image processing with Python
 
 ### Training Videos and Courses
-- [Virtual I2K 2024](https://www.youtube.com/@I2KConference)
-- [GloBIAS](https://www.youtube.com/@globias)
+- [COBA: Center for Open Bioimage Analysis](https://www.youtube.com/@cobacenter) - Video tutorials on CellProfiler and image analysis
+- [Virtual I2K 2024](https://www.youtube.com/@I2KConference) - Workshops on different image analysis tools
+- [GloBIAS](https://www.youtube.com/@globias) -  YouTube channel of GloBIAS, the Global BioImage Analysts’ Society
+- [Euro-BioImaging](https://www.youtube.com/@EuroBioImagingCommunication/videos)
 - [Crick BioImage Analysis Symposium](https://www.youtube.com/channel/UCJg0WSdg1vOZFEduBF1VX4Q)
 
 ## Online Resources
