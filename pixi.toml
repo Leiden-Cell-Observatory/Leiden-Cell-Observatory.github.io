@@ -1,0 +1,14 @@
+[project]
+authors = ["Maarten Paul <maarten.paul@gmail.com>"]
+channels = ["conda-forge"]
+name = "Leiden-Cell-Observatory.github.io"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "==3.12"
+
+[pypi-dependencies]
+mkdocs-material = ">=9.6.19, <10"

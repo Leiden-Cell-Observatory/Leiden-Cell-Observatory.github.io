@@ -1,3 +1,6 @@
 /to process/
 *.code-workspace
 /site/
+# pixi environments
+.pixi
+*.egg-info
