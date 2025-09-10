@@ -10,10 +10,10 @@ The Cell Observatory provides access to various computing resources to support y
 ## When to Use What
 
 - Use local workstations for:
-  - Interactive analysis sessions
-  - Small to medium datasets
+    - Interactive analysis sessions
+    - Small to medium datasets
 
 - Use HPC for:
-  - Large-scale batch processing
-  - Deep learning tasks
-  - Computing-intensive analysis pipelines
+    - Large-scale batch processing
+    - Deep learning tasks
+    - Computing-intensive analysis pipelines
