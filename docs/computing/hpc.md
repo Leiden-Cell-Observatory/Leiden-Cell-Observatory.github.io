@@ -8,7 +8,7 @@ The Alice cluster provides high-performance computing capabilities for more dema
 
 More on Alice: [Alice Wiki](https://pubappslu.atlassian.net/wiki/spaces/HPCWIKI/pages/37519361/ALICE)
 
-With Alice it is possible to connect to a desktop environment to run GUI applications like QuPath or Cellpose.   
+With Alice it is possible to connect to a desktop environment to run GUI applications like QuPath or [Cellpose](../analysis/cellpose.md).   
 Furthermore it is possible to run containers via singularity or apptainer, this allows to run analysis tools in a contained environment.
 Some examples of container definitions for image analysis tools can be found here:   
 
