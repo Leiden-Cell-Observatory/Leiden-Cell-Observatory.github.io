@@ -64,3 +64,37 @@ More information about the plugin: [https://github.com/BIOP/ijl-utilities-wrappe
 ### Command line
 If you want to process many images (e.g. in a folder), you can also use Cellpose via the command line. You can use the same installation as for the GUI.
 More information can be found here: [Cellpose Command Line Interface](https://cellpose.readthedocs.io/en/latest/command.html#command-line-examples)
+
+
+### Run cellpose on the HPC
+If you want to run Cellpose GUI with a GPU you make use of the [Alice](https://pubappslu.atlassian.net/wiki/spaces/HPCWIKI/pages/37519361/ALICE) cluster. 
+There are different ways to do this but one way is to setup a remote desktop session with RDP. Follow the  instructions on the Alice wiki [here](https://pubappslu.atlassian.net/wiki/spaces/HPCWIKI/pages/152731649/Getting+a+remote+desktop+on+ALICE+with+RDP#Connecting-from-Windows) . You can use the MobaXterm application to make it easier to setup the connection.   
+What we will do is pull an singularity container image with cellpose. This assures all required tools are available.   
+
+- Start a terminal.
+
+```
+#first ceate a folder to save the container image 
+
+mkdir ~/data1/containers/cellpose
+cd ~/data1/containers/cellpose
+
+#create an interactive slurm job
+salloc -p testing --gres=gpu:1
+
+#this is needed to find the online repository 
+apptainer remote add --no-login SylabsCloud cloud.sycloud.io
+
+# pull the image
+singularity pull --arch amd64 library://ez82/cellpose/4.0.6:latest
+```
+
+Next you can start the container 
+```
+singularity run --nv 4.0.6_latest.sif
+#now open cellpose
+cellpose
+#GUI opens 😀
+
+```
+The next time you can just start a slurm job and run the singularity image .
