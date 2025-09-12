@@ -71,6 +71,7 @@ nav:
     - microscopes/index.md
     - IBL Microscopes: microscopes/iblmicroscopes.md
     - LACDR Microscopes: microscopes/lacdrmicroscopes.md
+    - LIC Microscopes: microscopes/licmicroscopes.md
     - Manuals:
       - A1: microscopes/a1.md
       - DIC: microscopes/dic.md

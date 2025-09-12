@@ -6,7 +6,7 @@ The Cell Observatory houses state-of-the-art microscopes for various imaging app
 ### Leiden University
 - [LACDR Microscopes](lacdrmicroscopes.md) 
 - [IBL Microscopes](iblmicroscopes.md) 
-- LIC Microscopes
+- [LIC Microscopes](licmicroscopes.md)
 
 ### LUMC
 **LUMC Light Microscopy Facility**   
