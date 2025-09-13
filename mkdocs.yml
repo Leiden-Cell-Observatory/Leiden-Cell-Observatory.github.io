@@ -86,7 +86,7 @@ nav:
       - Metadata: omero/importing/metadata.md
       - HCS metadata: omero/importing/mihcsme.md
     - Downloading: omero/downloading.md
-    - Figures: omero/figure-creation.md
+    - OMERO.figure: omero/figure-creation.md
     - Data Analysis: 
       - omero/analysis.md
       - Fiji: omero/analysis/analysis_fiji.md
