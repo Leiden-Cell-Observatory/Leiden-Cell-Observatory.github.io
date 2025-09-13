@@ -18,6 +18,9 @@ To access OMERO, you need to be approved in the ULCN system. Please follow these
 2. Wait for approval from an [OMERO admin](index.md/#omero-administrators)
 3. Complete your first login (see below)
 
+!!! info "OMERO Groups"
+    After your account is set up, you'll be able to see all data in your assigned group. Contact a OMERO admin if you need access to additional groups.
+
 ## First Time Login
 
 > Important: Login must be done within the university network
@@ -77,5 +80,4 @@ For uploading data from your computer or downloading larger datasets, you'll nee
 4. Login using your ULCN credentials
 5. Now continue with [importing](importing.md) images or [downloading](downloading.md) data from OMERO
 
-!!! info "OMERO Groups"
-    After your account is set up, you'll be able to see all data in your assigned group. Contact a OMERO admin if you need access to additional groups.
+
