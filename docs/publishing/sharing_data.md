@@ -35,6 +35,10 @@ Submission to Zenodo is free of charge, but normally it is limited to 50GB per d
 
 - <https://help.zenodo.org/docs/deposit/>
 
+!!! tip "Sharing scripte with reviewers"
+    If you don't want that your scripts are published on Zenodo before publishing your paper, but still want the reviewers to see the intended submission, there is way to do so. First you create a draft version of your submission, which include all your files, without publishing it. Then it is possible to [create a public link](https://help.zenodo.org/docs/share/link-sharing/) to the draft so you can share this with the reviewers. You can also already request a DOI for the Zenodo submission to include in your paper.
+
+
 ### Sharing your image analysis code
 Common practice is to maintain your image analysis scripts and other code in a version control system such as GitHub. This allows you to share your code with others and to keep track of changes you make to your code over time.
 
