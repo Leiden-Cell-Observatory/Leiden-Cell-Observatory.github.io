@@ -4,9 +4,6 @@ Welcome to the Leiden Cell Observatory Wiki. This wiki provides information abou
 
 For general information please visit our website [Cell Observatory](https://www.universiteitleiden.nl/en/science/cell-observatory)
 
-!!! warning "Under Construction"
-    This documentation is still under construction. If you have any questions or need help let us know.
-
 ## What you can find here
 
 - **Microscopes**: Information about available microscopes, including specifications, use cases, and booking procedures.
