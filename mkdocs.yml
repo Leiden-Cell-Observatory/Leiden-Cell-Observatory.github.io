@@ -54,7 +54,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+  - md_in_html
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -116,14 +116,15 @@ nav:
   - Publishing:
     - publishing/index.md
     - Sharing data: publishing/sharing_data.md
-    - Methods: publishing/methods.md    
     - Citing Cell Observatory: publishing/citing.md
+    - Methods: publishing/methods.md    
+
     
   - Resources: resources.md
   - Contributing: contributing.md
   - Contact: contact.md
 
 copyright: >
-  © Copyright 2024 Leiden Cell Observatory, Leiden University.
+  © Copyright 2025 Leiden Cell Observatory, Leiden University.
   All content is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">
   Creative Commons Attribution 4.0 International License</a>.
