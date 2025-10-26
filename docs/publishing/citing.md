@@ -4,6 +4,10 @@
 
 When publishing research that uses Cell Observatory facilities, proper acknowledgment is important. The format of acknowledgment depends on which equipment and resources were used.
 
+We support the "Imaging Facility Guidelines for Acknowledgement" 
+
+<iframe src="https://docs.google.com/viewer?url=https://leiden-cell-observatory.github.io/files/Imaging%20Facility%20Guidelines%20for%20Acknowledgements_all%20logos.pdf&embedded=true" frameborder="0" width="60%" height="400"></iframe>
+
 ## Basic Acknowledgment Text
 
 For general use of the facility:
@@ -35,5 +39,5 @@ Here's how to combine multiple acknowledgments:
 
 ## Additional Requirements
 
-- Include relevant grant numbers
+- Include relevant grant numbers for specific equipment
 - Include technical details of equipment used in methods section
