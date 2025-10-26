@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Microscopes
 
 The Cell Observatory houses state-of-the-art microscopes for various imaging applications. They are located at different locations at the university and hosted by different institutes.
