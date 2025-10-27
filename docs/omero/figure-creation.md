@@ -8,7 +8,7 @@ A very helpful feature of OMERO is the ability to generate figure panels of your
 !!! note "Recommended Resources"
     - A user manual on OMERO.figure: <https://omero-guides.readthedocs.io/en/latest/figure/docs/omero_figure.html>  
     - An extensive tutorial on OMERO.figure: <https://downloads.openmicroscopy.org/help/pdfs/figure.pdf>
-    - You can also find video tutorials on how to build figures on the official OMERO website <https://www.openmicroscopy.org/omero/figure/>    
+    - You can also watch this video tutorials on how to build figures on the official OMERO website <https://www.openmicroscopy.org/omero/figure/>    
     
 
 ## Directly exporting a figure from OMERO.web
