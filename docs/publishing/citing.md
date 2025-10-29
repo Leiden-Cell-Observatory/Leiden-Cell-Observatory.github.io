@@ -33,10 +33,10 @@ Here's how to combine multiple acknowledgments:
 
 !!! info
 ## Required Citations
- Always include:
-1. The Cell Observatory facility acknowledgment
-2. Specific equipment grants used
-
+ Always include:   
+1. The Cell Observatory facility acknowledgment   
+2. Specific equipment grants used   
+ 
 ## Additional Requirements
 
 - Include relevant grant numbers for specific equipment
