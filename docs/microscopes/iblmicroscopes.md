@@ -106,7 +106,8 @@ The IBL Microscopy Unit is open for All students, PhD students, researchers of t
 - **Features**:  
     - Widefield fluorescence with Colibri system  
     - DAPI, GFP, and mCherry filters  
-- [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)  
+- [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)
+- [Manual](https://docs.google.com/document/d/1Hkg6ytxWitQKOcuHCCP5lrSYQ2invQoHhKjatEcWGR4/edit?tab=t.0#heading=h.xoy9rr7m130i)
 
 #### [Zeiss Imager M2 (DIC)](dic.md)  
 ![DIC Microscope](images/ibl/image6.jpeg)  
