@@ -1,9 +1,9 @@
 # IBL Microscopes  
-The Microscopy Unit houses, maintains and coordinates most of the microscopy equipment of the IBL. The available equipment ranges from conventional light and fluorescence microscopes, to confocal laser scanning and electron microscopes. In addition, infrastructure is available for histology, including embedding, sectioning and staining. We offer support in automated image analysis for microscopy data. The equipment is housed at two locations: on the 6th floor of the Sylvius building and at the Cell Observatory in the Gorlaeus Laboratory.
+The IBL Microscopy Unit houses, maintains and coordinates most of the microscopy equipment of the IBL. The available equipment ranges from conventional light and fluorescence microscopes, to confocal laser scanning and electron microscopes. In addition, infrastructure is available for histology, including embedding, sectioning and staining. We offer support in automated image analysis for microscopy data. The equipment is housed at two locations: on the 6th floor of the Sylvius building and at the Cell Observatory in the Gorlaeus Laboratory.
+
+The IBL Microscopy Unit is open for All students, PhD students, researchers of the Leiden university as well as guest workers.
 
 ## Confocal Microscopes  
-
-### Airyscan confocal microscope
 
 #### Zeiss Airyscan 900  
 ![Airyscan](images/ibl/image7.jpeg)  
@@ -81,7 +81,8 @@ The Microscopy Unit houses, maintains and coordinates most of the microscopy equ
 - **Location**: Cell Observatory GW2.24a  
 - **Specifications**:  
     - 120 kV transmission electron microscope  
-- [Book TEM](https://www.supersaas.com/schedule/IBL_TEM/TEM)  
+- [Book TEM](https://www.supersaas.com/schedule/IBL_TEM/TEM)
+- [Manual](https://docs.google.com/document/d/1l4E23-00msjVrZE2DB_XtmI4mU4Jmr4EOIJnU0bxxB4/edit?tab=t.0)
 
 ## Fluorescence Compound Microscopes  
 
