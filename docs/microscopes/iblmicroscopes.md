@@ -1,4 +1,5 @@
 # IBL Microscopes  
+The Microscopy Unit houses, maintains and coordinates most of the microscopy equipment of the IBL. The available equipment ranges from conventional light and fluorescence microscopes, to confocal laser scanning and electron microscopes. In addition, infrastructure is available for histology, including embedding, sectioning and staining. We offer support in automated image analysis for microscopy data. The equipment is housed at two locations: on the 6th floor of the Sylvius building and at the Cell Observatory in the Gorlaeus Laboratory.
 
 ## Confocal Microscopes  
 
