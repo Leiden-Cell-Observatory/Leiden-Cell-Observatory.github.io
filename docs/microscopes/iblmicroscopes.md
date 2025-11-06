@@ -1,7 +1,12 @@
 # IBL Microscopes  
 The IBL Microscopy Unit houses, maintains and coordinates most of the microscopy equipment of the IBL. The available equipment ranges from conventional light and fluorescence microscopes, to confocal laser scanning and electron microscopes. In addition, infrastructure is available for histology, including embedding, sectioning and staining. We offer support in automated image analysis for microscopy data. The equipment is housed at two locations: on the 6th floor of the Sylvius building and at the Cell Observatory in the Gorlaeus Laboratory.
 
-The IBL Microscopy Unit is open for All students, PhD students, researchers of the Leiden university as well as guest workers.
+Rules and Regulations
+The Microscopy Unit is open for all students, PhD students, researchers of the IBL as well as guest workers. However, the equipment can only be used after appropriate introduction and/or training. Please contact [Bas Laan](https://www.universiteitleiden.nl/en/staffmembers/bas-laan#tab-1) or [Joost Willemse](https://www.universiteitleiden.nl/en/staffmembers/joost-willemse) for an introduction on the equipment before starting experiments. It is not allowed to use any equipment before being properly trained.
+
+Booking of equipment is done via Supersaas, for access to the Confocal, SEM, TEM, and VAST you need to register. For stereo microscopes (Stereo_sylvius, Stereo_Gorlaeus), as well as Fluorescence widefield microscopes you can create a login yourself.
+
+Furthermore if you have questions about experimental set up feel free to walk into our office to discuss which type of microscopy, histology or image analysis you need. If a microscope malfunctions during operation or you are not sure how to use it properly, contact Bas Laan or Joost Willemse immediately.
 
 ## Confocal Microscopes  
 
