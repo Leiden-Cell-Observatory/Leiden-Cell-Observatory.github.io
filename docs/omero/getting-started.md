@@ -14,7 +14,7 @@ dateCreated: 2025-02-05T21:07:17.687Z
 
 To access OMERO, you need to be approved in the ULCN system. Please follow these steps:
 
-1. Fill in the registration form available at the Leiden Cell Observatory - [MS Teams](https://teams.microsoft.com/l/team/19%3ab81c0617db254f208231d04f388a3fe4%40thread.tacv2/conversations?groupId=4c025f8e-1bea-4e39-ac1c-0a33bb12d95b&tenantId=ca2a7f76-dbd7-4ec0-9108-6b3d524fb7c8)
+1. Fill in the [registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=dn8qytfbwE6RCGs9Uk-3yI5fAkzqGzlOrBwKM7sS2VtUMzQ3OVBHMUtUWDJSSFhSSVQxQkFUUUJFNyQlQCN0PWcu) 
 2. Wait for approval from an [OMERO admin](index.md/#omero-administrators)
 3. Complete your first login (see below)
 
