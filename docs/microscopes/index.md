@@ -29,4 +29,4 @@ Consider these factors when selecting a microscope:
 - Speed requirements
 - Sample sensitivity
 
-Please contact the facility staff for guidance on selecting the most appropriate system for your experiments.
+Please contact the [facility staff](https://leiden-cell-observatory.github.io/contact/) for guidance on selecting the most appropriate system for your experiments.
