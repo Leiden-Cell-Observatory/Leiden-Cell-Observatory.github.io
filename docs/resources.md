@@ -21,7 +21,7 @@ This section provides a curated collection of external resources for bioimage an
 - [BiA-PoL blog](https://biapol.github.io/blog/) - Blog with examples of image analysis pipelines
 - [Introduction to Bioimage Analysis](https://bioimagebook.github.io/) - Comprehensive guide to bioimage analysis
 - [Image analysis with Python](https://datacarpentry.github.io/image-processing/) - Data Carpentry lessons on image processing with Python
-- [Bio-image Analysis Notebooks](https://www.maths.dundee.ac.uk/biaimaging/) - Interactive notebooks for learning bioimage analysis
+- [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/) - Interactive notebooks for learning bioimage analysis
 
 ### Training Videos and Courses
 - [COBA: Center for Open Bioimage Analysis](https://www.youtube.com/@cobacenter) - Video tutorials on CellProfiler and image analysis
