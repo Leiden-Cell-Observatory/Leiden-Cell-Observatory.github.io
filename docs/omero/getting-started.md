@@ -39,16 +39,8 @@ To access OMERO, you need to be approved in the ULCN system. Please follow these
 
 ## Remote Access
 
-You can access OMERO from outside the university through different methods:   
-
-1. Remote Desktop Connection   
-
-    - Request access via [Remote Desktop Form](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/service?unid=706c4daac08c42378d32b7a1fa1582ab&from=bd8e572c-ca86-48d2-bd1b-55886728bdd8)   
-    - Connect to your university PC
-
-
-2. **EduVPN**
-    - Set up [EduVPN](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/knowledgeitem?unid=600a6741-6a77-415c-85e1-ffbbf4839755) for a secure connection, then you are able to access OMERO directly from your PC.
+OMERO is only accessible from within the Leiden University network. When outside the network or when using wifi via EduRoam you will need to use EduVPN to access Leiden University OMERO.    
+- Set up [EduVPN](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/knowledgeitem?unid=600a6741-6a77-415c-85e1-ffbbf4839755) for a secure connection, then you are able to access OMERO directly from your laptop or PC.
 
 ## OMERO.insight Installation
 
