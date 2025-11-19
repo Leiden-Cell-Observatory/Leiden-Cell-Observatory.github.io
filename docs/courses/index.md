@@ -13,7 +13,7 @@ For training on a specific microscopes please contact the operators.
 - [PhD course microscopy](phd-course.md])
 
 ## External microscopy courses
-An overview of all microscopy education in the Netherlands is assembled by the (NVvM)[https://www.microscopie.nl) and can be found [here](https://nvvm.microscopie.nl/courses-events/).   
+An overview of all microscopy education in the Netherlands is assembled by the [NVvM](https://www.microscopie.nl) and can be found [here](https://nvvm.microscopie.nl/courses-events/).   
 
 ## Self-education
 - [Zeiss Campus](https://zeiss-campus.magnet.fsu.edu/)   
