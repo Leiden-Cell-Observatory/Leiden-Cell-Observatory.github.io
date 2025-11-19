@@ -39,9 +39,4 @@ This section provides a curated collection of external resources for bioimage an
 ### Conference Events Resources
 - [ELMI Conference Database](https://elmi.embl.org/conferences-meetings/) - Database with microscopy conferences
 
-### Scientific Illustrations
-- [BioIcons](https://bioicons.com/) - Free biological icons and illustrations
-- [SciDraw](https://scidraw.io/) - Scientific illustration repository
-- [NIAID BioArt](https://bioart.niaid.nih.gov/) - Biomedical research images
-
 
