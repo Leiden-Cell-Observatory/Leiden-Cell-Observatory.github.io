@@ -118,8 +118,9 @@ nav:
     - Sharing data: publishing/sharing_data.md
     - Citing Cell Observatory: publishing/citing.md
     - Methods: publishing/methods.md    
-
-    
+  - Courses:
+    - courses/index.md
+    - PhD Course: courses/phd-course.md
   - Resources: resources.md
   - Contributing: contributing.md
   - Contact: contact.md
