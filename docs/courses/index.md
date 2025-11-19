@@ -9,7 +9,7 @@ For training on a specific microscopes please contact the operators.
 ## Courses
 
 - [BsC course Microscopy](https://studiegids.universiteitleiden.nl/search?for=courses&q=microscopie+en+imaging)   
-- [MsC course image analysis with applications in Microscopy][https://studiegids.universiteitleiden.nl/search?for=courses&ec-min=&ec-max=&q=microscopy)   
+- [MsC course image analysis with applications in Microscopy](https://studiegids.universiteitleiden.nl/search?for=courses&ec-min=&ec-max=&q=microscopy)   
 - [PhD course microscopy](phd-course.md])
 
 ## External microscopy courses
