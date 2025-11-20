@@ -1,3 +1,15 @@
+/* Announcement banner link styling */
+.md-banner__inner a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.md-banner__inner a:hover,
+.md-banner__inner a:focus {
+    color: #ffe680 !important;
+    text-decoration: underline;
+}
+
 /* Custom primary color for light mode */
 [data-md-color-scheme="default"] {
     --md-primary-fg-color: rgb(0, 17, 88);

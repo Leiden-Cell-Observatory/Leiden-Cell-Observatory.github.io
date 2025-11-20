@@ -102,7 +102,7 @@ Furthermore if you have questions about experimental set up feel free to walk in
     - Hamamatsu EMCCD  
     - Multi-well imaging capability  
 - [Book Observer](https://www.supersaas.com/schedule/IBL_FluoWide/Observer_widefield)  
-- [Detailed Multi-well Imaging Guide](widefield-observer.md)  
+- [Imaging Guide](widefield-observer.md)  
 
 #### Zeiss Axioscope A1  
 ![Zeiss Axioscope](images/ibl/image5.jpeg)  
@@ -125,7 +125,7 @@ Furthermore if you have questions about experimental set up feel free to walk in
     - Filter blocks for DAPI, CFP, GFP, YFP, mCherry, DIC  
     - Custom filter options available (consult Bas or Joost)  
 - [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)  
-- [Detailed DIC Manual](dic.md)   
+- [Manual](dic.md)   
 
 #### LEICA DM6000 (VAST)  
 ![VAST](images/ibl/image13.jpeg)  

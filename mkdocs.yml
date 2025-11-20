@@ -23,6 +23,7 @@ theme:
         name: Switch to dark mode
   features:
     - header.autohide
+    - announce.dismiss
     - content.code.copy
     - content.code.annotate 
     - navigation.instant
@@ -74,10 +75,6 @@ nav:
     - IBL Microscopes: microscopes/iblmicroscopes.md
     - LACDR Microscopes: microscopes/lacdrmicroscopes.md
     - LIC Microscopes: microscopes/licmicroscopes.md
-    - Manuals:
-      - A1: microscopes/a1.md
-      - DIC: microscopes/dic.md
-      - Widefield Observer: microscopes/widefield-observer.md
   - OMERO:
     - omero/index.md
     - Getting Started: omero/getting-started.md
@@ -89,25 +86,25 @@ nav:
       - HCS metadata: omero/importing/mihcsme.md
     - Downloading: omero/downloading.md
     - OMERO.figure: omero/figure-creation.md
-    - Data Analysis: 
-      - omero/analysis.md
+  - Image analysis:
+    - OMERO: 
       - Fiji: omero/analysis/analysis_fiji.md
       - Python: omero/analysis/analysis_python.md
       - R: omero/analysis/analysis_r.md
       - CellProfiler: omero/analysis/analysis_cellprofiler.md
-  - Image analysis:
     - analysis/index.md
     - CellProfiler: analysis/cellprofiler.md
-    - Fiji: analysis/Fiji.md
+    - Fiji: 
+      - analysis/Fiji.md
+      - TrackMate: analysis/Trackmate.md
     - QuPath: analysis/qupath.md
     - Ilastik: analysis/ilastik.md
     - GitHub: analysis/github.md
-    - CellPose: analysis/cellpose.md
-    - Micro-SAM: analysis/micro-sam.md
     - Python:
       - Conda: analysis/conda.md
       - napari: analysis/napari.md
-    - TrackMate: analysis/Trackmate.md
+      - CellPose: analysis/cellpose.md
+      - Micro-SAM: analysis/micro-sam.md
     - Computing:
       - computing/index.md
       - HPC: computing/hpc.md
@@ -120,8 +117,9 @@ nav:
     - Sharing data: publishing/sharing_data.md
     - Citing Cell Observatory: publishing/citing.md
     - Methods: publishing/methods.md    
-  - Courses:
+  - Training:
     - courses/index.md
+    - Activities: courses/activities.md
     - PhD Course: courses/phd-course.md
   - Resources: resources.md
   - Contributing: contributing.md
