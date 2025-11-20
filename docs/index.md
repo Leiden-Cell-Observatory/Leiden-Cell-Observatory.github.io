@@ -5,9 +5,11 @@ hide:
 
 # Welcome to the Leiden Cell Observatory
 
-Welcome to the Leiden Cell Observatory Wiki. This wiki provides information about the facility's microscopes, image analysis workflows, and image data management with OMERO.
+This wiki from the Leiden Cell Observatory provides information about the facility's microscopes, image analysis, and image data management with OMERO.
 
 For general information please visit our website [Cell Observatory](https://www.universiteitleiden.nl/en/science/cell-observatory)
+
+![Walk-in sessions Leiden Cell Observatory](files/walk-in1125.png){width=250px}
 
 ## What you can find here
 

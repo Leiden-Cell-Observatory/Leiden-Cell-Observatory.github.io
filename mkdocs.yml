@@ -4,6 +4,7 @@ edit_uri: edit/main/docs/
 repo_name: Leiden-Cell-Observatory.github.io
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -21,6 +22,7 @@ theme:
         icon: material/brightness-4
         name: Switch to dark mode
   features:
+    - header.autohide
     - content.code.copy
     - content.code.annotate 
     - navigation.instant
