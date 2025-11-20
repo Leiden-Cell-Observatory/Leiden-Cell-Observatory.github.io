@@ -34,7 +34,7 @@
 
     - <https://help.zenodo.org/docs/deposit/>
 
-    !!! tip "Sharing scripte with reviewers"
+    !!! tip "Sharing scripts with reviewers"
         If you don't want that your zenodo repository is published on Zenodo before your paper is accepted and published, but still want the reviewers to see the intended submission, there is way to do so.   
              1. First you create a draft version of your submission, which include all your files, without publishing it.    
              2. You can already request a DOI for the Zenodo submission to include in your paper. Later, upon publication your data can be found via this doi.    
