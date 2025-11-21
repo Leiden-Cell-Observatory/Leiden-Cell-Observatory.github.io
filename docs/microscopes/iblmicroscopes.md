@@ -22,7 +22,8 @@ Furthermore if you have questions about experimental set up feel free to walk in
     - One transmitted light channel  
     - Laser lines: 405, 488, 543, and 633 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
-- [View Instructions](https://video.leidenuniv.nl/media/t/1_40bwf016)  
+- [View Instructions](https://video.leidenuniv.nl/media/t/1_40bwf016)
+- [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_9trqntdm) 
 
 #### Nikon AX  
 - **Location**: Sylvius, Rm. 6.5.32  
@@ -32,7 +33,7 @@ Furthermore if you have questions about experimental set up feel free to walk in
     - One transmitted light channel  
     - Laser lines: 405, 458, 488, 514, 561, and 640 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
-- [View Instructions](https://docs.google.com/document/d/1WA_jrRacjnBlvwgtqMIcCbDBZY8Jgb3B/edit?usp=sharing&ouid=111029977919067307805&rtpof=true&sd=true)  
+- [Bekijk instructies](https://docs.google.com/document/d/1WA_jrRacjnBlvwgtqMIcCbDBZY8Jgb3B/edit?usp=sharing&ouid=111029977919067307805&rtpof=true&sd=true)  
 
 #### Leica TCS SPE  
 ![Leica SPE](images/ibl/image9.jpeg)  
@@ -44,7 +45,7 @@ Furthermore if you have questions about experimental set up feel free to walk in
       - One transmitted light channel  
       - Laser lines: 488, 532, and 633 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
-- [View Instructions (Dutch)](https://video.leidenuniv.nl/media/t/1_498i179v)  
+- [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_498i179v)  
 
 #### Leica SP8  
 ![Leica SP8](images/ibl/image10.jpeg)  
@@ -56,7 +57,8 @@ Furthermore if you have questions about experimental set up feel free to walk in
     - One transmitted light channel  
     - Laser lines: 405, 488, 532, and 633 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
-- [View Instructions](https://video.leidenuniv.nl/media/t/1_0bxcqbo8)  
+- [View Instructions](https://video.leidenuniv.nl/media/t/1_0bxcqbo8)
+- [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_h0gd81zb)
 
 #### Leica Stellaris 5  
 - **Location**: Cell Observatory GW 2.28  
@@ -66,7 +68,7 @@ Furthermore if you have questions about experimental set up feel free to walk in
     - One transmitted light channel  
     - Laser lines: 405, 488, 532, and 633 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)
-- [View Instructions](https://video.leidenuniv.nl/media/t/1_0h9esd33)
+- [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_0h9esd33)
 
 ## Electron Microscopes  
 
