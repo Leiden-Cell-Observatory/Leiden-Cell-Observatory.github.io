@@ -85,22 +85,25 @@ By following the steps below, you can install the required plugins and run your 
 
 1. Start automated analysis:  
     - Go to Plugins > LeidenUniv > OMERO > Run OMERO plugin  
-    - Choose plugin from menu:  
-   ![Plugin selection](analysis_fiji/images/analysis_fiji_08.png)
+   - Enter login credentials:
+   ![Login screen](analysis_fiji/images/OmeroOpenDataset_01.png)
 
-2. Provide credentials:  
-   ![Login for automated analysis](analysis_fiji/images/analysis_fiji_09.png)  
+2. Choose Plugin to run:  
+   ![Choose Plugin](analysis_fiji/images/OmeroOpenDataset_04.png)  
 
 3. Select dataset:  
-   ![Dataset selection for automation](analysis_fiji/images/analysis_fiji_10.png)  
+   ![Dataset selection for automation](analysis_fiji/images/OmeroOpenDataset_02.png)
 
-4. View results:  
+4. Optionally set plugin parameters
+
+5. View results after the plugin finishes:  
     - Results attach to image/dataset automatically  
-   ![Results attachment](analysis_fiji/images/analysis_fiji_11.png)  
-   ![Detailed results](analysis_fiji/images/analysis_fiji_12.png)  
+   ![Log](analysis_fiji/images/OmeroOpenDataset_05.png)  
+   ![Results attachment](analysis_fiji/images/OmeroOpenDataset_06.png)
+   ![Detailed results](analysis_fiji/images/OmeroOpenDataset_07.png)
 
 !!! info
-    If you need a plugin that isn't available, contact Joost Willemse for assistance.
+    If you need a plugin that isn't available, contact [Joost Willemse](mailto:jwillemse@biology.leidenuniv.nl) for assistance.
 
 ## Exporting Data
 
