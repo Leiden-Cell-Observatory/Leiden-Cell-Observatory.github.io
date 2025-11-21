@@ -1,0 +1,298 @@
+/* Announcement banner link styling */
+.md-banner__inner a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.md-banner__inner a:hover,
+.md-banner__inner a:focus {
+    color: #ffe680 !important;
+    text-decoration: underline;
+}
+
+/* Custom primary color for light mode */
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: rgb(0, 17, 88);
+    --md-primary-fg-color--light: rgb(51, 68, 139);
+    --md-primary-fg-color--dark: rgb(0, 10, 51);
+}
+
+/* Custom primary color for dark mode */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: rgb(0, 17, 88);
+    --md-primary-fg-color--light: rgb(51, 68, 139);
+    --md-primary-fg-color--dark: rgb(0, 10, 51);
+}
+
+/* Increase spacing below header */
+.md-header {
+    margin-bottom: 1.5rem;
+}
+
+/* Fix dark mode navigation text color */
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link:active {
+    color: #8cb4ff !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+    color: #a1c0ff !important;
+}
+
+/* Fix dark mode URL colors */
+[data-md-color-scheme="slate"] .md-content a {
+    color: #8cb4ff !important;
+}
+
+[data-md-color-scheme="slate"] .md-content a:hover {
+    color: #a1c0ff !important;
+}
+
+/* Header styles for light mode */
+[data-md-color-scheme="default"] {
+    --md-header-color: rgb(0, 51, 153);
+}
+
+[data-md-color-scheme="default"] .md-content h1 {
+    color: rgb(0, 17, 88); /* Keep H1 prominent */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="default"] .md-content h2 {
+    color: rgb(85, 85, 85); /* Darker gray, closer to text */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="default"] .md-content h3 {
+    color: rgb(102, 102, 102); /* Medium gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="default"] .md-content h4 {
+    color: rgb(119, 119, 119); /* Lighter gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="default"] .md-content h5 {
+    color: rgb(136, 136, 136); /* Even lighter gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="default"] .md-content h6 {
+    color: rgb(153, 153, 153); /* Lightest gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+/* Header styles for dark mode */
+[data-md-color-scheme="slate"] {
+    --md-header-color: rgb(102, 153, 255);
+}
+
+[data-md-color-scheme="slate"] .md-content h1 {
+    color: rgb(153, 185, 255); /* Keep H1 prominent */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-content h2 {
+    color: rgb(200, 200, 200); /* Light gray for dark mode */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-content h3 {
+    color: rgb(180, 180, 180); /* Slightly darker gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .md-content h4 {
+    color: rgb(160, 160, 160); /* Medium gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .md-content h5 {
+    color: rgb(140, 140, 140); /* Darker gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+}
+
+[data-md-color-scheme="slate"] .md-content h6 {
+    color: rgb(120, 120, 120); /* Darkest readable gray */
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+/* Logo positioning and sizing */
+.md-header__button.md-logo {
+    margin-top: 2;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Increase logo size */
+.md-header__button.md-logo img {
+    height: 2rem !important; /* Adjust this value as needed */
+    width: auto !important; /* Maintain aspect ratio */
+}
+
+/* GitHub-style section anchors */
+.headerlink {
+	--permalink-size: 16px; /* for font-relative sizes, 0.6em is a good choice */
+	--permalink-spacing: 4px;
+
+	width: calc(var(--permalink-size) + var(--permalink-spacing));
+	height: var(--permalink-size);
+	vertical-align: middle;
+	background-color: var(--md-default-fg-color--lighter);
+	background-size: var(--permalink-size);
+	mask-size: var(--permalink-size);
+	-webkit-mask-size: var(--permalink-size);
+	mask-repeat: no-repeat;
+	-webkit-mask-repeat: no-repeat;
+	visibility: visible;
+	display: none;
+	mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg>');
+	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg>');
+	cursor: pointer;
+}
+
+[id]:target .headerlink {
+	background-color: var(--md-typeset-a-color);
+}
+
+.headerlink:hover {
+	background-color: var(--md-accent-fg-color) !important;
+}
+
+/* Position the permalinks to the right of headers */
+@media screen and (min-width: 76.25em) {
+	h1, h2, h3, h4, h5, h6 {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		column-gap: 0.2em; /* fixes spaces in titles */
+	}
+
+	.headerlink {
+		margin-left: 8px !important;
+	}
+}
+
+/* Remove previous permalink styling */
+.md-typeset .headerlink::before {
+    content: none;
+}
+
+/* Hide the default hash/octothorp permalink symbol */
+.md-typeset .headerlink .md-icon {
+    display: none;
+}
+
+/* Show anchor on hover */
+.md-typeset h1:hover .headerlink,
+.md-typeset h2:hover .headerlink,
+.md-typeset h3:hover .headerlink,
+.md-typeset h4:hover .headerlink,
+.md-typeset h5:hover .headerlink,
+.md-typeset h6:hover .headerlink {
+    display: inline-block;
+}
+
+/* Anchor hover effect */
+.md-typeset .headerlink:hover,
+.md-typeset .headerlink:focus {
+    color: var(--md-accent-fg-color);
+}
+
+/* Remove left padding that was for left-positioned permalinks */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Reduce line spacing in lists */
+.md-typeset ul,
+.md-typeset ol {
+    line-height: 1.4; /* Reduce from default ~1.6 */
+}
+
+.md-typeset ul li,
+.md-typeset ol li {
+    margin-bottom: 0.25rem; /* Reduce space between list items */
+}
+
+/* For nested lists */
+.md-typeset ul ul,
+.md-typeset ol ol,
+.md-typeset ul ol,
+.md-typeset ol ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Optional: Even tighter spacing for compact lists */
+.md-typeset .compact-list {
+    line-height: 1.2;
+}
+
+.md-typeset .compact-list li {
+    margin-bottom: 0.1rem;
+}
+
+
+
+.md-grid {
+  max-width: 1600px; 
+
+
+}
