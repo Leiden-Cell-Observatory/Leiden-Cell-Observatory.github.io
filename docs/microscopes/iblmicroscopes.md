@@ -65,7 +65,8 @@ Furthermore if you have questions about experimental set up feel free to walk in
     - Three spectral detector channels for fluorescence (all GASPs)  
     - One transmitted light channel  
     - Laser lines: 405, 488, 532, and 633 nm  
-- [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
+- [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)
+- [View Instructions](https://video.leidenuniv.nl/media/t/1_0h9esd33)
 
 ## Electron Microscopes  
 
