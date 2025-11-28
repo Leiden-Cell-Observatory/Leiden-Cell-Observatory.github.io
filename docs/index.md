@@ -20,4 +20,4 @@ For general information please visit our website: [Cell Observatory](https://www
 [![Walk-in sessions Leiden Cell Observatory](files/walk-in1125.png){width=250px}](courses/activities.md)
 
 !!! info "Need Help?"
-    [Contact facility staff](contact.md) for guidance on selecting the most appropriate systems and support on data management and image analysis workflows for your experiments.
+    [Contact facility staff](contact.md) for guidance on selecting the most appropriate systems and support on data management and image analysis workflows for your experiments. Or email to our [general email address](mailto:cellobservatory@biology.leidenuniv.nl) and we will figure out who can be of most assistance to you
