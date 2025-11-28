@@ -10,7 +10,7 @@ For training on a specific microscopes please contact the operators.
 
 - [BsC course Microscopy](https://studiegids.universiteitleiden.nl/search?for=courses&q=microscopie+en+imaging){:target="_blank"}   
 - [MsC course image analysis with applications in Microscopy](https://studiegids.universiteitleiden.nl/search?for=courses&ec-min=&ec-max=&q=microscopy){:target="_blank"}   
-- [PhD course microscopy](phd-course.md])
+- [PhD course microscopy](phd-course.md)
 
 ## External microscopy courses
 An overview of all microscopy education in the Netherlands is assembled by the [NVvM](https://www.microscopie.nl) and can be found [here](https://nvvm.microscopie.nl/courses-events/){:target="_blank"}.   
