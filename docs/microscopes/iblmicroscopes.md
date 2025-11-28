@@ -44,7 +44,8 @@ Furthermore if you have questions about experimental set up feel free to walk in
       - One spectral detector channel for fluorescence  
       - One transmitted light channel  
       - Laser lines: 488, 532, and 633 nm  
-- [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
+- [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)
+- [View instructions](https://video.leidenuniv.nl/media/t/1_oszjreh6)  
 - [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_498i179v)  
 
 #### Leica SP8  
@@ -68,7 +69,9 @@ Furthermore if you have questions about experimental set up feel free to walk in
     - One transmitted light channel  
     - Laser lines: 405, 488, 532, and 633 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)
+- [View Instructions](https://video.leidenuniv.nl/media/t/1_zmj9vv7q)
 - [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_0h9esd33)
+
 
 ## Electron Microscopes  
 
