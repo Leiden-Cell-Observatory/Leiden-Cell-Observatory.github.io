@@ -17,7 +17,8 @@ OMERO supports most common microscopy formats including:
    - ImageXpress
    - (OME)-TIFF files
    - And many more through Bio-Formats
-   - Incucyte archive(s) - these files cannot imported into OMERO. We have developed a converter in Python which allows conversion of Incucyte exports to OME-TIFF or OME-zarr. You can find more information via the following link, but feel free to contact for help. [NL-Bioimaging/biomero-converter](https://github.com/NL-BioImaging/biomero-converter )
+   - Tiff files EVOS microscope - some exported datasets from the EVOS microscope give issues when importing into OMERO. Please reach out so we can help you to resolve the issue.
+   - - Incucyte archive(s) - these files cannot imported into OMERO. We have developed a converter in Python which allows conversion of Incucyte exports to OME-TIFF or OME-zarr. You can find more information via the following link, but feel free to contact for help. [NL-Bioimaging/biomero-converter](https://github.com/NL-BioImaging/biomero-converter )
 
 ## Import Guidelines
 
