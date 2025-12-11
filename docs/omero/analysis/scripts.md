@@ -2,6 +2,10 @@
 
 OMERO scripts allows to modify, organize your image data directly on OMERO. These scripts are run from OMERO.web.
 
+[![alt text](scripts/scripts_menu.png){width=250px}]
+
+In the menu you can find both the official scripts provided by OMERO (folder `omero`) and custom scripts from Leiden University (folder `user`).
+
 ## Official OMERO.scripts
 The official documentation can be found here: https://omero-scripts.readthedocs.io/en/stable/
 
@@ -72,3 +76,9 @@ The official documentation can be found here: https://omero-scripts.readthedocs.
 
     ### Move Annotations
     Moves annotations (tags, key-value pairs, comments) from images to their parent wells. Useful for organizing plate-based data by consolidating image-level annotations at the well level, with options to remove original annotations.
+
+=== "User"
+    
+    [![alt text](scripts/scripts_menu_user.png){width=250px}]   
+    ### Dataset to Plate Choose Start position   
+    This script is a modification from the `Dataset To Plate` script. It allows you to define a start position (i.e. you did not use the top rows or columns of you plate).
