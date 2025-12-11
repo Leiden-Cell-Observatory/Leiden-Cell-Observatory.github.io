@@ -1,0 +1,20 @@
+# {{ name }}
+
+!!! info "Quick Details"
+    **Microscope Type:** {{ microscope_type }}  
+    **Institute:** {{ institute }}  
+    **Location:** {{ location }}
+
+{% if institute == "LACDR" %}
+For more information about LACDR microscopes, see [LACDR Microscopes](../lacdrmicroscopes.md).
+{% elif institute == "IBL" %}
+For more information about IBL microscopes, see [IBL Microscopes](../iblmicroscopes.md).
+{% elif institute == "LIC" %}
+For more information about LIC microscopes, see [LIC Microscopes](../licmicroscopes.md).
+{% endif %}
+
+---
+
+!!! question "Need Help?"
+    Contact the facility staff for booking and training on this microscope.
+    See our [Contact page](../contact.md) for more information.
