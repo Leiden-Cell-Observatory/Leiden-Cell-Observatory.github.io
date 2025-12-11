@@ -69,7 +69,6 @@ The official documentation can be found here: https://omero-scripts.readthedocs.
     **Images From ROIs**  
        Extracts regions defined by rectangular ROIs from images and creates new images from those regions. Can generate either Z-stacks (one tile per ROI) or full 5D images cropped to ROI dimensions.
 
-
-
     **Move Annotations**  
        Moves annotations (tags, key-value pairs, comments) from images to their parent wells. Useful for organizing plate-based data by consolidating image-level annotations at the well level, with options to remove original annotations.
+
