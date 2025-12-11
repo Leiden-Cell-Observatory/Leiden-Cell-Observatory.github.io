@@ -18,13 +18,13 @@ The official documentation can be found here: https://omero-scripts.readthedocs.
 
 === "Annotation"
 
-    The annotation scripts can be useful for organizing image metadata on OMERO. A walktrough of how to use them can be found [here](https://omero-guides.readthedocs.io/en/latest/scripts/docs/walkthrough.html).   
+    The annotation scripts can be useful for organizing image metadata by Key-Pair values on OMERO. A walktrough of how to use the different scripts can be found [here](https://omero-guides.readthedocs.io/en/latest/scripts/docs/walkthrough.html).   
        
     ### Convert KeyVal namespace
     Converts the namespace of key-value pair annotations on OMERO objects. Can update existing annotations to a new namespace or merge multiple namespaces into one, with options to preserve or remove original annotations. Namespaces are used to group annotations. By default annotations added via OMERO.web end up in `openmicroscopy.org/omero/client/mapAnnotation`, but if you need more organization using namespaces is a good idea. This script can help with that.
 
     ### Export to CSV
-    Exports metadata (key-value pairs, tags, and ancestry information) from images, datasets, or projects to a CSV file. The generated CSV is attached to the source object for download and further analysis.
+    Exports metadata (key-value pairs, tags, and ancestry information) from images, datasets, or projects to a CSV file. The generated CSV is attached to the source object for download. It is possible to modify the metadata in the CSV file and import again.
 
     ### Import from CSV
     Imports key-value pairs and tags from a CSV file to annotate OMERO objects. Matches CSV rows to objects by name or ID, and can create new tags if needed.
