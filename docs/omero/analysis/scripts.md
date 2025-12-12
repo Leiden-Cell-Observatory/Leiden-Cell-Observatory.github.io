@@ -7,7 +7,7 @@ OMERO scripts allows to modify, organize your image data directly on OMERO. Thes
 In the menu you can find both the official scripts provided by OMERO (folder `omero`) and custom scripts from Leiden University (folder `user`).
 
 ## Official OMERO.scripts
-The official documentation can be found here: https://omero-scripts.readthedocs.io/en/stable/
+The official documentation can be found at [omero-scripts.readthedocs.io](https://omero-scripts.readthedocs.io/en/stable/)
 
 === "Analysis"
 
