@@ -1,0 +1,50 @@
+# {{ name|default('Microscope') }}
+
+{% if photo %}![{{ name }}]({{ photo }}){% endif %}
+
+## Overview
+- **Location:** {{ location|default('N/A') }}
+- **Institute:** {{ institute|default('N/A') }}
+- **Microscope Type:** {{ microscope_type|default('N/A') }}
+- **Specialists:** {{ specialists|default('N/A') }}
+
+{% if booking_link_url %}
+- **Booking:** [Link]({{ booking_link_url }}){:target="_blank"}
+{% endif %}
+
+{% if manual %}
+- **Manual:** {{ manual }}
+{% endif %}
+
+{% if video_url %}
+## 
+[Watch video instructions]({{ video_url }}){:target="_blank"}
+{% endif %}
+---
+<div class="grid cards" markdown>
+-   ## Capabilities
+    - **Inverted:** {{ 'Yes' if inverted else 'No' if inverted is not none else 'N/A' }}
+    - **Temperature Control:** {{ 'Yes' if temperature_control else 'No' if temperature_control is not none else 'N/A' }}
+    - **CO₂ Control:** {{ 'Yes' if co2_control else 'No' if co2_control is not none else 'N/A' }}
+    - **O₂ Control:** {{ 'Yes' if o2_control else 'No' if o2_control is not none else 'N/A' }}
+    - **Automated Stage:** {{ 'Yes' if automated_stage else 'No' if automated_stage is not none else 'N/A' }}
+
+-   ## Optics & Detection
+    {% if illumination %}- **Illumination:** {{ illumination }}{% endif %}
+    {% if detectors %}- **Detectors:** {{ detectors }}{% endif %}
+    {% if objectives %}- **Objectives:** {{ objectives }}{% endif %}
+    {% if emission_filters %}- **Emission Filters:** {{ emission_filters }}{% endif %}
+
+
+-   ## Typical Use
+    {% if applications %}- **Applications:** {{ applications }}{% endif %}
+    {% if samples %}- **Sample Types:** {{ samples }}{% endif %}
+
+</div>
+
+{% if related_microscopes and related_microscopes|length > 0 %}
+---
+
+
+[View all microscopes](../../microscope_overview.md)
+{% endif %}
