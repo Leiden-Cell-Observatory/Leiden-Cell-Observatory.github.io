@@ -125,6 +125,15 @@ nav:
   - Contributing: contributing.md
   - Contact: contact.md
 
+<<<<<<< Updated upstream
+=======
+plugins:
+  - gen-files:
+      scripts:
+        - scripts/generate_microscopes.py  # or any other name or path
+#  - literate-nav:
+#      nav_file: microscopes/SUMMARY.md        
+>>>>>>> Stashed changes
 copyright: >
   © Copyright 2025 Leiden Cell Observatory, Leiden University.
   All content is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">
