@@ -18,16 +18,15 @@ jobs:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
 
-
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache 
-
-
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
-
+      - run: pip install mkdocs-material mkdocs-gen-files mkdocs-literate-nav jinja2 requests python-dotenv
 
       - run: mkdocs gh-deploy --force
+        env:
+          BASEROW_API_TOKEN: ${{ secrets.BASEROW_API_TOKEN }}
+          BASEROW_TABLE_ID: ${{ secrets.BASEROW_TABLE_ID }}

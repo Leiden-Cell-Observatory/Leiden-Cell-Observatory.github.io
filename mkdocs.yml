@@ -73,7 +73,6 @@ nav:
   - Home: index.md
   - Microscopes:
     - microscopes/index.md
-    - Overview (All): microscope_overview.md  # <- Add this line for generated overview
     - IBL Microscopes: microscopes/iblmicroscopes.md
     - LACDR Microscopes: microscopes/lacdrmicroscopes.md
     - LIC Microscopes: microscopes/licmicroscopes.md
@@ -127,6 +126,12 @@ nav:
   - Contributing: contributing.md
   - Contact: contact.md
 
+plugins:
+  - gen-files:
+      scripts:
+        - scripts/generate_microscopes.py  # or any other name or path
+  - literate-nav:
+      nav_file: microscopes/SUMMARY.md        
 copyright: >
   © Copyright 2025 Leiden Cell Observatory, Leiden University.
   All content is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">
