@@ -5,11 +5,11 @@ hide:
 
 # Leiden Cell Observatory Wiki
 
-Welcome to the **Cell Observatory** — the advanced microscopy facility of **Leiden University**.
+Welcome to the **Leiden Cell Observatory** — the advanced microscopy facility of **Leiden University**.
 
-This wiki provides documentation for the Cell Observatory's microscopy systems, image analysis workflows, and data management infrastructure using OMERO.
+This wiki provides documentation for the Leiden Cell Observatory's microscopy systems, image analysis workflows, and data management infrastructure using OMERO.
 
-For general facility information, visit our main website: [Cell Observatory](https://www.universiteitleiden.nl/en/science/cell-observatory){:target="_blank"}
+For general facility information, visit our main website: [Leiden Cell Observatory](https://www.universiteitleiden.nl/en/science/cell-observatory){:target="_blank"}
 
 ## What you can find here
 
