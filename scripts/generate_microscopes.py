@@ -153,7 +153,12 @@ def generate_page(microscope, related_microscopes=None):
 
 def generate_index(microscopes):
     """Generate overview page"""
-    content = """# Microscope Overview
+    content = """---
+search:
+  exclude: true
+---
+
+# Microscope Overview
 
 This page provides a complete list of all microscopes available across the Leiden Cell Observatory facilities.
 
@@ -299,6 +304,7 @@ try:
     # Generate navigation file
     print("\nGenerating navigation...")
     with mkdocs_gen_files.open("microscopes/SUMMARY.md", "w") as nav_file:
+        nav_file.write("---\nsearch:\n  exclude: true\n---\n\n")
         nav_file.writelines(nav.build_literate_nav())
     
     print("\n✓ All done!")

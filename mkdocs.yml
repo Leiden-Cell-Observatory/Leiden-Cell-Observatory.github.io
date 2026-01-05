@@ -127,6 +127,7 @@ nav:
   - Contact: contact.md
 
 plugins:
+  - search
   - gen-files:
       scripts:
         - scripts/generate_microscopes.py  # or any other name or path
