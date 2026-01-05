@@ -151,3 +151,6 @@ For example, to link to a section with the heading "Setting Up Your Environment"
 ```markdown
 [Link to setup section](#setting-up-your-environment)
 ```
+## Microscope documentation
+
+The microscope information pages are automatically generated using the `mkdocs-gen-files` plugin. On building the site the script defined in `mkdocs.yml` . This pulls the latest data of the microscopes from our Baserow database.
