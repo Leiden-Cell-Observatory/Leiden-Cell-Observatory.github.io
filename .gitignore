@@ -5,3 +5,4 @@
 .pixi
 *.egg-info
 .env
+.cache
