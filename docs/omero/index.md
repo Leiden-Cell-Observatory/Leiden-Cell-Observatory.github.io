@@ -7,7 +7,7 @@ By using OMERO to organize the imaging data together with experimental and imagi
 
 ### OMERO Administrators
 
-[Contact](..\contact) any of the following administrators for registration and OMERO-related questions:
+[Contact](../contact.md) any of the following administrators for registration and OMERO-related questions:
 
 - Joost Willemse (IBL)
 - Sylvia Le Dévédec (LACDR)

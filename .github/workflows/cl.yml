@@ -24,7 +24,7 @@ jobs:
           path: .cache 
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-gen-files mkdocs-literate-nav jinja2 requests python-dotenv
+      - run: pip install mkdocs-material[imaging] mkdocs-gen-files mkdocs-literate-nav jinja2 requests python-dotenv
 
       - run: mkdocs gh-deploy --force
         env:

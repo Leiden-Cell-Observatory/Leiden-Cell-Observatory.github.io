@@ -120,7 +120,7 @@ Furthermore if you have questions about experimental set up feel free to walk in
 - [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)
 - [Manual](https://docs.google.com/document/d/1Hkg6ytxWitQKOcuHCCP5lrSYQ2invQoHhKjatEcWGR4/edit?tab=t.0#heading=h.xoy9rr7m130i)
 
-#### [Zeiss Imager M2 (DIC)](dic.md)  
+#### Zeiss Imager M2 (DIC)  
 ![DIC Microscope](images/ibl/image6.jpeg)  
 
 - **Location**: Sylvius, Rm. 6.5.35  
@@ -131,7 +131,7 @@ Furthermore if you have questions about experimental set up feel free to walk in
     - Filter blocks for DAPI, CFP, GFP, YFP, mCherry, DIC  
     - Custom filter options available (consult Bas or Joost)  
 - [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)  
-- [Manual](dic.md)   
+
 
 #### LEICA DM6000 (VAST)  
 ![VAST](images/ibl/image13.jpeg)  
