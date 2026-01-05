@@ -30,7 +30,7 @@
     --md-typeset-a-color: rgb(130, 170, 255);
     
     /* Custom background color for dark mode */
-    --md-default-bg-color: rgb(46, 48, 62);
+    /* --md-default-bg-color: rgb(46, 48, 62); */
 }
 
 /* Increase spacing below header */
