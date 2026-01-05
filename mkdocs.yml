@@ -68,6 +68,7 @@ extra:
 extra_css:
   - assets/custom.css
 
+
 nav:
   - Home: index.md
   - Microscopes:
