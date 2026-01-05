@@ -9,6 +9,7 @@ OMERO.insight is the primary tool for importing data. This client is:
 
 - Pre-installed on all microscope PC's
 - Available for download on computers (Windows, Mac, Linux): <https://www.openmicroscopy.org/omero/downloads>
+- Check [here](importing/microscope-files.md) how to upload specific file-types.
 
 ## Basic Import Workflow
 
@@ -20,7 +21,7 @@ OMERO.insight is the primary tool for importing data. This client is:
         - **Study:** A specific research question within the investigation
         - **Assay:** A specific assay or analysis within the study
 
-    ![ISA model](importing/images/importing_01.png)
+    ![ISA model](importing/images/importing_01.png){: style="height:450px"}   
     ///caption
     The ISA data model (adapted from Sansone et al. (2012)) 
     ///

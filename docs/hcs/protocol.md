@@ -29,7 +29,7 @@ This protocol is based on CellProfiler version 4.2.5 in combination with the WMC
 
     === "Files you need"
         1. `ND2` file with your images
-        2. MIHCSME file (metadata file) - [Read more here](../../omero/importing/mihcsme.md)
+        2. MIHCSME file (metadata file) - [Read more here](../omero/importing/mihcsme.md)
 
 ## Step 1: Fill Out MIHCSME File
 
@@ -75,10 +75,9 @@ This protocol is based on CellProfiler version 4.2.5 in combination with the WMC
     11. Click Export.
 
 Files **without** time points:   
-![alt text](images/image1.png)
+![alt text](images/image1.png)   
 Files **with** timepoints: (notice extra dimension)   
 ![alt text](images/image2.png)
-![alt text](image.png)
 
 ## Step 3: Segmentation of Nuclei   
 

@@ -7,7 +7,7 @@ By using OMERO to organize the imaging data together with experimental and imagi
 
 ### OMERO Administrators
 
-Contact any of the following administrators for registration and OMERO-related questions:
+[Contact](..\contact) any of the following administrators for registration and OMERO-related questions:
 
 - Joost Willemse (IBL)
 - Sylvia Le Dévédec (LACDR)
@@ -24,7 +24,7 @@ Contact any of the following administrators for registration and OMERO-related q
 
 ## Getting Started
 
-1. [Getting Started](getting-started.md) - Set up your account and learn the basics
+1. [Account setup](getting-started.md) - Set up your account and learn the basics
 2. [Importing Data](importing.md) - Learn how to upload your microscopy data
 3. [Downloading Data](downloading.md) - Access your data from OMERO
 4. [Figure Creation](figure-creation.md) - Generate figures for publication

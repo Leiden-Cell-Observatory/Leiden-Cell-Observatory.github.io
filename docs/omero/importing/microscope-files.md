@@ -10,22 +10,29 @@ Below you can find guidelines for importing common microscopy file types of our 
 
 OMERO supports most common microscopy formats including:
 
-   - Nikon ND2
-   - Zeiss LSM and CZI
-   - Leica LIF
+   - Nikon `.nd2`
+   - Zeiss `.lsm` and `.czi`
+   - Leica `.lif`
+   - Imaris  `.ics` e.g. from the Dragon Spinning disc confocal
+   - ImageXpress
    - (OME)-TIFF files
    - And many more through Bio-Formats
+   - Tiff files EVOS microscope - Some exported datasets from the EVOS microscope give issues when importing into OMERO. Please reach out so we can help you to resolve the issue.
+   - Incucyte archive(s) - These files cannot imported into OMERO directly. If you like to import incycyte data into OMERO files need to be converted. We have developed a converter in Python which allows conversion of Incucyte archives in to OME-TIFF or OME-ZARR. You can find more information via the following link, but feel free to ask for help. [NL-Bioimaging/biomero-converter](https://github.com/NL-BioImaging/biomero-converter )
 
 ## Import Guidelines
 
 ### Nikon ND2 Files
-Nikon files can be uploaded directly, however when dealing in high-content screening data, it is recommended to split the ND2 files into individual wells before uploading. You can find the details how to work with ND2 files in the [HCS Data Structure](hcs-data.md#pre-processing-of-nikon-data) guide.
+Nikon files can be uploaded directly using OMERO.insight, however when dealing in high-content screening data, it is recommended to split the ND2 files into individual wells before uploading. You can find the details how to work with ND2 files in the [HCS Data Structure](hcs-data.md#pre-processing-of-nikon-data) guide.
 
 ### Zeiss Files
 Zeiss .CZI and .LSM (old Zeiss microscope format) can be uploaded directly to OMERO.
 
-## Leica Files
-Leica .lif files can be uploaded directly to OMERO.
+## Leica LIF Files
+Leica .lif files can be uploaded directly to OMERO. LIF files containing multiple microscope images are splitted as separated OMERO images automatically.
+
+## Imaris ICS
+These files can be uploaded directly via OMERO.insight. Often you will get multiple OMERO images at different 'resolution-levels' in OMERO. Make sure to keep the highest (original) resolution images, you can remove the low resolution images if you don't need them. 
 
 ### ImageXpress
 Data from the ImageXpress microscope are stored in a database at the microscope. For proper importing to OMERO into plate format the data needs to be exported from the database. Check the instructions [here](hcs-data.md#pre-processing-of-imagexpress-data).

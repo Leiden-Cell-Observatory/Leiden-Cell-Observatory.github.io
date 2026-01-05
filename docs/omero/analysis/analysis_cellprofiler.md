@@ -1,4 +1,4 @@
-# CellProfiler analyis with OMERO
+# CellProfiler analysis with OMERO
 
 In old versions of CellProfiler (Version 2) it was possible to directly work with images from OMERO in CellProfiler, but this is no longer available.    
 In future versions of CellProfiler a better integration with OMERO is planned. In the meantime, there are the following workflows to work with OMERO data in CellProfiler.

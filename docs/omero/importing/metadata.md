@@ -9,7 +9,7 @@ OMERO supports several types of metadata annotations:
 - Tags  
 - Key-value pairs  
 - Comments  
-- Files (attachements)
+- Files (attachments)
 - ROIs  
 
 ## Adding Metadata During Import

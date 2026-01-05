@@ -1,28 +1,34 @@
-# Welcome to the Leiden Cell Observatory
+---
+hide:
+  - toc
+---
 
-Welcome to the Leiden Cell Observatory Wiki. This wiki provides information about the facility's microscopes, image analysis workflows, and image data management with OMERO.
+# Leiden Cell Observatory Wiki
 
-For general information please visit our website [Cell Observatory](https://www.universiteitleiden.nl/en/science/cell-observatory)
+Welcome to the **Cell Observatory** — the advanced microscopy facility of **Leiden University**.
 
-!!! warning "Under Construction"
-    This documentation is still under construction. If you have any questions or need help let us know.
+This wiki provides documentation for the Cell Observatory's microscopy systems, image analysis workflows, and data management infrastructure using OMERO.
+
+For general facility information, visit our main website: [Cell Observatory](https://www.universiteitleiden.nl/en/science/cell-observatory){:target="_blank"}
 
 ## What you can find here
 
-- **Microscopes**: Information about available microscopes, including specifications, use cases, and booking procedures.
-- **Image Analysis**: Guidelines and workflows for analyzing microscopy data, including available software tools and best practices.
-- **OMERO**: Documentation on using OMERO for data storage, organization, and sharing.
-- **Publications**: Information on how to publish your microscopy data, including public data repositories and metadata standards. As well information on how to cite the Cell Observatory in your publications.
-- **Resources**: Links to additional resources, including training materials and software tools
+- **[Microscopes](microscopes/index.md)** — Technical specifications, applications, usage guidelines, and booking procedures for our microscopy systems.
 
-## Getting Started
+- **[Image Analysis](analysis/index.md)** — Analysis workflows, software tools, best practices for microscopy data.
 
-If you're new to the Cell Observatory:
+- **[OMERO](omero/index.md)** — Documentation on our OMERO infrastructure for organizing, storing, and sharing microscopy data.
 
-1. Check out the [Microscopes](microscopes/index.md) section to see what instruments are available
-2. Learn about data management in the [OMERO section](omero/index.md)
-3. Explore our [image analysis resources](analysis/index.md) to plan your data analysis workflow 
-4. Publishing your paper with microscopy data? Check out the [publication section](publishing/index.md).
+- **[Publishing & Data Sharing](publishing/index.md)** — Guidance on publishing microscopy data to public repositories, metadata standards, and how to cite the Cell Observatory in your publications.
 
-!!! info "Need Help?"
-    [Contact facility staff](contact.md) for guidance on selecting the most appropriate systems and support on data management and image analysis workflows for your experiments.
+- **[Resources](resources/index.md)** — Training materials, software tools, and additional learning resources.
+
+## Getting support
+
+!!! info "Contact us"
+    
+    Need help selecting the right microscopy system or support with image analysis and data management? 
+    
+    **Contact the facility staff:** [Contact information](contact.md)
+    
+    **General enquiries:** [cellobservatory@biology.leidenuniv.nl](mailto:cellobservatory@biology.leidenuniv.nl)

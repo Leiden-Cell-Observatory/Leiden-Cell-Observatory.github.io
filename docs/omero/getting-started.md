@@ -14,7 +14,7 @@ dateCreated: 2025-02-05T21:07:17.687Z
 
 To access OMERO, you need to be approved in the ULCN system. Please follow these steps:
 
-1. Fill in the registration form available at the Leiden Cell Observatory - [MS Teams](https://teams.microsoft.com/l/team/19%3ab81c0617db254f208231d04f388a3fe4%40thread.tacv2/conversations?groupId=4c025f8e-1bea-4e39-ac1c-0a33bb12d95b&tenantId=ca2a7f76-dbd7-4ec0-9108-6b3d524fb7c8)
+1. Fill in the [registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=dn8qytfbwE6RCGs9Uk-3yI5fAkzqGzlOrBwKM7sS2VtUMzQ3OVBHMUtUWDJSSFhSSVQxQkFUUUJFNyQlQCN0PWcu) 
 2. Wait for approval from an [OMERO admin](index.md/#omero-administrators)
 3. Complete your first login (see below)
 
@@ -39,16 +39,8 @@ To access OMERO, you need to be approved in the ULCN system. Please follow these
 
 ## Remote Access
 
-You can access OMERO from outside the university through different methods:   
-
-1. Remote Desktop Connection   
-
-    - Request access via [Remote Desktop Form](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/service?unid=706c4daac08c42378d32b7a1fa1582ab&from=bd8e572c-ca86-48d2-bd1b-55886728bdd8)   
-    - Connect to your university PC
-
-
-2. **EduVPN**
-    - Set up [EduVPN](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/knowledgeitem?unid=600a6741-6a77-415c-85e1-ffbbf4839755) for a secure connection, then you are able to access OMERO directly from your PC.
+OMERO is only accessible from within the Leiden University network. When outside the network or when using wifi via EduRoam you will need to use EduVPN to access Leiden University OMERO.    
+- Set up [EduVPN](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/detail/knowledgeitem?unid=600a6741-6a77-415c-85e1-ffbbf4839755) for a secure connection, then you are able to access OMERO directly from your laptop or PC.
 
 ## OMERO.insight Installation
 
@@ -58,7 +50,7 @@ For uploading data from your computer or downloading larger datasets, you'll nee
 2. Request installation:
 
       - Submit a [software request](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/serviceflow?unid=12e20347d517424a9c47edd22da4e9cc&from=a06b2d1a-e4da-49b9-ba8a-41117a176176&openedFromService=true), or
-      - Request a [semi-managed account](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/serviceflow?unid=2c19d2f22cde4c509ff4958b173a2fba&from=b62ab85e-2bd2-4b36-9ba7-d85f263ac5db&openedFromService=true)
+      - Request a [Admin by request account](https://helpdesk.universiteitleiden.nl/tas/public/ssp/content/serviceflow?unid=2c19d2f22cde4c509ff4958b173a2fba&from=b62ab85e-2bd2-4b36-9ba7-d85f263ac5db&openedFromService=true)
 
 ### Configuring OMERO.insight
 

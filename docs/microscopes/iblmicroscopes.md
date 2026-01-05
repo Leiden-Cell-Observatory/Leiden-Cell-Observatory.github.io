@@ -1,8 +1,14 @@
 # IBL Microscopes  
+The IBL Microscopy Unit houses, maintains and coordinates most of the microscopy equipment of the IBL. The available equipment ranges from conventional light and fluorescence microscopes, to confocal laser scanning and electron microscopes. In addition, infrastructure is available for histology, including embedding, sectioning and staining. We offer support in automated image analysis for microscopy data. The equipment is housed at two locations: on the 6th floor of the Sylvius building and at the Cell Observatory in the Gorlaeus Laboratory.
+
+**Rules and Regulations**
+The Microscopy Unit is open for all students, PhD students, researchers of the IBL as well as guest workers. However, the equipment can only be used after appropriate introduction and/or training. Please contact [Bas Laan](https://www.universiteitleiden.nl/en/staffmembers/bas-laan#tab-1) or [Joost Willemse](https://www.universiteitleiden.nl/en/staffmembers/joost-willemse) for an introduction on the equipment before starting experiments. It is not allowed to use any equipment before being properly trained.
+
+Booking of equipment is done via [Supersaas](https://www.supersaas.com/), for access to the microscopes you need to [register](https://www.supersaas.com/form/CellObservatory/Registration). 
+
+Furthermore if you have questions about experimental set up feel free to walk into our office to discuss which type of microscopy, histology or [image analysis](https://leiden-cell-observatory.github.io/analysis/) you need. If a microscope malfunctions during operation or you are not sure how to use it properly, contact [Bas Laan](https://www.universiteitleiden.nl/en/staffmembers/bas-laan#tab-1) or [Joost Willemse](https://www.universiteitleiden.nl/en/staffmembers/joost-willemse) immediately.
 
 ## Confocal Microscopes  
-
-### Airyscan confocal microscope
 
 #### Zeiss Airyscan 900  
 ![Airyscan](images/ibl/image7.jpeg)  
@@ -16,7 +22,8 @@
     - One transmitted light channel  
     - Laser lines: 405, 488, 543, and 633 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
-- [View Instructions](https://video.leidenuniv.nl/media/t/1_40bwf016)  
+- [View Instructions](https://video.leidenuniv.nl/media/t/1_40bwf016)
+- [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_9trqntdm) 
 
 #### Nikon AX  
 - **Location**: Sylvius, Rm. 6.5.32  
@@ -26,7 +33,7 @@
     - One transmitted light channel  
     - Laser lines: 405, 458, 488, 514, 561, and 640 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
-- [View Instructions](https://docs.google.com/document/d/1WA_jrRacjnBlvwgtqMIcCbDBZY8Jgb3B/edit?usp=sharing&ouid=111029977919067307805&rtpof=true&sd=true)  
+- [Bekijk instructies](https://docs.google.com/document/d/1WA_jrRacjnBlvwgtqMIcCbDBZY8Jgb3B/edit?usp=sharing&ouid=111029977919067307805&rtpof=true&sd=true)  
 
 #### Leica TCS SPE  
 ![Leica SPE](images/ibl/image9.jpeg)  
@@ -37,8 +44,9 @@
       - One spectral detector channel for fluorescence  
       - One transmitted light channel  
       - Laser lines: 488, 532, and 633 nm  
-- [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
-- [View Instructions (Dutch)](https://video.leidenuniv.nl/media/t/1_498i179v)  
+- [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)
+- [View instructions](https://video.leidenuniv.nl/media/t/1_oszjreh6)  
+- [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_498i179v)  
 
 #### Leica SP8  
 ![Leica SP8](images/ibl/image10.jpeg)  
@@ -50,7 +58,8 @@
     - One transmitted light channel  
     - Laser lines: 405, 488, 532, and 633 nm  
 - [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
-- [View Instructions](https://video.leidenuniv.nl/media/t/1_0bxcqbo8)  
+- [View Instructions](https://video.leidenuniv.nl/media/t/1_0bxcqbo8)
+- [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_h0gd81zb)
 
 #### Leica Stellaris 5  
 - **Location**: Cell Observatory GW 2.28  
@@ -59,7 +68,10 @@
     - Three spectral detector channels for fluorescence (all GASPs)  
     - One transmitted light channel  
     - Laser lines: 405, 488, 532, and 633 nm  
-- [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)  
+- [Book Confocal](https://www.supersaas.com/schedule/IBL_Confocal/Confocals)
+- [View Instructions](https://video.leidenuniv.nl/media/t/1_zmj9vv7q)
+- [Bekijk instructies](https://video.leidenuniv.nl/media/t/1_0h9esd33)
+
 
 ## Electron Microscopes  
 
@@ -80,7 +92,8 @@
 - **Location**: Cell Observatory GW2.24a  
 - **Specifications**:  
     - 120 kV transmission electron microscope  
-- [Book TEM](https://www.supersaas.com/schedule/IBL_TEM/TEM)  
+- [Book TEM](https://www.supersaas.com/schedule/IBL_TEM/TEM)
+- [Manual](https://docs.google.com/document/d/1l4E23-00msjVrZE2DB_XtmI4mU4Jmr4EOIJnU0bxxB4/edit?tab=t.0)
 
 ## Fluorescence Compound Microscopes  
 
@@ -95,7 +108,7 @@
     - Hamamatsu EMCCD  
     - Multi-well imaging capability  
 - [Book Observer](https://www.supersaas.com/schedule/IBL_FluoWide/Observer_widefield)  
-- [Detailed Multi-well Imaging Guide](widefield-observer.md)  
+- [Imaging Guide](widefield-observer.md)  
 
 #### Zeiss Axioscope A1  
 ![Zeiss Axioscope](images/ibl/image5.jpeg)  
@@ -104,7 +117,8 @@
 - **Features**:  
     - Widefield fluorescence with Colibri system  
     - DAPI, GFP, and mCherry filters  
-- [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)  
+- [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)
+- [Manual](https://docs.google.com/document/d/1Hkg6ytxWitQKOcuHCCP5lrSYQ2invQoHhKjatEcWGR4/edit?tab=t.0#heading=h.xoy9rr7m130i)
 
 #### [Zeiss Imager M2 (DIC)](dic.md)  
 ![DIC Microscope](images/ibl/image6.jpeg)  
@@ -117,7 +131,7 @@
     - Filter blocks for DAPI, CFP, GFP, YFP, mCherry, DIC  
     - Custom filter options available (consult Bas or Joost)  
 - [Book Widefield](https://www.supersaas.com/schedule/IBL_FluoWide/Fluorescence_widefield)  
-- [Detailed DIC Manual](dic.md)   
+- [Manual](dic.md)   
 
 #### LEICA DM6000 (VAST)  
 ![VAST](images/ibl/image13.jpeg)  

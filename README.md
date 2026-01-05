@@ -126,6 +126,13 @@ You can link to other pages within your wiki using relative paths:
 [Link to a page in a different section](../../different-section/page.md)
 ```
 
+## Adding announcement header
+To add an announcement to the website modify `overrides/main.html' and add this block:   
+```html
+{% block announce %}
+🔬 <a href="https://leiden-cell-observatory.github.io/courses/activities/">Leiden Cell Observatory Walk-in sessions on OMERO and Image Analysis support</a>
+{% endblock %}
+```
 ## Linking to specific sections
 
 You can link to specific headings within a page using anchor links (hashtags):
