@@ -55,6 +55,20 @@ def extract_value(field_data, is_file=False):
         return ', '.join(values) if values else 'N/A'
     return str(field_data)
 
+def extract_boolean(field_data):
+    """Extract boolean value from Baserow field"""
+    if field_data is None:
+        return None
+    if isinstance(field_data, bool):
+        return field_data
+    # Sometimes booleans come as strings
+    if isinstance(field_data, str):
+        if field_data.lower() in ('true', '1', 'yes'):
+            return True
+        if field_data.lower() in ('false', '0', 'no'):
+            return False
+    return None
+
 def sanitize_filename(name):
     """Convert name to valid filename"""
     if not name or name == 'N/A':
@@ -95,11 +109,11 @@ def generate_page(microscope, related_microscopes=None):
     specialists = extract_value(microscope.get('field_5930821'))
     microscope_type = extract_value(microscope.get('field_5930783'))
     booking_link_url = extract_value(microscope.get('field_6299627'))
-    inverted = extract_value(microscope.get('field_5930784'))
-    temperature_control = extract_value(microscope.get('field_5930785'))
-    co2_control = extract_value(microscope.get('field_5930786'))
-    o2_control = extract_value(microscope.get('field_5930787'))
-    automated_stage = extract_value(microscope.get('field_5930788'))
+    inverted = extract_boolean(microscope.get('field_5930784'))
+    temperature_control = extract_boolean(microscope.get('field_5930785'))
+    co2_control = extract_boolean(microscope.get('field_5930786'))
+    o2_control = extract_boolean(microscope.get('field_5930787'))
+    automated_stage = extract_boolean(microscope.get('field_5930788'))
     detectors = extract_value(microscope.get('field_5930789'))
     illumination = extract_value(microscope.get('field_5931199'))
     objectives = extract_value(microscope.get('field_5995733'))

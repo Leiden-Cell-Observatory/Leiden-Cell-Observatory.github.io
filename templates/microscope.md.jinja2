@@ -28,11 +28,11 @@ search:
 ---
 <div class="grid cards" markdown>
 -   ## Capabilities
-    - **Inverted:** {{ 'Yes' if inverted else 'No' if inverted is not none else 'N/A' }}
-    - **Temperature Control:** {{ 'Yes' if temperature_control else 'No' if temperature_control is not none else 'N/A' }}
-    - **CO₂ Control:** {{ 'Yes' if co2_control else 'No' if co2_control is not none else 'N/A' }}
-    - **O₂ Control:** {{ 'Yes' if o2_control else 'No' if o2_control is not none else 'N/A' }}
-    - **Automated Stage:** {{ 'Yes' if automated_stage else 'No' if automated_stage is not none else 'N/A' }}
+    - **Inverted:** {{ 'Yes' if inverted == true else 'No' if inverted == false else 'N/A' }}
+    - **Temperature Control:** {{ 'Yes' if temperature_control == true else 'No' if temperature_control == false else 'N/A' }}
+    - **CO₂ Control:** {{ 'Yes' if co2_control == true else 'No' if co2_control == false else 'N/A' }}
+    - **O₂ Control:** {{ 'Yes' if o2_control == true else 'No' if o2_control == false else 'N/A' }}
+    - **Automated Stage:** {{ 'Yes' if automated_stage == true else 'No' if automated_stage == false else 'N/A' }}
 
 -   ## Optics & Detection
     {% if illumination %}- **Illumination:** {{ illumination }}{% endif %}
