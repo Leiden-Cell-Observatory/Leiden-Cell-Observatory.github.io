@@ -64,20 +64,26 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Leiden-Cell-Observatory
+      target: _blank
     - icon: material/home
       link: https://www.universiteitleiden.nl/en/science/cell-observatory
+      target: _blank
 
 extra_css:
   - assets/custom.css
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+  - javascripts/microscope-table.js
 
 
 nav:
   - Home: index.md
   - Microscopes:
     - microscopes/index.md
-    - IBL Microscopes: microscopes/iblmicroscopes.md
-    - LACDR Microscopes: microscopes/lacdrmicroscopes.md
-    - LIC Microscopes: microscopes/licmicroscopes.md
+    - Browse by Category: microscopes/microscope_overview.md
+    - General Information: microscopes/info.md
   - OMERO:
     - omero/index.md
     - Getting Started: omero/getting-started.md
@@ -137,6 +143,6 @@ plugins:
 #  - literate-nav:
 #      nav_file: microscopes/SUMMARY.md        
 copyright: >
-  © Copyright 2025 Leiden Cell Observatory, Leiden University.
+  © Copyright 2025-2026 Leiden Cell Observatory, Leiden University.
   All content is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">
   Creative Commons Attribution 4.0 International License</a>.

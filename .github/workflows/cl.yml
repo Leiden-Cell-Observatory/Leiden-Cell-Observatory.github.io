@@ -2,6 +2,7 @@ name: ci
 
 on:
   push:
+  repository_dispatch:  
 permissions:
   contents: write
 jobs:

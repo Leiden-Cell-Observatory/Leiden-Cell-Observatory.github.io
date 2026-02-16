@@ -1,0 +1,57 @@
+---
+hide:
+  - toc
+  - path
+---
+
+# Microscopes
+
+The Cell Observatory houses state-of-the-art microscopes for various imaging applications. They are located at different locations at the university and hosted by different institutes.
+
+[:material-view-grid: Browse by Category](microscope_overview.md){ .md-button } [:material-table: Explore microscope database](https://baserow.io/public/grid/oGrkNUBEQGqCGMolgGFjjBQYcDqQZ3wMWnmmiV8g5IM){ .md-button target="_blank" }
+
+<div class="microscope-filter-bar">
+  <div class="search-wrapper">
+    <input type="search" id="microscope-search" placeholder="Search microscopes..." />
+    <button id="microscope-clear" type="button" aria-label="Clear search">&times;</button>
+  </div>
+  <span id="result-count"></span>
+</div>
+
+<div id="microscope-filters">
+  <div class="filter-group">
+    <span class="filter-group-label">Type:</span>
+    {% for t in types %}
+    <span class="filter-chip" data-category="type" data-value="{{ t }}">{{ t }}</span>
+    {% endfor %}
+  </div>
+  <div class="filter-group">
+    <span class="filter-group-label">Institute:</span>
+    {% for inst in institutes %}
+    <span class="filter-chip" data-category="institute" data-value="{{ inst }}">{{ inst }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+<table id="mic-data-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Institute</th>
+      <th>Type</th>
+      <th>Location</th>
+      <th>Applications</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for mic in microscopes %}
+    <tr data-type="{{ mic.microscope_type | lower }}" data-institute="{{ mic.institute | lower }}">
+      <td><a href="../mic_pages/{{ mic.slug }}/">{{ mic.name }}</a></td>
+      <td>{{ mic.institute }}</td>
+      <td><span class="mic-type mic-type--{{ mic.microscope_type | lower | replace(' ', '-') }}">{{ mic.microscope_type }}</span></td>
+      <td>{{ mic.location }}</td>
+      <td>{{ mic.applications }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

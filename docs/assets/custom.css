@@ -213,7 +213,275 @@
 
 
 .md-grid {
-  max-width: 1600px; 
+  max-width: 1600px;
+}
 
+/* Microscope table page — reduce vertical space */
+.microscope-filter-bar ~ #microscope-filters,
+.microscope-filter-bar {
+  margin-top: 0;
+}
 
+/* Microscope table filter UI */
+.microscope-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.search-wrapper {
+  position: relative;
+  width: 300px;
+  max-width: 100%;
+}
+
+.search-wrapper input[type="search"] {
+  padding: 0.5rem 2rem 0.5rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.25rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font-size: 0.85rem;
+  width: 100%;
+  outline: none;
+}
+
+.search-wrapper input[type="search"]:focus {
+  border-color: var(--md-accent-fg-color);
+}
+
+/* Hide the browser's native clear button on search inputs */
+.search-wrapper input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#microscope-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.filter-group-label {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  margin-right: 0.15rem;
+}
+
+.filter-chip {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  border-radius: 1rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+  cursor: pointer;
+  font-size: 0.75rem;
+  transition: all 0.15s;
+  user-select: none;
+}
+
+.filter-chip:hover {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+.filter-chip.active {
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  border-color: var(--md-primary-fg-color);
+}
+
+#microscope-clear {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+  border: none;
+  background: transparent;
+  color: var(--md-default-fg-color--lighter);
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0.15rem 0.3rem;
+  border-radius: 50%;
+  transition: all 0.15s;
+}
+
+#microscope-clear:hover {
+  color: var(--md-accent-fg-color);
+  background: var(--md-default-fg-color--lightest);
+}
+
+#result-count {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  margin-left: auto;
+}
+
+/* Microscope type badges */
+.mic-type {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.65rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.mic-type--confocal {
+  background: #1565c0;
+  color: #fff;
+}
+
+.mic-type--widefield {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.mic-type--lightsheet {
+  background: #6a1b9a;
+  color: #fff;
+}
+
+.mic-type--stereo {
+  background: #e65100;
+  color: #fff;
+}
+
+.mic-type--electron-microscope {
+  background: #455a64;
+  color: #fff;
+}
+
+.mic-type--high-content {
+  background: #00838f;
+  color: #fff;
+}
+
+.mic-type--other {
+  background: #757575;
+  color: #fff;
+}
+
+/* Make the microscope table full width with compact rows */
+#mic-data-table {
+  width: 100%;
+}
+
+.md-typeset #mic-data-table td,
+.md-typeset #mic-data-table th {
+  padding: 4px 10px;
+}
+
+/* ── Microscope overview card grid ── */
+
+.microscope-overview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 900px) {
+  .microscope-overview {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .microscope-overview {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mic-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.25rem;
+  padding: 0.6rem 0.8rem;
+}
+
+.mic-card-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+[data-md-color-scheme="slate"] .mic-card-title {
+  color: var(--md-typeset-a-color);
+}
+
+.mic-card hr {
+  margin: 0.3rem 0;
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.mic-card-institute {
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin: 0.35rem 0 0.1rem;
+}
+
+.mic-card ul {
+  margin: 0.1rem 0 0.25rem;
+  padding-left: 1.1rem;
+  list-style: disc;
+}
+
+.mic-card li {
+  font-size: 0.72rem;
+  line-height: 1.4;
+  margin-bottom: 0.05rem;
+}
+
+.mic-card a {
+  font-size: 0.72rem;
+}
+
+/* ── Microscope page action buttons ── */
+[data-md-color-scheme="slate"] .md-typeset .md-button {
+  border-color: var(--md-primary-fg-color--light);
+  color: var(--md-typeset-a-color);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button:hover {
+  background: var(--md-primary-fg-color--light);
+  border-color: var(--md-primary-fg-color--light);
+  color: #fff;
+}
+
+/* ── Wavelength badges ── */
+.wavelength-badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+}
+
+.wl-badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.wl-badge--plain {
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
 }

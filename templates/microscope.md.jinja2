@@ -22,28 +22,54 @@ search:
 {% endif %}
 
 {% if video_url %}
-## 
+##
 [Watch video instructions]({{ video_url }}){:target="_blank"}
 {% endif %}
 ---
 <div class="grid cards" markdown>
--   ## Capabilities
+
+-   ### Capabilities
+
     - **Inverted:** {{ 'Yes' if inverted == true else 'No' if inverted == false else 'N/A' }}
     - **Temperature Control:** {{ 'Yes' if temperature_control == true else 'No' if temperature_control == false else 'N/A' }}
     - **CO₂ Control:** {{ 'Yes' if co2_control == true else 'No' if co2_control == false else 'N/A' }}
     - **O₂ Control:** {{ 'Yes' if o2_control == true else 'No' if o2_control == false else 'N/A' }}
     - **Automated Stage:** {{ 'Yes' if automated_stage == true else 'No' if automated_stage == false else 'N/A' }}
 
--   ## Optics & Detection
-    {% if illumination %}- **Illumination:** {{ illumination }}{% endif %}
-    {% if detectors %}- **Detectors:** {{ detectors }}{% endif %}
-    {% if objectives %}- **Objectives:** {{ objectives }}{% endif %}
-    {% if emission_filters %}- **Emission Filters:** {{ emission_filters }}{% endif %}
+-   ### Optics & Detection
+{%- if illumination_list %}
 
+    - **Illumination:** <span class="wavelength-badges">    
+    {%- for wl in illumination_list -%}
+    {%- if wl.color %}<span class="wl-badge" style="background:{{ wl.color }};color:{{ wl.text_color }}">{{ wl.label }}</span>{% else %}<span class="wl-badge wl-badge--plain">{{ wl.label }}</span>{% endif -%}
+    {%- endfor -%}
+    </span>
+{%- endif %}
+{%- if detectors %}
 
--   ## Typical Use
-    {% if applications %}- **Applications:** {{ applications }}{% endif %}
-    {% if samples %}- **Sample Types:** {{ samples }}{% endif %}
+    - **Detectors:** {{ detectors }}
+{%- endif %}
+
+{% if objectives_list -%}
+-   ### Objectives
+{% for obj in objectives_list %}
+    - {{ obj }}
+{%- endfor %}
+
+{% endif -%}
+
+{% if emission_filters_list -%}
+-   ### Emission Filters
+{% for ef in emission_filters_list %}
+    - {{ ef }}
+{%- endfor %}
+
+{% endif -%}
+
+-   ### Typical Use
+
+    - **Applications:** {{ applications|default('N/A') }}
+    - **Sample Types:** {{ samples|default('N/A') }}
 
 </div>
 

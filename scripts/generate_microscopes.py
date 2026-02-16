@@ -69,6 +69,85 @@ def extract_boolean(field_data):
             return False
     return None
 
+def wavelength_to_color(nm):
+    """Convert a wavelength in nm to an approximate RGB hex color."""
+    try:
+        nm = float(nm)
+    except (ValueError, TypeError):
+        return None
+    if nm < 380 or nm > 780:
+        return None
+    # peicewise linear approximation of the visible spectrum
+    if nm < 440:
+        r = -(nm - 440) / (440 - 380)
+        g = 0.0
+        b = 1.0
+    elif nm < 490:
+        r = 0.0
+        g = (nm - 440) / (490 - 440)
+        b = 1.0
+    elif nm < 510:
+        r = 0.0
+        g = 1.0
+        b = -(nm - 510) / (510 - 490)
+    elif nm < 580:
+        r = (nm - 510) / (580 - 510)
+        g = 1.0
+        b = 0.0
+    elif nm < 645:
+        r = 1.0
+        g = -(nm - 645) / (645 - 580)
+        b = 0.0
+    else:
+        r = 1.0
+        g = 0.0
+        b = 0.0
+    # intensity adjustment at the edges
+    if nm < 420:
+        factor = 0.3 + 0.7 * (nm - 380) / (420 - 380)
+    elif nm > 700:
+        factor = 0.3 + 0.7 * (780 - nm) / (780 - 700)
+    else:
+        factor = 1.0
+    r = int(round(255 * (r * factor) ** 0.8))
+    g = int(round(255 * (g * factor) ** 0.8))
+    b = int(round(255 * (b * factor) ** 0.8))
+    return f"#{r:02x}{g:02x}{b:02x}"
+
+
+def parse_illumination(raw):
+    """Parse illumination string into list of {label, color, text_color} dicts."""
+    if not raw or raw == 'N/A':
+        return []
+    import re
+    items = [s.strip() for s in raw.split(',')]
+    result = []
+    for item in items:
+        # Try to extract a leading number (wavelength)
+        m = re.match(r'^(\d{3,4})', item)
+        if m:
+            nm = int(m.group(1))
+            bg = wavelength_to_color(nm)
+            if bg:
+                # choose black or white text based on luminance
+                r, g, b = int(bg[1:3], 16), int(bg[3:5], 16), int(bg[5:7], 16)
+                lum = 0.299 * r + 0.587 * g + 0.114 * b
+                text_color = '#000' if lum > 140 else '#fff'
+                result.append({'label': item, 'color': bg, 'text_color': text_color})
+            else:
+                result.append({'label': item, 'color': None, 'text_color': None})
+        else:
+            result.append({'label': item, 'color': None, 'text_color': None})
+    return result
+
+
+def split_list(raw):
+    """Split a comma-separated string into a list of trimmed items."""
+    if not raw or raw == 'N/A':
+        return []
+    return [s.strip() for s in raw.split(',') if s.strip()]
+
+
 def sanitize_filename(name):
     """Convert name to valid filename"""
     if not name or name == 'N/A':
@@ -141,8 +220,11 @@ def generate_page(microscope, related_microscopes=None):
         'automated_stage': automated_stage,
         'detectors': detectors,
         'illumination': illumination,
+        'illumination_list': parse_illumination(illumination),
         'objectives': objectives,
+        'objectives_list': split_list(objectives),
         'emission_filters': emission_filters,
+        'emission_filters_list': split_list(emission_filters),
         'applications': applications,
         'samples': samples,
         'photo': photo if photo != 'N/A' else None,
@@ -166,84 +248,88 @@ def generate_page(microscope, related_microscopes=None):
     return filename, context
 
 def generate_index(microscopes):
-    """Generate overview page"""
-    content = """---
-search:
-  exclude: true
----
+    """Generate overview page with compact card grid"""
+    template = jinja_env.get_template('microscope_overview.md.jinja2')
 
-# Microscope Overview
-
-This page provides a complete list of all microscopes available across the Leiden Cell Observatory facilities.
-
----
-
-"""
-    
     # Define categories and their order
-    categories = {
-        'Confocal': [],
-        'Widefield': [],
-        'Stereo': [],
-        'Electron': [],
-        'Slide Scanner': [],
-        'High-Content': [],
-        'Lightsheet': [],
-        'Other': []
-    }
-    
+    category_order = [
+        'Confocal', 'Widefield', 'Stereo', 'Electron',
+        'Slide Scanner', 'High-Content', 'Lightsheet', 'Other'
+    ]
+    category_items = {cat: [] for cat in category_order}
+
     # Group microscopes by type
     for filename, data in microscopes:
         mtype = data['microscope_type']
         categorized = False
-        
-        # Check which category this microscope belongs to
-        for category in categories.keys():
+        for category in category_order:
             if category.lower() in mtype.lower():
-                categories[category].append((filename, data))
+                category_items[category].append((filename, data))
                 categorized = True
                 break
-        
-        # If no category matches, put in 'Other'
         if not categorized:
-            categories['Other'].append((filename, data))
-    
-    # Generate grid with all categories
-    content += '<div class="grid cards" markdown>\n\n'
-    
-    for category, items in categories.items():
+            category_items['Other'].append((filename, data))
+
+    # Build ordered dict: category -> institute -> [{name, slug, location}]
+    from collections import OrderedDict
+    categories = OrderedDict()
+    for category in category_order:
+        items = category_items[category]
         if not items:
             continue
-        
-        content += f"-   **{category} Microscopes**\n\n"
-        content += f"    ---\n\n"
-        
-        # Group by institute within each category
-        by_institute = {}
+
+        by_institute = OrderedDict()
         for filename, data in sorted(items, key=lambda x: (x[1]['institute'], x[1]['name'])):
             institute = data['institute']
             if institute not in by_institute:
                 by_institute[institute] = []
-            by_institute[institute].append((filename, data))
-        
-        # Output grouped by institute
-        for institute, inst_items in sorted(by_institute.items()):
-            content += f"    **{institute}**\n\n"
-            
-            for filename, data in inst_items:
-                name = data['name']
-                location = data['location']
-                content += f"    - [{name}](microscopes/mic_pages/{filename}) ({location})\n"
-            content += "\n"        
-        content += "\n"
-    
-    content += '</div>\n\n'
-    
-    # Use mkdocs_gen_files to write the index
-    with mkdocs_gen_files.open('microscope_overview.md', 'w') as f:
+            slug = filename.replace('.md', '') if filename else ''
+            by_institute[institute].append({
+                'name': data['name'],
+                'slug': slug,
+                'location': data['location'],
+            })
+        categories[category] = by_institute
+
+    content = template.render(categories=categories)
+
+    with mkdocs_gen_files.open('microscopes/microscope_overview.md', 'w') as f:
         f.write(content)
-    
+
     print(f"✓ Generated index")
+
+def generate_interactive_table(all_microscopes):
+    """Generate an interactive, filterable table page"""
+    template = jinja_env.get_template('microscope_table.md.jinja2')
+
+    # Collect unique types and institutes for filter chips
+    types = sorted(set(mic['category'] for mic in all_microscopes))
+    institutes = sorted(set(mic['institute'] for mic in all_microscopes if mic['institute'] != 'N/A'))
+
+    # Build microscope list with all needed fields
+    table_data = []
+    for mic in sorted(all_microscopes, key=lambda x: x['name']):
+        applications = extract_value(mic['raw_data'].get('field_5930806'))
+        slug = mic['filename'].replace('.md', '') if mic['filename'] else ''
+        table_data.append({
+            'name': mic['name'],
+            'slug': slug,
+            'institute': mic['institute'],
+            'location': mic['location'],
+            'microscope_type': mic['category'],
+            'applications': applications,
+        })
+
+    content = template.render(
+        microscopes=table_data,
+        types=types,
+        institutes=institutes,
+    )
+
+    with mkdocs_gen_files.open('microscopes/index.md', 'w') as f:
+        f.write(content)
+
+    print(f"✓ Generated interactive table (index)")
 
 # Main execution
 try:
@@ -310,11 +396,14 @@ try:
     print(f"\nGenerated {len(generated)} microscope pages")
     
     # Add overview page to navigation
-    nav["Microscopes", "Overview"] = "microscope_overview.md"
+    nav["Microscopes", "Overview"] = "microscopes/microscope_overview.md"
     
     print("\nGenerating overview page...")
     generate_index(generated)
-    
+
+    print("\nGenerating interactive table...")
+    generate_interactive_table(all_microscopes)
+
     # Generate navigation file
     print("\nGenerating navigation...")
     with mkdocs_gen_files.open("microscopes/SUMMARY.md", "w") as nav_file:

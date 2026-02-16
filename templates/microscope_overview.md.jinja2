@@ -1,0 +1,28 @@
+---
+hide:
+  - toc
+  - path
+search:
+  exclude: true
+---
+
+# Microscope Overview
+
+This page provides a complete list of all microscopes available across the Leiden Cell Observatory facilities.
+
+<div class="microscope-overview">
+{% for category, institutes in categories.items() %}
+  <div class="mic-card">
+    <div class="mic-card-title">{{ category }}</div>
+    <hr>
+    {% for institute, items in institutes.items() %}
+    <div class="mic-card-institute">{{ institute }}</div>
+    <ul>
+      {% for mic in items %}
+      <li><a href="../mic_pages/{{ mic.slug }}/">{{ mic.name }}</a> ({{ mic.location }})</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
