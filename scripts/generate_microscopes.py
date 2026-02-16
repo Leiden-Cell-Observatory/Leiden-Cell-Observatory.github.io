@@ -337,9 +337,6 @@ try:
     microscopes_data = fetch_microscopes()
     print(f"Found {len(microscopes_data)} microscopes")
     
-    # Create navigation object
-    nav = mkdocs_gen_files.Nav()
-    
     # First pass: extract all microscope data
     print("\nExtracting microscope data...")
     all_microscopes = []
@@ -389,15 +386,9 @@ try:
         result = generate_page(mic_data['raw_data'], related_microscopes=related)
         if result[0]:
             generated.append(result)
-            
-            # Add to navigation
-            nav["Microscopes", mic_data['category'], mic_data['institute'], mic_data['name']] = f"microscopes/mic_pages/{mic_data['filename']}"
-    
+
     print(f"\nGenerated {len(generated)} microscope pages")
-    
-    # Add overview page to navigation
-    nav["Microscopes", "Overview"] = "microscopes/microscope_overview.md"
-    
+
     print("\nGenerating overview page...")
     generate_index(generated)
 
@@ -408,7 +399,16 @@ try:
     print("\nGenerating navigation...")
     with mkdocs_gen_files.open("microscopes/SUMMARY.md", "w") as nav_file:
         nav_file.write("---\nsearch:\n  exclude: true\n---\n\n")
-        nav_file.writelines(nav.build_literate_nav())
+        # Static pages
+        nav_file.write("* [Microscopes](index.md)\n")
+        nav_file.write("* [Browse by Category](microscope_overview.md)\n")
+        nav_file.write("* [General Information](info.md)\n")
+        # Individual microscope pages grouped by category
+        for category in sorted(by_category.keys()):
+            mics = sorted(by_category[category], key=lambda m: m['name'])
+            nav_file.write(f"* {category}\n")
+            for mic in mics:
+                nav_file.write(f"    * [{mic['name']}](mic_pages/{mic['filename']})\n")
     
     print("\n✓ All done!")
     

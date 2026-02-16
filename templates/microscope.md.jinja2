@@ -5,7 +5,7 @@ search:
 
 # {{ name|default('Microscope') }}
 
-{% if photo %}![{{ name }}]({{ photo }}){% endif %}
+{% if photo %}![{{ name }}]({{ photo }}){width=60%}{% endif %}
 
 ## Overview
 - **Location:** {{ location|default('N/A') }}

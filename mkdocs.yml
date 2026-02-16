@@ -80,10 +80,7 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Microscopes:
-    - microscopes/index.md
-    - Browse by Category: microscopes/microscope_overview.md
-    - General Information: microscopes/info.md
+  - Microscopes: microscopes/
   - OMERO:
     - omero/index.md
     - Getting Started: omero/getting-started.md
@@ -140,8 +137,8 @@ plugins:
   - gen-files:
       scripts:
         - scripts/generate_microscopes.py  # or any other name or path
-#  - literate-nav:
-#      nav_file: microscopes/SUMMARY.md        
+  - literate-nav:
+      nav_file: SUMMARY.md
 copyright: >
   © Copyright 2025-2026 Leiden Cell Observatory, Leiden University.
   All content is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">
