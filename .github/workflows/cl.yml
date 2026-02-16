@@ -3,6 +3,7 @@ name: ci
 on:
   push:
   repository_dispatch:  
+    types: [baserow_update]
 permissions:
   contents: write
 jobs:
