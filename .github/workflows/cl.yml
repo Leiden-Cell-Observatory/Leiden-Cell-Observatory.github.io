@@ -4,6 +4,9 @@ on:
   push:
   repository_dispatch:  
     types: [baserow_update]
+concurrency:
+  group: deploy-site
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
