@@ -26,7 +26,7 @@ To access OMERO, you need to be approved in the ULCN system. Please follow these
 > Important: Login must be done within the university network
 <!-- {blockquote:.is-warning} -->
 
-1. Visit the [OMERO Web Portal](https://omeroweb.services.universiteitleiden.nl/)
+1. Visit the [OMERO Web Portal](https://omero.services.universiteitleiden.nl/)
 
 ![](getting-started/images/getting-started_01.png)
 
