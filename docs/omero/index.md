@@ -13,6 +13,7 @@ By using OMERO to organize the imaging data together with experimental and imagi
 - Joost Willemse (IBL)
 - Sylvia Le Dévédec (LACDR)
 - Amit Cherian (LIC)
+- Maarten Paul (LACDR)
 
 ## OMERO features
 
