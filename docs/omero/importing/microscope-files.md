@@ -4,7 +4,7 @@ Preferably upload your microscopy data in its original file format to OMERO. Thi
 Below you can find guidelines for importing common microscopy file types of our microscopes.
 
 !!! question "Questions?"
-      If you are still running into problems with uploading your data, or when you are not sure how to do it properly, please reach out to one of the OMERO admins for help!
+      If you are still running into problems with uploading your data, or when you are not sure how to do it properly, please reach out to one of the OMERO admins for help or drop your question in the OMERO issues Teams channel.
 
 ## Supported File Types
 
