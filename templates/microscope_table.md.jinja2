@@ -46,7 +46,7 @@ The Cell Observatory houses state-of-the-art microscopes for various imaging app
   <tbody>
     {% for mic in microscopes %}
     <tr data-type="{{ mic.microscope_type | lower }}" data-institute="{{ mic.institute | lower }}">
-      <td><a href="../mic_pages/{{ mic.slug }}/">{{ mic.name }}</a></td>
+      <td><a href="/mic_pages/{{ mic.slug }}/">{{ mic.name }}</a></td>
       <td>{{ mic.institute }}</td>
       <td><span class="mic-type mic-type--{{ mic.microscope_type | lower | replace(' ', '-') }}">{{ mic.microscope_type }}</span></td>
       <td>{{ mic.location }}</td>
