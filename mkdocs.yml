@@ -104,7 +104,7 @@ nav:
       - analysis/Fiji.md
       - TrackMate: analysis/Trackmate.md
     - QuPath: analysis/qupath.md
-    - Ilastik: analysis/ilastik.md
+    - ilastik: analysis/ilastik.md
     - GitHub: analysis/github.md
     - Python:
       - Conda: analysis/conda.md
