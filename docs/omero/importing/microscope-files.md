@@ -28,10 +28,10 @@ Nikon files can be uploaded directly using OMERO.insight, however when dealing i
 ### Zeiss Files
 Zeiss .CZI and .LSM (old Zeiss microscope format) can be uploaded directly to OMERO.
 
-## Leica LIF Files
+### Leica LIF Files
 Leica .lif files can be uploaded directly to OMERO. LIF files containing multiple microscope images are splitted as separated OMERO images automatically.
 
-## Imaris ICS
+### Imaris ICS
 These files can be uploaded directly via OMERO.insight. Often you will get multiple OMERO images at different 'resolution-levels' in OMERO. Make sure to keep the highest (original) resolution images, you can remove the low resolution images if you don't need them. 
 
 ### ImageXpress .JDCE
@@ -49,4 +49,5 @@ Data from the now deprecated ImageXpress microscope are stored in a database at 
    - Verify all dimensions imported correctly
    - Check channel settings
    - Confirm metadata transferred properly
+   - Convert images to a plate if needed
 
