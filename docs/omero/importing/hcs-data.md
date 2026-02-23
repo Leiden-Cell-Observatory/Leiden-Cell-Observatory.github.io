@@ -26,7 +26,7 @@ Screen
 2.  Go to ```File > Import/Export ND document > Split multipoints```.   
 3.  Write down a descriptive prefix (be as specific as possible) and select a folder where you want to store the nd2 documents. Click on ```[Split]```.   
 4.  Now you should have a ND2 file for every well (and if multiple sites were imaged, every wellsite). This is something the OMERO system does recognize.   
-5.  Continue now at "uploading the images".   
+5.  Continue now at "uploading the images". Subsequently you can convert the images to a plate using one of the [OMERO scripts](#conversion-from-dataset-to-plate) .
 
 ### Pre-processing of ImageXpress data
 
