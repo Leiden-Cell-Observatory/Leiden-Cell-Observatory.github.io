@@ -23,7 +23,7 @@ OMERO supports most common microscopy formats including:
 ## Import Guidelines
 
 ### Nikon ND2 Files
-Nikon files can be uploaded directly using OMERO.insight, however when dealing in high-content screening data, it is recommended to split the ND2 files into individual wells before uploading. You can find the details how to work with ND2 files in the [HCS Data Structure](hcs-data.md#pre-processing-of-nikon-data) guide.
+Nikon files can be uploaded directly using OMERO.insight, however when dealing in high-content screening data, it is recommended to split the ND2 files into individual wells before uploading, otherwise you might loose the information from which well the images were . You can find the details how to work with ND2 files in the [HCS Data Structure](hcs-data.md#pre-processing-of-nikon-data) guide.
 
 ### Zeiss Files
 Zeiss .CZI and .LSM (old Zeiss microscope format) can be uploaded directly to OMERO.
@@ -34,8 +34,11 @@ Leica .lif files can be uploaded directly to OMERO. LIF files containing multipl
 ## Imaris ICS
 These files can be uploaded directly via OMERO.insight. Often you will get multiple OMERO images at different 'resolution-levels' in OMERO. Make sure to keep the highest (original) resolution images, you can remove the low resolution images if you don't need them. 
 
-### ImageXpress
-Data from the ImageXpress microscope are stored in a database at the microscope. For proper importing to OMERO into plate format the data needs to be exported from the database. Check the instructions [here](hcs-data.md#pre-processing-of-imagexpress-data).
+### ImageXpress .HTD
+Data from the now deprecated ImageXpress microscope are stored in a database at the microscope. For proper importing to OMERO into plate format the data needs to be exported from the database. Check the instructions [here](hcs-data.md#pre-processing-of-imagexpress-data).
+
+### ImageXpress .JDCE
+Data from the new [ImageXpress HT.ai](../../microscopes/mic_pages/imagexpress-htai/) cannot be imported directly via OMERO.insight. One solution is to first convert the data to OME-TIFF before importing to OMERO. If you do so using the [NGFF Converter](https://www.glencoesoftware.com/products/ngff-converter/) metadata will be properly handled.
 
 ### TIFF Series
 - Keep sequential naming intact
