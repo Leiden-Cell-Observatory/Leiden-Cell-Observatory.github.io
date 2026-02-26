@@ -35,7 +35,7 @@ Leica .lif files can be uploaded directly to OMERO. LIF files containing multipl
 These files can be uploaded directly via OMERO.insight. Often you will get multiple OMERO images at different 'resolution-levels' in OMERO. Make sure to keep the highest (original) resolution images, you can remove the low resolution images if you don't need them. 
 
 ### ImageXpress .JDCE
-Data from the new [ImageXpress HT.ai](../../../microscopes/mic_pages/imagexpress-htai/) cannot be imported directly via OMERO.insight. One solution is to first convert the data to OME-TIFF before importing to OMERO. If you do so using the [NGFF Converter](https://www.glencoesoftware.com/products/ngff-converter/) metadata will be properly handled.
+Data from the new [ImageXpress HT.ai](../../microscopes/mic_pages/imagexpress-htai.md) cannot be imported directly via OMERO.insight. One solution is to first convert the data to OME-TIFF before importing to OMERO. If you do so using the [NGFF Converter](https://www.glencoesoftware.com/products/ngff-converter/) metadata will be properly handled.
 
 ### ImageXpress .HTD
 Data from the now deprecated ImageXpress microscope are stored in a database at the microscope. For proper importing to OMERO into plate format the data needs to be exported from the database. Check the instructions [here](hcs-data.md#pre-processing-of-imagexpress-data).

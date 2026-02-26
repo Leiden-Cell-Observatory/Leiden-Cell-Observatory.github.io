@@ -21,7 +21,7 @@ For general facility information, visit our main website: [Leiden Cell Observato
 
 - **[Publishing & Data Sharing](publishing/index.md)** — Guidance on publishing microscopy data to public repositories, metadata standards, and how to cite the Cell Observatory in your publications.
 
-- **[Resources](resources/index.md)** — Training materials, software tools, and additional learning resources.
+- **[Resources](resources.md)** — Training materials, software tools, and additional learning resources.
 
 ## Getting support
 
