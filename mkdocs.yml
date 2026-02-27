@@ -68,6 +68,8 @@ extra:
     - icon: material/home
       link: https://www.universiteitleiden.nl/en/science/cell-observatory
       target: _blank
+  analytics:
+    provider: custom
 
 extra_css:
   - assets/custom.css
