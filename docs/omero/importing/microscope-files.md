@@ -21,7 +21,7 @@ OMERO supports most common microscopy formats including:
    - Incucyte archive(s) - These files cannot imported into OMERO directly. If you like to import incycyte data into OMERO files need to be converted. We have developed a converter in Python which allows conversion of Incucyte archives in to OME-TIFF or OME-ZARR. You can find more information via the following link, but feel free to ask for help. [NL-Bioimaging/biomero-converter](https://github.com/NL-BioImaging/biomero-converter )
 
 !!! warning "Large images"
-      If your images are exceeding 3000x3000 pixels and are in a format that is not pyrmaidal (i.e. the file does not contain your images at different resolution levels) it      won't be shown properly in OMERO. In such case you have to convert the images to pyramidal OME-TIFF before you upload the files. Contact the OMERO-admins for support.
+      If your images are exceeding 3000x3000 pixels and are in a format that is not pyramidal (i.e. the file does not contain your images at different resolution levels) it      won't be shown properly in OMERO. In such case you have to convert the images to pyramidal OME-TIFF before you upload the files. Please contact the OMERO-admins for support.
 
 ## Import Guidelines
 
