@@ -49,5 +49,5 @@ Data from the now deprecated ImageXpress microscope are stored in a database at 
    - Verify all dimensions imported correctly
    - Check channel settings
    - Confirm metadata transferred properly
-   - Convert images to a plate if needed
+   - Convert images to a [plate](hcs-data#conversion-from-dataset-to-plate) if needed
 
