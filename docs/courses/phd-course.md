@@ -2,7 +2,8 @@
    
 This is a yearly event where we move in one week from the physics of light through the composition of the microscope, fluorescence microscopy and end up with some image analysis. All the lectures are followed by practicals to really put your obtained knowledge into practice.
 
-Sign-up for this years course (2026) here: https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=dn8qytfbwE6RCGs9Uk-3yI5fAkzqGzlOrBwKM7sS2VtUMlhMWkhCRksyRkI3VzBNUTdLSU9aSTBORCQlQCN0PWcu 
+Sign-up for this years course (2026) [here](https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=dn8qytfbwE6RCGs9Uk-3yI5fAkzqGzlOrBwKM7sS2VtUMlhMWkhCRksyRkI3VzBNUTdLSU9aSTBORCQlQCN0PWcu)
+
 The form closes on the 1st of april.
 
 ## Topics
