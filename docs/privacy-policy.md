@@ -23,7 +23,7 @@ The Leiden Cell Observatory is a shared research infrastructure of Leiden Univer
 
 ## Website analytics
 
-We use **Umami Analytics** to help us understand how visitors interact with our website so we can improve our content and services.
+We use [**Umami Analytics**](https://umami.is/) to help us understand how visitors interact with our website so we can improve our content and services.
 
 ### What Umami does
 
