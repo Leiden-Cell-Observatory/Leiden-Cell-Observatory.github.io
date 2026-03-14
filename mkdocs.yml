@@ -129,7 +129,8 @@ nav:
     - courses/index.md
     - Activities: courses/activities.md
     - PhD Course: courses/phd-course.md
-  - Resources: resources.md
+    - Photo Competition: courses/photocompetition.md
+    - Learning Resources: resources.md
   - Contributing: contributing.md
   - Contact: contact.md
 

@@ -485,3 +485,10 @@
   background: var(--md-default-fg-color--lightest);
   color: var(--md-default-fg-color);
 }
+
+/* ── Photo competition card descriptions ── */
+.photo-competition .md-typeset .grid.cards > ul > li p:not(:first-child):not(:last-child),
+.photo-competition .grid.cards > ul > li p:not(:first-child):not(:last-child) {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
