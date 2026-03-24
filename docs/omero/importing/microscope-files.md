@@ -43,6 +43,13 @@ Data from the new [ImageXpress HT.ai](../../microscopes/mic_pages/imagexpress-ht
 ### ImageXpress .HTD
 Data from the now deprecated ImageXpress microscope are stored in a database at the microscope. For proper importing to OMERO into plate format the data needs to be exported from the database. Check the instructions [here](hcs-data.md#pre-processing-of-imagexpress-data).
 
+### Evos TIFF files
+Some TIFF files from the EVOS microscope have errors in the metadata of the tiff files which causes issues when uploading the data to OMERO (details on the issue: https://forum.image.sc/t/setting-up-omero-server-for-one-lab/115053/27). The solution is to convert the TIFF files to proper TIFF files using a Fiji plugin we made:
+- Update your FIJI, make sure to activate the Leidenuniv plugin site.
+- With that installed you can use the plugin >Plugins>LeidenUniv>Omero>Convert Evos Tiffs
+- Select the root folder of the images you want to convert, the plugin will convert all tiffs within the folder and all its subfolders.
+- Hereafter data can be imported into OMERO as normal
+
 ### TIFF Series
 - Keep sequential naming intact
 - Avoid uploading TIFF files with separate channels as they won't be combined automatically in OMERO
