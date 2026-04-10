@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+title: Results 2025
 ---
 
 # Leiden Cell Observatory Photomicrograph Competition
