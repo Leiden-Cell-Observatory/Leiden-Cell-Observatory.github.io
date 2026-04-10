@@ -22,15 +22,23 @@ Members of the jury and the competition organizers are not eligible to participa
 Submissions must be based on microscopy or visualizations derived from microscopy data.
 Accepted examples include:
 •	light microscopy
+
 •	electron microscopy
+
 •	visualizations of microscopy datasets (such as segmentation or 3D renderings)
+
 o	Visualizations must remain scientifically meaningful and responsible representations of the data.
+
 Not permitted:
 •	macro photography
+
 •	AI-generated images
+
 •	images for which the submitter is not the original creator
+
 The submitter must be the original author of the data. In case of doubt, the jury may request access to the raw data.
 The jury reserves the right to reject submissions that do not meet these requirements.
+
 ## Submission requirements
 Each submission must:
 •	be of sufficient technical and visual quality
