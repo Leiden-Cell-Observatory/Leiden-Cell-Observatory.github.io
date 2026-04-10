@@ -2,12 +2,9 @@
 title: Photocompetition 2026
 ---
 
-# Photocompetition 2026
+# Van Leeuwenhoek Awards - Photocompetition 2026
 
 ## Rules
-
-# Van Leeuwenhoek Awards
-Leiden Micrograph Contest 2026
 
 The Van Leeuwenhoek Awards celebrate the power of microscopy to reveal the unseen. Named after Antonie van Leeuwenhoek, the “father of microbiology” and one of the first microscopist, the competition highlights the unique ability of imaging technologies to uncover hidden structures, patterns and processes that are fundamental to life and health.
 
@@ -21,7 +18,7 @@ The following rules outline the submission criteria, selection process and evalu
 Anyone with a demonstrable connection to the Leiden Bio Science Park may participate. This includes employees of companies located on the park, researchers from universities and knowledge institutions, and residents of the region.
 Members of the jury and the competition organizers are not eligible to participate.
 
-# What can be submitted
+## What can be submitted
 Submissions must be based on microscopy or visualizations derived from microscopy data.
 Accepted examples include:
 •	light microscopy
@@ -34,7 +31,7 @@ Not permitted:
 •	images for which the submitter is not the original creator
 The submitter must be the original author of the data. In case of doubt, the jury may request access to the raw data.
 The jury reserves the right to reject submissions that do not meet these requirements.
-# Submission requirements
+## Submission requirements
 Each submission must:
 •	be of sufficient technical and visual quality
 •	include:
@@ -44,11 +41,11 @@ o	information about the microscope or technique used
 Each participant may submit a maximum of three entries.
 Image processing or visualization techniques (such as contrast adjustment, false coloring, segmentation or 3D rendering) are allowed, provided they do not misrepresent the scientific content.
 Submissions must not contain identifiable patient information.
-# How to submit
+## How to submit
 Entries must be submitted via an online submission form (link).
 Submission deadline: 22 May.
 By submitting an entry, participants grant Leiden Bio Science Park, Leiden University and Leiden University Medical Center permission to use the image for exhibitions, communication and promotional purposes, with appropriate credit to the creator. Participants may also be contacted to provide additional scientific background information about their submission for use in science communication and outreach activities.
-# Selection procedure
+## Selection procedure
 1.	Pre-selection
 Submissions that do not comply with the rules will be excluded.
 2.	Anonymization
@@ -60,13 +57,13 @@ An external jury will review the longlist and create a ranked top 10.
 5.	Finalists
 The top 5 finalists will be informed under embargo and invited to attend the award ceremony.
 The longlist will not be made public.
-# Judging criteria
+## Judging criteria
 Entries will be evaluated based on:
 •	visual impact
 •	originality
 •	technical quality 
 •	scientific relevance
 In the event of equal evaluation, the jury’s decision will be final. No correspondence about the results will be entered into.
-# Award ceremony
+## Award ceremony
 The award ceremony will take place on 1st of July during the Dutch BioScience Week and will be open to the public.
 Winners will receive prizes (to be announced).
