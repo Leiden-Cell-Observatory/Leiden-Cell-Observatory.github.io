@@ -21,6 +21,7 @@ Members of the jury and the competition organizers are not eligible to participa
 ## What can be submitted
 Submissions must be based on microscopy or visualizations derived from microscopy data.
 Accepted examples include:
+
 •	light microscopy
 
 •	electron microscopy
@@ -30,6 +31,7 @@ Accepted examples include:
 o	Visualizations must remain scientifically meaningful and responsible representations of the data.
 
 Not permitted:
+
 •	macro photography
 
 •	AI-generated images
