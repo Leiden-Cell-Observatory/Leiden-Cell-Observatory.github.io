@@ -62,7 +62,7 @@ Submissions must not contain identifiable patient information.
 
 
 ## How to submit
-Entries must be submitted via an online submission form (https://forms.office.com/e/C7zPjTfCVw).
+Entries must be submitted via an online submission form [Form](https://forms.office.com/e/C7zPjTfCVw).
 Submission deadline: 22 May.
 By submitting an entry, participants grant Leiden Bio Science Park, Leiden University and Leiden University Medical Center permission to use the image for exhibitions, communication and promotional purposes, with appropriate credit to the creator. Participants may also be contacted to provide additional scientific background information about their submission for use in science communication and outreach activities.
 
