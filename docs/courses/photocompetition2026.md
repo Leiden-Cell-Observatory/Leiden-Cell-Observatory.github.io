@@ -27,9 +27,10 @@ Accepted examples include:
 
 •	electron microscopy
 
-•	visualizations of microscopy datasets (such as segmentation or 3D renderings)
+•	visualizations of microscopy datasets (such as segmentation or 3D renderings) - 
             Visualizations must remain scientifically meaningful and responsible representations of the data.
     
+
 
 Not permitted:
 
