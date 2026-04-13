@@ -23,22 +23,22 @@ Members of the jury and the competition organizers are not eligible to participa
 Submissions must be based on microscopy or visualizations derived from microscopy data.
 **Accepted examples include**:
 
-•	light microscopy
+•	Light microscopy
 
-•	electron microscopy
+•	Electron microscopy
 
-•	visualizations of microscopy datasets (such as segmentation or 3D renderings) - 
+•	Visualizations of microscopy datasets (such as segmentation or 3D renderings) - 
             Visualizations must remain scientifically meaningful and responsible representations of the data.
     
 
 
 **Not permitted**:
 
-•	macro photography
+•	Macro photography
 
 •	AI-generated images
 
-•	images for which the submitter is not the original creator
+•	Images for which the submitter is not the original creator
 
 The submitter must be the original author of the data. In case of doubt, the jury may request access to the raw data.
 The jury reserves the right to reject submissions that do not meet these requirements.
@@ -46,15 +46,15 @@ The jury reserves the right to reject submissions that do not meet these require
 ## Submission requirements
 **Each submission must**:
 
-•	be of sufficient technical and visual quality
+•	Be of sufficient technical and visual quality
 
-•	include:
+•	Include:
 
-1. a title
+1. A title
 
-2. a short description
+2. A short description
 
-3. information about the microscope or technique used
+3. Information about the microscope or technique used
 
 Each participant may submit a maximum of three entries.
 Image processing or visualization techniques (such as contrast adjustment, false coloring, segmentation or 3D rendering) are allowed, provided they do not misrepresent the scientific content.
@@ -84,13 +84,13 @@ The longlist will not be made public.
 ## Judging criteria
 Entries will be evaluated based on:
 
-•	visual impact
+•	Visual impact
 
-•	originality
+•	Originality
 
-•	technical quality 
+•	Technical quality 
 
-•	scientific relevance
+•	Scientific relevance
 
 In the event of equal evaluation, the jury’s decision will be final. No correspondence about the results will be entered into.
 
