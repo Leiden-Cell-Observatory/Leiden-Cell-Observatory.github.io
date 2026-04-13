@@ -29,7 +29,7 @@ Accepted examples include:
 
 •	visualizations of microscopy datasets (such as segmentation or 3D renderings)
 
-o	Visualizations must remain scientifically meaningful and responsible representations of the data.
+    Visualizations must remain scientifically meaningful and responsible representations of the data.
 
 Not permitted:
 
