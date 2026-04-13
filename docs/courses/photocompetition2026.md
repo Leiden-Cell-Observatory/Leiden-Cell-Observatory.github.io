@@ -23,22 +23,19 @@ Members of the jury and the competition organizers are not eligible to participa
 Submissions must be based on microscopy or visualizations derived from microscopy data.
 **Accepted examples include**:
 
-•	Light microscopy
+* Light microscopy
+* Electron microscopy
+* Visualizations of microscopy datasets (such as segmentation or 3D renderings)
 
-•	Electron microscopy
-
-•	Visualizations of microscopy datasets (such as segmentation or 3D renderings) - 
-            Visualizations must remain scientifically meaningful and responsible representations of the data.
+   Visualizations must remain scientifically meaningful and responsible representations of the data.
     
 
 
 **Not permitted**:
 
-•	Macro photography
-
-•	AI-generated images
-
-•	Images for which the submitter is not the original creator
+* Macro photography
+* AI-generated images
+* Images for which the submitter is not the original creator
 
 The submitter must be the original author of the data. In case of doubt, the jury may request access to the raw data.
 The jury reserves the right to reject submissions that do not meet these requirements.
@@ -46,15 +43,11 @@ The jury reserves the right to reject submissions that do not meet these require
 ## Submission requirements
 **Each submission must**:
 
-•	Be of sufficient technical and visual quality
-
-•	Include:
-
-1. A title
-
-2. A short description
-
-3. Information about the microscope or technique used
+* Be of sufficient technical and visual quality
+* Include:
+    1. A title
+    2. A short description
+    3. Information about the microscope or technique used
 
 Each participant may submit a maximum of three entries.
 Image processing or visualization techniques (such as contrast adjustment, false coloring, segmentation or 3D rendering) are allowed, provided they do not misrepresent the scientific content.
@@ -68,29 +61,34 @@ By submitting an entry, participants grant Leiden Bio Science Park, Leiden Unive
 
 
 ## Selection procedure
-1.	Pre-selection
-Submissions that do not comply with the rules will be excluded.
-2.	Anonymization
-Valid submissions will be numbered and forwarded to the jury without the author’s name.
-3.	Longlist
-A first jury, consisting of the facility managers of LUMC Light Microscopy Facility and the Cell Observatory, will compile a longlist of up to 40 images.
-4.	External jury
-An external jury will review the longlist and create a ranked top 10.
-5.	Finalists
-The top 5 finalists will be informed under embargo and invited to attend the award ceremony.
-The longlist will not be made public.
+1.	__Pre-selection__
+
+   Submissions that do not comply with the rules will be excluded.
+
+2.	__Anonymization__
+
+   Valid submissions will be numbered and forwarded to the jury without the author’s name.
+
+3.	__Longlist__
+
+  A first jury, consisting of the facility managers of LUMC Light Microscopy Facility and the Cell Observatory, will compile a longlist of up to 40 images.
+
+4.	__External jury__
+
+   An external jury will review the longlist and create a ranked top 10.
+
+5.	__Finalists__
+   The top 5 finalists will be informed under embargo and invited to attend the award ceremony.
+   The longlist will not be made public.
 
 
 ## Judging criteria
 Entries will be evaluated based on:
 
-•	Visual impact
-
-•	Originality
-
-•	Technical quality 
-
-•	Scientific relevance
+* Visual impact
+* Originality
+* Technical quality 
+* Scientific relevance
 
 In the event of equal evaluation, the jury’s decision will be final. No correspondence about the results will be entered into.
 
