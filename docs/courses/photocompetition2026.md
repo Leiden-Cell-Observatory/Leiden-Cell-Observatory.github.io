@@ -4,7 +4,7 @@ title: Photocompetition 2026
 
 # Van Leeuwenhoek Awards - Photocompetition 2026
 
-### Rules
+## Rules
 
 The Van Leeuwenhoek Awards celebrate the power of microscopy to reveal the unseen. Named after Antonie van Leeuwenhoek, the “father of microbiology” and one of the first microscopist, the competition highlights the unique ability of imaging technologies to uncover hidden structures, patterns and processes that are fundamental to life and health.
 
@@ -62,7 +62,7 @@ Submissions must not contain identifiable patient information.
 
 
 ## How to submit
-Entries must be submitted via an online submission form (link).
+Entries must be submitted via an online submission form (https://forms.office.com/e/C7zPjTfCVw).
 Submission deadline: 22 May.
 By submitting an entry, participants grant Leiden Bio Science Park, Leiden University and Leiden University Medical Center permission to use the image for exhibitions, communication and promotional purposes, with appropriate credit to the creator. Participants may also be contacted to provide additional scientific background information about their submission for use in science communication and outreach activities.
 
