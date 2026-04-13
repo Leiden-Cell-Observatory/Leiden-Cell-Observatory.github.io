@@ -4,7 +4,7 @@ title: Photocompetition 2026
 
 # Van Leeuwenhoek Awards - Photocompetition 2026
 
-## Rules
+### Rules
 
 The Van Leeuwenhoek Awards celebrate the power of microscopy to reveal the unseen. Named after Antonie van Leeuwenhoek, the “father of microbiology” and one of the first microscopist, the competition highlights the unique ability of imaging technologies to uncover hidden structures, patterns and processes that are fundamental to life and health.
 
@@ -12,6 +12,7 @@ Organized by the Leiden Bio Science Park, Leiden University Medical Center and L
 Beyond celebrating excellence, the competition also aims to engage a broader audience by making science visible and accessible, demonstrating how cutting-edge research translates into images that inspire curiosity and understanding.
 
 The following rules outline the submission criteria, selection process and evaluation principles for the Van Leeuwenhoek Awards.
+
 
 # Competition Rules
 ## Who can participate
