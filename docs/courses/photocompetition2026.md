@@ -50,11 +50,11 @@ The jury reserves the right to reject submissions that do not meet these require
 
 •	include:
 
-o	a title
+1. a title
 
-o	a short description
+2. a short description
 
-o	information about the microscope or technique used
+3. information about the microscope or technique used
 
 Each participant may submit a maximum of three entries.
 Image processing or visualization techniques (such as contrast adjustment, false coloring, segmentation or 3D rendering) are allowed, provided they do not misrepresent the scientific content.
