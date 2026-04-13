@@ -14,7 +14,7 @@ Beyond celebrating excellence, the competition also aims to engage a broader aud
 The following rules outline the submission criteria, selection process and evaluation principles for the Van Leeuwenhoek Awards.
 
 
-# Competition Rules
+
 ## Who can participate
 Anyone with a demonstrable connection to the Leiden Bio Science Park may participate. This includes employees of companies located on the park, researchers from universities and knowledge institutions, and residents of the region.
 Members of the jury and the competition organizers are not eligible to participate.
@@ -29,7 +29,7 @@ Accepted examples include:
 
 •	visualizations of microscopy datasets (such as segmentation or 3D renderings)
 
-o	Visualizations must remain scientifically meaningful and responsible representations of the data.
+    o	Visualizations must remain scientifically meaningful and responsible representations of the data.
 
 Not permitted:
 
