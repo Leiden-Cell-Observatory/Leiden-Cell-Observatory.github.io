@@ -1,40 +1,40 @@
----
-title: Trackmate
-description: 
-published: true
-date: 2025-03-14T13:56:45.617Z
-tags: 
-editor: markdown
-dateCreated: 2025-03-11T06:28:29.067Z
----
-
 # TrackMate
 
-https://imagej.net/plugins/trackmate/
-Getting started: https://imagej.net/plugins/trackmate/tutorials/getting-started
+Fiji plugin for detecting and tracking objects (cells, foci, single molecules) across time-lapse images.
 
-Fiji plugin to track objects e.g. cells, foci or single-molecules.
+## Overview
 
-Basically consists of two steps. First segmentation/detection of objects then apply a tracking algorithm on this.
+TrackMate splits tracking into two stages: first detect objects in each frame, then link detections into tracks. Both stages offer multiple algorithms, so the same plugin covers use cases from nuclear tracking to single-molecule analysis.
 
-Segmentation of objects can be done through different methods e.g. spot detector, on a binary image, Stardist (nuclei), Cellpose, ilastik.
-For tracking also different algorithms are available.
+**Key features**
 
-Scriptable in Fiji.
-https://imagej.net/plugins/trackmate/scripting/scripting
+- Multiple detectors: LoG/DoG spot detection, thresholding, label-image import, [StarDist](https://imagej.net/plugins/trackmate/trackmate-stardist), [Cellpose](https://imagej.net/plugins/trackmate/trackmate-cellpose), [ilastik](https://imagej.net/plugins/trackmate/trackmate-ilastik)
+- Multiple trackers: LAP, Kalman, nearest-neighbour, overlap-based
+- Interactive track editing and filtering
+- Scriptable in Jython/Groovy for reproducible pipelines
+- TrackMate Batcher for running the same settings over many files without scripting
 
-Also tools available to apply same analysis on multiple images without writing a script.
-Trackmate batcher: https://forum.image.sc/t/new-version-of-the-trackmate-helper-v1-2-1-with-a-batcher-and-the-spt-metrics/68180
+## Installation
 
-## Saving TrackMate projects
-- TrackMate results can be saved as XML files containing all tracking data
-- You can open this again in Fiji via Plugins->Tracking->Load a TrackMate file
-- Trick for projecting tracks onto a different image: You can open the XML file in a text editor, then search for the image filename reference and modify it
+TrackMate ships with Fiji — no separate install needed. Detector extensions (StarDist, Cellpose, ilastik) are enabled via their respective update sites; see the plugin pages linked above.
 
-## Key points to discuss:
+## Saving and loading results
 
-- Integration with OMERO: How to store and retrieve TrackMate results in OMERO
-- Batch processing: Methods for applying the same tracking parameters across multiple images
-- Script examples: Basic Jython/Groovy scripts for automating TrackMate analysis
-- Export options: Different ways to export tracking results (CSV, ROIs, visualizations)
-- TrackMate parameters: Explanation of key tracking settings and when to adjust them
+- Results save as an XML file containing detections, tracks, and the source image reference.
+- Reopen via `Plugins > Tracking > Load a TrackMate file`.
+
+!!! tip
+    To project existing tracks onto a different image (e.g. a registered version), open the XML in a text editor and edit the image filename reference before loading.
+
+## Official documentation
+
+- [TrackMate plugin page](https://imagej.net/plugins/trackmate/)
+- [Getting started](https://imagej.net/plugins/trackmate/tutorials/getting-started)
+- [Scripting guide](https://imagej.net/plugins/trackmate/scripting/scripting)
+
+## Learning resources
+
+### Written
+
+- [TrackMate tutorials index](https://imagej.net/plugins/trackmate/tutorials/) — covers detectors, trackers, and analysis workflows.
+- [TrackMate Batcher + SPT metrics](https://forum.image.sc/t/new-version-of-the-trackmate-helper-v1-2-1-with-a-batcher-and-the-spt-metrics/68180) — run the same pipeline on multiple movies without scripting.

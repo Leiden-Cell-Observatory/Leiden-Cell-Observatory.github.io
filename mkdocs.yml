@@ -101,15 +101,14 @@ nav:
       - R: omero/analysis/analysis_r.md
       - CellProfiler: omero/analysis/analysis_cellprofiler.md
     - analysis/index.md
-    - CellProfiler: analysis/cellprofiler.md
     - Fiji: 
       - analysis/Fiji.md
       - TrackMate: analysis/Trackmate.md
     - QuPath: analysis/qupath.md
+    - CellProfiler: analysis/cellprofiler.md
     - ilastik: analysis/ilastik.md
-    - GitHub: analysis/github.md
     - Python:
-      - Conda: analysis/conda.md
+      - Python environments: analysis/conda.md
       - napari: analysis/napari.md
       - CellPose: analysis/cellpose.md
       - Micro-SAM: analysis/micro-sam.md
@@ -117,6 +116,7 @@ nav:
       - computing/index.md
       - HPC: computing/hpc.md
       - Workstations: computing/workstations.md
+    - GitHub: analysis/github.md
   - High-Content Screening:
     - hcs/index.md
     - Standard Protocol: hcs/protocol.md

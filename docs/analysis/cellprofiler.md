@@ -1,25 +1,39 @@
----
-title: Cell Profiler
-description: 
-published: true
-date: 2025-02-05T15:40:34.173Z
-tags: 
-editor: markdown
-dateCreated: 2025-02-05T15:40:34.173Z
----
+# CellProfiler
 
-# CellProfiler  
-Getting started with CellProfiler: [Tutorials](https://cellprofiler.org/tutorials)  
-  
-## Installation  
-You can get the lastest version of CellProfiler [here](https://cellprofiler.org/releases)  . Be aware that in some cases pipelines will only work with a specific version of CellProfiler so you can download specific versions [here](https://cellprofiler.org/previous-releases).
-  
-## CellProfiler with AI tools included:  
-Getting CellProfiler to work with AI tools for segmentation can be challenging. This an adjusted release of CellProfiler v4.2.8 with Stardist and [Cellpose](cellpose.md) included. When you install this version on your computer it should work with these tools without the need of installing them separately.  
-  
-You can find the installer files on [Github](https://github.com/glencoesoftware/CellProfiler/releases/v4.2.80002-ai/)  
+GUI-based pipeline tool for high-throughput image analysis, develop an image analysis workflow without the need for programming.
 
+## Overview
 
+CellProfiler chains modular image processing steps (illumination correction, segmentation, measurement, export) into a pipeline that can be saved, shared, and run headlessly on many images. It's a common choice for high-content screening and any workflow where the same analysis applies to hundreds or thousands of images.
 
+**Key features**
 
+- Modular pipeline builder with no scripting required
+- Headless batch execution for cluster/HPC processing
+- Extensible via Python plugins, including deep-learning segmenters (StarDist, Cellpose)
+- Export to tables (CSV) or SQL for downstream analysis
 
+## Installation
+
+Download the latest release from [cellprofiler.org/releases](https://cellprofiler.org/releases). Older versions are available via [previous releases](https://cellprofiler.org/previous-releases) — some published pipelines only work with a specific CellProfiler version.
+
+### CellProfiler with AI tools included
+
+Getting CellProfiler to talk to Cellpose and StarDist is awkward to configure from scratch. Glencoe Software maintains a fork of CellProfiler v4.2.8 with both pre-bundled:
+
+- Installer: [CellProfiler + Stardist/Cellpose release (v4.2.80002-ai)](https://github.com/glencoesoftware/CellProfiler/releases/v4.2.80002-ai/)
+
+Install this version and the AI modules work out of the box.
+
+## Official documentation
+
+- [CellProfiler website](https://cellprofiler.org/)
+- [Manual](https://cellprofiler-manual.s3.amazonaws.com/CellProfiler-4.2.8/index.html)
+- [GitHub](https://github.com/CellProfiler/CellProfiler)
+
+## Learning resources
+
+### Written
+
+- [Getting started tutorials](https://cellprofiler.org/tutorials) — official worked examples covering common pipelines.
+- [Published example pipelines](https://cellprofiler.org/examples) — adapt a nearby pipeline rather than building from scratch.

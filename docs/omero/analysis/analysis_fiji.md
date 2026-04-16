@@ -110,7 +110,7 @@ By following the steps below, you can install the required plugins and run your 
 ### Quick Downloads
 - Use download button (yellow) on OMERO web interface:
 ![Download button](analysis_fiji/images/analysis_fiji_13.png)
-- Choose export format:
+- Choose export format:    
 ![Export options](analysis_fiji/images/analysis_fiji_14.png)
 
 ### Large Dataset Downloads
