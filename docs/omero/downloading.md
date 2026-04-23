@@ -19,12 +19,13 @@ This page describes how to download and export data from OMERO. When uploading d
 ## OMERO.web Downloads
 
 !!! info "Export Formats"
-      With OMERO you can export in different formats
-      Standard Formats
-      - **Original Format**: Exact copy of the uploaded file
-      - **OME-TIFF**: Standard microscopy format with OME metadata
-      - **JPEG/PNG**: Only for presentations/publications
-      - **TIFF**: Original pixel data, can be used for image analysis
+      With OMERO you can export in different formats   
+      Standard Formats   
+      - **Original Format**: Exact copy of the uploaded file   
+      - **OME-TIFF**: Standard microscopy format with OME metadata   
+      - **JPEG/PNG**: Only for presentations/publications   
+      - **TIFF**: Original pixel data, can be used for image    
+
 ### Quick Downloads
 Access downloads through the OMERO web interface:
 
@@ -41,7 +42,7 @@ Access downloads through the OMERO web interface:
 ![Download from OMERO web](downloading/images/downloading_01.png)
 
 !!! warning "Web Browser Timeout Limitation"
-    Connections via the web browser automatically disconnect after 1 minute (60s), so often you won't be able to download large files. For larger datasets, use OMERO.insight instead.  
+    Connections via the web browser automatically disconnect after 1 minute (60s), so often you won't be able to download large files. For larger datasets, use OMERO.insight instead.   
 
 ## OMERO.insight Downloads
 
