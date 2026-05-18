@@ -95,11 +95,6 @@ nav:
     - Downloading: omero/downloading.md
     - OMERO.figure: omero/figure-creation.md
   - Image analysis:
-    - OMERO: 
-      - Fiji: omero/analysis/analysis_fiji.md
-      - Python: omero/analysis/analysis_python.md
-      - R: omero/analysis/analysis_r.md
-      - CellProfiler: omero/analysis/analysis_cellprofiler.md
     - analysis/index.md
     - Fiji: 
       - analysis/Fiji.md
@@ -112,6 +107,11 @@ nav:
       - napari: analysis/napari.md
       - CellPose: analysis/cellpose.md
       - Micro-SAM: analysis/micro-sam.md
+    - OMERO: 
+      - Fiji: omero/analysis/analysis_fiji.md
+      - Python: omero/analysis/analysis_python.md
+      - R: omero/analysis/analysis_r.md
+      - CellProfiler: omero/analysis/analysis_cellprofiler.md
     - Computing:
       - computing/index.md
       - HPC: computing/hpc.md
@@ -132,7 +132,7 @@ nav:
     - Learning Resources: resources.md
   - Photo Competition: 
     - courses/photocompetition.md
-    - 2026: courses/photocompetition2026.md
+    - Photocompetition 2026: courses/photocompetition2026.md
   - Contact: 
     - contact.md
     - Contributing: contributing.md
