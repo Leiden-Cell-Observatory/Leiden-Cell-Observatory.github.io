@@ -13,7 +13,7 @@ For reference the templates are originally published here here: <https://fairdom
 
 The current recommendation is to attach metadata template to your Screen in OMERO. Make sure to convert your data in OMERO into Plates and Screens first.   
 Then attach the template as an attachement to your screen.
-When you update the template you can create a new version of the template and add a version number (_v2, v2,1, v3 etc,).   
+When you update the template you can create a new version of the template and add a version number (_v2, v2_1, v3 etc,).   
 It is possible to add more files such as a library file to the Screen as well.
 
 2)  Add the (mandatory) attachments to the file using the attachment section (green box). This includes the metadata template in pdf format and all additional files.
