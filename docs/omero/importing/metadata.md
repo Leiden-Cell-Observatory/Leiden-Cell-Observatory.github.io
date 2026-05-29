@@ -26,7 +26,7 @@ First you need to load a OMERO mde configuration file. This file contains the me
 
 2.  Use OMERO insight as normal to [import](../importing.md) data.
 
-3.  **[Do NOT press import yet]**
+3.  **Do NOT press import yet**
 
 4.  Press the MDE button next to import.
 

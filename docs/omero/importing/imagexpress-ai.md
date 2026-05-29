@@ -1,12 +1,16 @@
 
 # Importing ImageXpress HCS.ai Data to OMERO
 
-Data from the [ImageXpress HT.ai](../../microscopes/mic_pages/imagexpress-htai.md) is saved in the `.JDCE` file format. This is a relatively new format and is **not** directly supported for upload to OMERO using OMERO.insight (as OMERO.insight uses an older version of bioformats).
+Data from the [ImageXpress HT.ai](../../microscopes/mic_pages/imagexpress-htai.md) is saved in the `.JDCE` file format. This is a relatively new format and is **not** directly supported for upload to OMERO using OMERO.insight, as OMERO.insight by default uses an older version of [bioformats](https://www.openmicroscopy.org/bio-formats/).
 
-This page explains how to convert and upload data from the ImageXpress HT.ai to OMERO.
+So for now you can only upload data from the ImageXpress microscope PC and the ImageXpress analysis PC.
+
+To upload the data in OMERO.insight, browse to the folder with the data. Select only the `JDCE` file. Be aware that if you have acquired **z-stacks** there is a folder with the z-stack data and a folder with the maximum intensity projections. Generally it is recommended to upload the z-stack data, but you can additionally also upload the maximum intensity files if needed.
+
+When you have acquired tile scans with the ImageXpress it is possible that the images are too large to be shown directly in OMERO. In that case follow the procedure below and convert the images to OME-TIFF first.
 
 > **Warning**
-> After converting images to a format suitable for OMERO, you will *not* be able to open them with InCarta software (that is the image analysis software provided by the vendor of the ImageXpress). **Always keep the original files** if you may need to analyze data with InCarta in the future.
+> After converting images to OME-TIFF for OMERO, you will *not* be able to open them with InCarta software (that is the image analysis software provided by the vendor of the ImageXpress). **Always keep the original files** if you may need to analyze data with InCarta in the future.
 
 ## Converting Files to OME-TIFF
 

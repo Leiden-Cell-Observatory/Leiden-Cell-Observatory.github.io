@@ -2,7 +2,7 @@
 
 OMERO scripts allows to modify, organize your image data directly on OMERO. These scripts are run from OMERO.web.
 
-[![alt text](scripts/scripts_menu.png){width=250px}]
+![alt text](scripts/scripts_menu.png){width=250px}
 
 In the menu you can find both the official scripts provided by OMERO (folder `omero`) and custom scripts from Leiden University (folder `user`).
 
@@ -79,6 +79,6 @@ The official documentation can be found at [omero-scripts.readthedocs.io](https:
 
 === "User"
     
-    [![alt text](scripts/scripts_menu_user.png){width=250px}]   
+    ![alt text](scripts/scripts_menu_user.png){width=250px}   
     ### Dataset to Plate Choose Start position   
     This script is a modification from the `Dataset To Plate` script. It allows you to define a start position (i.e. you did not use the top rows or columns of you plate).
