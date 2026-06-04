@@ -19,7 +19,7 @@ Download the latest release from [cellprofiler.org/releases](https://cellprofile
 
 ### CellProfiler with AI tools included
 
-Getting CellProfiler to talk to Cellpose and StarDist is awkward to configure from scratch. Glencoe Software maintains a fork of CellProfiler v4.2.8 with both pre-bundled:
+Getting CellProfiler to talk to Cellpose and StarDist with plugins can be challenging to configure. Glencoe Software maintains a fork of CellProfiler v4.2.8 with both pre-bundled:
 
 - Installer: [CellProfiler + Stardist/Cellpose release (v4.2.80002-ai)](https://github.com/glencoesoftware/CellProfiler/releases/v4.2.80002-ai/)
 
