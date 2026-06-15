@@ -13,7 +13,7 @@ For general facility information, visit our main website: [Leiden Cell Observato
 
 ## What you can find here
 
-- **[Microscopes](microscopes/index.md)** — Overview of all microscope at Leiden University and LUMC, usage instructions and booking procedures.
+- **[Microscopes](microscopes/)** — Overview of all microscope at Leiden University and LUMC, usage instructions and booking procedures.
 
 - **[Image Analysis](analysis/index.md)** — Analysis workflows, software tools, best practices for microscopy data.
 
