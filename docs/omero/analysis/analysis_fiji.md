@@ -102,17 +102,24 @@ By following the steps below, you can install the required plugins and run your 
    ![Results attachment](analysis_fiji/images/OmeroOpenDataset_06.png)
    ![Detailed results](analysis_fiji/images/OmeroOpenDataset_07.png)
 
+## Exporting Data
+Within the Leiden University Fiji plugin there are several options available to download images from OMERO.    
+
+![Leiden OMERO Plugin options](analysis_fiji/images/export_fiji1.png)    
+
+In all cases you will be asked to enter you OMERO credentials.    
+![Enter OMERO credentials](analysis_fiji/images/export_fiji2.png)  
+
+### Download Dataset as TIFFs    
+This option will download all images in the dataset as TIFF files to your local machine. You can select the dataset you would like to download and select a destination folder where the images will be saved.
+
+### Download Original Project Data    
+This allows to download the original data, in the original file format of a project. You can select the project you would like to download and select a destination folder where the data will be saved.
+
+  ![Detailed results](analysis_fiji/images/export_fiji3.png)     
+
+### Donwload Original User Data    
+This option allows to download all the original data of a user, in the original file format. Be aware that when you have a large amount of data on OMERO this can take a long time to download. You can select the user you would like to download and select a destination folder where the data will be saved.
+
 !!! info
     If you need a plugin that isn't available, contact [Joost Willemse](mailto:jwillemse@biology.leidenuniv.nl) for assistance.
-
-## Exporting Data
-
-
-> ## Important Notes
-> - Server is optimized for storage, not computation
-> - Scripts may take significant time to process
-> - All scripts must be tested on test-server first
-> - **DO NOT develop or test scripts without admin consultation**
-<!-- {blockquote:.is-danger} -->
-
-For new script development, contact Joost Willemse.
