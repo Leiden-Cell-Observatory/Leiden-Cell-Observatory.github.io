@@ -13,31 +13,23 @@ dateCreated: 2025-02-05T10:35:24.344Z
 This page describes how to download and export data from OMERO. When uploading data to OMERO the original files are always stored on the server, so if neccesary these can be retrieved if neccesary.
 
 !!! question "Downloading a lot of data"
-      If you would like to download a large amount of data from OMERO, e.g. for data sharing for a publication. Please reach out to the OMERO admins. We can help using a script to export the data more efficiently.
+      If you would like to export a large amount of data from OMERO, e.g. for data sharing for a publication. Please reach out to the OMERO admins. We can help using a script to export the data more efficiently.
 
 
 ## OMERO.web Downloads
 
-!!! info "Export Formats"
-      With OMERO you can export in different formats   
-      Standard Formats   
-      - **Original Format**: Exact copy of the uploaded file   
-      - **OME-TIFF**: Standard microscopy format with OME metadata   
-      - **JPEG/PNG**: Only for presentations/publications   
-      - **TIFF**: Original pixel data, can be used for image    
-
 ### Quick Downloads
 Access downloads through the OMERO web interface:
 
-1. Locate your data
+1. Locate your data, select an individual image
 2. Click the download button at the right panel
-3. Choose export format:
-   - `Download...` Original files
-   - `Download Original Metadata` Download original metadata only
-   - `OME-TIFF format`
-   - `JPEG` format
-   - `PNG` format
-   - `TIFF` format
+3. Choose export format:   
+   - `Download...` Original files    
+   - `Download Original Metadata` Download original metadata only    
+   - `OME-TIFF format`    
+   - `JPEG` format    
+   - `PNG` format    
+   - `TIFF` format    
 
 ![Download from OMERO web](downloading/images/downloading_01.png)
 
