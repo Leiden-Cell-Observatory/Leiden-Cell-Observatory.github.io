@@ -92,7 +92,7 @@ nav:
       - HCS data: omero/importing/hcs-data.md
       - Metadata: omero/importing/metadata.md
       - HCS metadata: omero/importing/mihcsme.md
-    - Downloading: omero/downloading.md
+    - Downloading data: omero/downloading.md
     - OMERO.figure: omero/figure-creation.md
   - Image analysis:
     - analysis/index.md
