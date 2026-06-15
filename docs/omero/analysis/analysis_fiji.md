@@ -9,11 +9,11 @@ By following the steps below, you can install the required plugins and run your 
 1. Install Fiji
 2. Update Fiji and ensure all plugins are up to date (Help > Update)  
     - If you get errors, repeat the update (the updater might need multiple attempts)  
-    - After seeing "Updated successfully. Please restart ImageJ!" message, restart Fiji  
+    - After seeing "Updated successfully. Please restart ImageJ!" message, restart Fiji   
 
 ![Update success message](analysis_fiji/images/analysis_fiji_01.png)
 
-3. After restarting, update again and click "Manage Update Sites"
+3. After restarting, update again and click "Manage Update Sites"    
 
 ![Manage update sites](analysis_fiji/images/analysis_fiji_02.png)
 
@@ -24,7 +24,7 @@ By following the steps below, you can install the required plugins and run your 
     - Leiden University
     - PTBIOP
 
-![Update sites selection](analysis_fiji/images/analysis_fiji_03.png)
+![Update sites selection](analysis_fiji/images/analysis_fiji_03.png)    
 
 
 1. Click Close and Apply Changes
@@ -107,27 +107,6 @@ By following the steps below, you can install the required plugins and run your 
 
 ## Exporting Data
 
-### Quick Downloads
-- Use download button (yellow) on OMERO web interface:
-![Download button](analysis_fiji/images/analysis_fiji_13.png)
-- Choose export format:    
-![Export options](analysis_fiji/images/analysis_fiji_14.png)
-
-### Large Dataset Downloads
-
-1. In OMERO.insight:
-    - Navigate to your dataset
-    - Click download button
-    ![Download in insight](analysis_fiji/images/analysis_fiji_15.png)
-
-2. Select export format:
-    ![Export format selection](analysis_fiji/images/analysis_fiji_16.png)
-    - Download proceeds in background
-
-## Server Scripts
-
-Access server scripts through the web interface:
-![Server scripts](analysis_fiji/images/analysis_fiji_17.png)
 
 > ## Important Notes
 > - Server is optimized for storage, not computation
