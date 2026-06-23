@@ -118,7 +118,7 @@ This allows to download the original data, in the original file format of a proj
 
   ![Detailed results](analysis_fiji/images/export_fiji3.png)     
 
-### Donwload Original User Data    
+### Download Original User Data    
 This option allows to download all the original data of a user, in the original file format. Be aware that when you have a large amount of data on OMERO this can take a long time to download. You can select the user you would like to download and select a destination folder where the data will be saved.
 
 !!! info
