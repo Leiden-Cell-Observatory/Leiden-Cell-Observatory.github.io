@@ -38,7 +38,7 @@ Leica .lif files can be uploaded directly to OMERO. LIF files containing multipl
 These files can be uploaded directly via OMERO.insight. Often you will get multiple OMERO images at different 'resolution-levels' in OMERO. Make sure to keep the highest (original) resolution images, you can remove the low resolution images if you don't need them. 
 
 ### ImageXpress .JDCE
-Data from the new [ImageXpress HT.ai](../../../microscopes/mic_pages/imagexpress-hcsai) cannot be imported directly via OMERO.insight. Check out [this page](../imagexpress-ai.md) for the latest instructions. For now files can only be uploaded from the microscope computer itself.
+Data from the new [ImageXpress HT.ai](../../../microscopes/mic_pages/imagexpress-hcsai) cannot be imported directly via OMERO.insight. Check out [this page](../imagexpress-ai) for the latest instructions. For now files can only be uploaded from the microscope computer itself.
 
 
 ### ImageXpress .HTD
