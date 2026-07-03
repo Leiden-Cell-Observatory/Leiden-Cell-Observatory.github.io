@@ -51,7 +51,7 @@ Image processing or visualization techniques (such as contrast adjustment, false
 Submissions must not contain identifiable patient information.
 
 ## How to submit
-Entries must be submitted via the online submission [Form](https://forms.office.com/e/C7zPjTfCVw).
+Entries must be submitted via the online submission.
 
 Submission deadline: 22 May.
 
