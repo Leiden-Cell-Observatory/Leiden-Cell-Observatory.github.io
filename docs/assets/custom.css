@@ -492,3 +492,21 @@
   font-size: 0.75rem;
   line-height: 1.5;
 }
+
+/* Center the cards so an incomplete last row (e.g. a single 10th entry)
+   is centered instead of left-aligned. */
+.photo-competition .grid.cards > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-competition .grid.cards > ul > li {
+  flex: 0 1 16rem;
+  max-width: 22rem;
+}
+
+/* Make competition images look clickable (glightbox zoom). */
+.photo-competition .grid.cards > ul > li img {
+  cursor: zoom-in;
+}

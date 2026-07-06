@@ -11,7 +11,7 @@ title: Results 2025
 <div class="photo-competition" markdown>
 <div class="grid cards" markdown>
 
--   ![Everything is connected](images/everything_is_connected.jpg)
+-   ![Everything is connected](images/photocompetition/2025/everything_is_connected.jpg)
 
     **1st prize – Max Fernkorn (LACDR)**
 
@@ -21,7 +21,7 @@ title: Results 2025
 
     **Microscope:** Nikon confocal
 
--   ![The touch of creation](images/touch_of_creation.jpg)
+-   ![The touch of creation](images/photocompetition/2025/touch_of_creation.jpg)
 
     **2nd prize – Alex Versluis (IBL)**
 
@@ -31,7 +31,7 @@ title: Results 2025
 
     **Microscope:** Leica Stellaris 5
 
--   ![Sticky Fingers](images/sticky_fingers.jpg)
+-   ![Sticky Fingers](images/photocompetition/2025/sticky_fingers.jpg)
 
     **3rd prize – David Norte (IBL)**
 
@@ -41,7 +41,7 @@ title: Results 2025
 
     **Microscope:** Nikon AX Confocal
 
--   ![Wounds of Light](images/wounds_of_light.jpg)
+-   ![Wounds of Light](images/photocompetition/2025/wounds_of_light.jpg)
 
     **4th prize – Don Schilder (LIC)**
 
@@ -49,7 +49,7 @@ title: Results 2025
 
     **Microscope:** Leica Stellaris (NKI)
 
--   ![Neural Architecture in Bloom](images/neural_architecture_in_bloom.jpg)
+-   ![Neural Architecture in Bloom](images/photocompetition/2025/neural_architecture_in_bloom.jpg)
 
     **5th prize – Joaquin Abugattas-Nuñez Del Prado (IBL)**
 
@@ -64,6 +64,6 @@ title: Results 2025
 
 ---
 
-All images on this page are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). Please credit the original author when reusing. For commercial use, contact the author for permission.
+All images on this page are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/){target="_blank" rel="noopener"}. Please credit the original author when reusing. For commercial use, contact the author for permission.
 
-[![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/){target="_blank" rel="noopener"}

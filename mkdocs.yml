@@ -130,9 +130,9 @@ nav:
     - Activities: courses/activities.md
     - PhD Course: courses/phd-course.md
     - Learning Resources: resources.md
-  - Photo Competition: 
+  - Photo Competition:
+    - courses/photocompetition2026.md
     - courses/photocompetition2025.md
-    #- Photocompetition 2026: courses/photocompetition2026.md
   - Contact: 
     - contact.md
     - Contributing: contributing.md
@@ -140,6 +140,15 @@ nav:
 plugins:
   - search
   - social
+  - glightbox:
+      touchNavigation: true
+      loop: true
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
   - gen-files:
       scripts:
         - scripts/generate_microscopes.py  # or any other name or path
