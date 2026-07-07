@@ -58,7 +58,7 @@ Organized by the Leiden Bio Science Park, Leiden University Medical Center and L
 
 -   ![Leeuwenhoek's Chromatic Threads](images/photocompetition/2026/leeuwenhoek_chromatic_threads.jpg)
 
-    **5th place – David M. Norte (Leiden University, IBL)**
+    **5th place – David Norte (Leiden University, IBL)**
 
     *Leeuwenhoek's Chromatic Threads*
 
