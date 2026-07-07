@@ -4,7 +4,7 @@ hide:
 title: Results 2026
 ---
 
-# Leiden Cell Observatory Photomicrograph Competition
+# Van Leeuwenhoek Awards-Leiden Micrograph Contest 2026
 
 ## 2026 Winners
 
