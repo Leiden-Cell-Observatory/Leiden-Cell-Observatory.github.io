@@ -6,6 +6,10 @@ title: Results 2026
 
 # Van Leeuwenhoek Awards-Leiden Micrograph Contest 2026
 
+The Van Leeuwenhoek Awards celebrate the power of microscopy to reveal the unseen. Named after Antonie van Leeuwenhoek, the “father of microbiology” and one of the first microscopist, the competition highlights the unique ability of imaging technologies to uncover hidden structures, patterns and processes that are fundamental to life and health.
+
+Organized by the Leiden Bio Science Park, Leiden University Medical Center and Leiden University, the competition brings together researchers, innovators and organizations connected to the park to showcase outstanding images and visualizations derived from microscopy data. From classical light and electron microscopy to advanced data-driven renderings, the awards aim to recognize work that combines scientific insight with visual impact.
+
 ## 2026 Winners
 
 <div class="photo-competition" markdown>
