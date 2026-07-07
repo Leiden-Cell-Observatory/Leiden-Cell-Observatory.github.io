@@ -28,3 +28,17 @@ Apart from OMERO.figure, you can also create simple figures directly from the OM
 ![](figure-creation/images/figure-creation_02.jpeg)
 
 *Figure 2. Output of the split view figure option. Here you see the different channels and a merged channel with the colors indicating the corresponding channel.*
+
+## Custom Z-projections
+If you need to create custom z-projections for your images (e.g. from a subset of your slices), there is an option in OMERO.insight (software used for uploading images to OMERO) to save custom z-projections.
+
+1. Open OMERO.insight and login to the OMERO server   
+2. Open the image of interest in the viewer (double click on the image)    
+
+![omero figure](figure-creation/images/insight_zproject1.jpg)
+
+3. On the top select the projection tab
+4. To create a custom z-projection click on `Project...`
+5. Choose the desired settings of the z-slices and choose where to save the maximum projection. Press `Save`, now the projection image will be saved in OMERO and can be used in a figure.    
+
+![omero figure](figure-creation/images/insight_zproject2.jpg)
