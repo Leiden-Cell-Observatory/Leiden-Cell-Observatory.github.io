@@ -48,7 +48,7 @@ Organized by the Leiden Bio Science Park, Leiden University Medical Center and L
 
 -   ![Human iPSC-Derived Mammary Gland Reconstitution in vivo](images/photocompetition/2026/mammary_gland_reconstitution.jpg)
 
-    **4th place – Roshni Nair (UL)**
+    **4th place – Roshni Nair (Leiden University)**
 
     *Human iPSC-Derived Mammary Gland Reconstitution in vivo*
 
@@ -58,7 +58,7 @@ Organized by the Leiden Bio Science Park, Leiden University Medical Center and L
 
 -   ![Leeuwenhoek's Chromatic Threads](images/photocompetition/2026/leeuwenhoek_chromatic_threads.jpg)
 
-    **5th place – David M. Norte (UL)**
+    **5th place – David M. Norte (Leiden University)**
 
     *Leeuwenhoek's Chromatic Threads*
 
