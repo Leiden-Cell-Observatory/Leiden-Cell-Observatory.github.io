@@ -10,8 +10,6 @@ The Van Leeuwenhoek Awards celebrate the power of microscopy to reveal the unsee
 
 Organized by the Leiden Bio Science Park, Leiden University Medical Center and Leiden University, the competition brings together researchers, innovators and organizations connected to the park to showcase outstanding images and visualizations derived from microscopy data. From classical light and electron microscopy to advanced data-driven renderings, the awards aim to recognize work that combines scientific insight with visual impact.
 
-## 2026 Winners
-
 <div class="photo-competition" markdown>
 <div class="grid cards" markdown>
 
@@ -29,7 +27,7 @@ Organized by the Leiden Bio Science Park, Leiden University Medical Center and L
 
 -   ![The Immune Siege](images/photocompetition/2026/immune_siege.jpg)
 
-    **2nd prize – Anita Liao (UL)**
+    **2nd prize – Anita Liao (Leiden University, LACDR)**
 
     *The Immune Siege*
 
@@ -39,11 +37,12 @@ Organized by the Leiden Bio Science Park, Leiden University Medical Center and L
 
 -   ![Into the air](images/photocompetition/2026/into_the_air.jpg)
 
-    **3rd prize – Gerda Lamers (UL)**
+    **3rd prize – Gerda Lamers (Leiden University, Microscopy unit IBL)**
 
     *Into the air*
+    I was often asked by researchers to take a special picture of their research to serve as a cover for a magazine, when their article was published. This is a detailed stereomicrograph of the hairs on an eyespot of a   Butterfly wing, taken with the indirect light of our DIC microscope.   
 
-    Detailed stereomicrograph of butterfly wings (butterfly wing, dead collected).
+    Butterfly wing, dead collected
 
     **Microscope:** Zeiss V16 (80×)
 
