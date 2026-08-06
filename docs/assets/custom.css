@@ -1,3 +1,10 @@
+/* The modern theme variant gives the banner a pale accent background with dark
+   text; keep the dark bar the site used before, which the link colors assume. */
+.md-banner {
+    background-color: var(--md-footer-bg-color, #000000de);
+    color: var(--md-footer-fg-color, #fff);
+}
+
 /* Announcement banner link styling */
 .md-banner__inner a {
     color: #fff !important;
@@ -36,6 +43,43 @@
 /* Increase spacing below header */
 .md-header {
     margin-bottom: 1.5rem;
+}
+
+/* The modern theme variant draws a light header from the default background
+   color instead of the primary color. Paint it with the primary color again,
+   and follow up on the header elements that read from the default colors. */
+.md-header {
+    background-color: var(--md-primary-fg-color);
+    color: #fff;
+}
+
+.md-header .md-tabs {
+    color: #fff;
+    box-shadow: 0 -0.05rem 0 inset rgba(255, 255, 255, 0.16);
+}
+
+.md-header .md-tabs__item--active {
+    border-bottom-color: #fff;
+}
+
+/* Search trigger: a lighter shade of the primary color reads as a field */
+.md-header .md-search__button {
+    background: var(--md-primary-fg-color--light);
+    color: #fff;
+}
+
+.md-header .md-search__button:focus,
+.md-header .md-search__button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.md-header .md-search__button::before {
+    background-color: #fff;
+}
+
+.md-header .md-search__button::after {
+    background: rgba(255, 255, 255, 0.16);
 }
 
 /* Unified header styles for all color schemes */

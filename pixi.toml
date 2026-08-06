@@ -6,6 +6,9 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
+generate = "python scripts/generate_microscopes.py"
+build = { cmd = "zensical build -f mkdocs.yml", depends-on = ["generate"] }
+serve = { cmd = "zensical serve -f mkdocs.yml", depends-on = ["generate"] }
 
 [dependencies]
 python = "==3.12"

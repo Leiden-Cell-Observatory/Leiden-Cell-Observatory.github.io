@@ -4,6 +4,7 @@ edit_uri: edit/main/docs/
 repo_name: Leiden-Cell-Observatory.github.io
 theme:
   name: material
+  variant: modern
   custom_dir: overrides
   palette:
     # Palette toggle for dark mode
@@ -144,16 +145,10 @@ plugins:
       touchNavigation: true
       loop: true
       effect: zoom
-      slide_effect: slide
       width: auto
       height: auto
       zoomable: true
       draggable: true
-  - gen-files:
-      scripts:
-        - scripts/generate_microscopes.py  # or any other name or path
-  - literate-nav:
-      nav_file: SUMMARY.md
 copyright: >
   © Copyright 2025-2026 Leiden Cell Observatory, Leiden University.
   All content is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">
