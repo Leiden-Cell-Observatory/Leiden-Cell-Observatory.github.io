@@ -11,7 +11,7 @@ dateCreated: 2025-02-05T10:35:24.344Z
 # Downloading and Exporting Data
 
 This page describes how to download and export data from OMERO. When uploading data to OMERO the original files are always stored on the server, so if necessary these can be retrieved.   
-For downloading a larger amount of data it is recommended to use [OMERO.insight](#omeroinsight-downloads) or our [Fiji plugin](#fiji-downloads)
+For downloading a larger amount of data it is recommended to use [OMERO.insight](#omeroinsight-downloads) or our [Fiji plugin](#fiji-downloads) and preferably not over wifi to assure a good connection.
 
 !!! question "Downloading a lot of data"
       If you would like to export a large amount of data from OMERO, e.g. for data sharing for a publication. Please reach out to the OMERO admins. We can help using a script to export the data more efficiently.
