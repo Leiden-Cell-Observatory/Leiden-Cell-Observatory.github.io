@@ -6,6 +6,9 @@ theme:
   name: material
   variant: modern
   custom_dir: overrides
+  # Do not autoload webfonts from Google Fonts; use system fonts instead,
+  # so no visitor data is sent to third parties.
+  font: false
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -76,7 +79,7 @@ extra_css:
   - assets/custom.css
 
 extra_javascript:
-  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.min.js
   - javascripts/tablesort.js
   - javascripts/microscope-table.js
 

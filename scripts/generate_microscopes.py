@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import os
+import re
 import requests
 from pathlib import Path
+from urllib.parse import unquote
 from jinja2 import Environment, FileSystemLoader
 from dotenv import load_dotenv
 
@@ -21,6 +23,13 @@ project_root = Path(__file__).parent.parent
 templates_dir = project_root / 'templates'
 docs_dir = project_root / 'docs'
 mic_pages_dir = docs_dir / 'microscopes' / 'mic_pages'
+photos_dir = docs_dir / 'microscopes' / 'images' / 'baserow'
+
+# Photos are downloaded from Baserow and committed, so that visitors of the
+# site never make a request to Baserow. Names of downloaded photos are
+# collected here so unused ones can be cleaned up afterwards.
+downloaded_photos = set()
+SAFE_FILENAME = re.compile(r'^[A-Za-z0-9][A-Za-z0-9._-]*\.[A-Za-z0-9]+$')
 
 # Setup Jinja2
 jinja_env = Environment(loader=FileSystemLoader(str(templates_dir)))
@@ -30,6 +39,47 @@ def write_doc(relpath, content):
     path = docs_dir / relpath
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding='utf-8')
+
+def localize_photo(url):
+    """Download a microscope photo from Baserow and return a path relative
+    to the generated microscope page.
+
+    Baserow file names contain a hash of the file contents, so a file that is
+    already present is always up to date and is never downloaded again. A
+    changed photo arrives under a new name and the old one is cleaned up by
+    prune_photos().
+    """
+    if not url or url == 'N/A' or not url.startswith('http'):
+        return None
+
+    filename = unquote(url.split('?')[0].rsplit('/', 1)[-1])
+    if not SAFE_FILENAME.match(filename):
+        print(f"  ! Skipping photo with unexpected file name: {filename}")
+        return None
+
+    target = photos_dir / filename
+    if not target.exists():
+        try:
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+        except requests.RequestException as e:
+            print(f"  ! Could not download {filename}: {e}")
+            return None
+        photos_dir.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(response.content)
+        print(f"  ↓ downloaded {filename}")
+
+    downloaded_photos.add(filename)
+    return f"../images/baserow/{filename}"
+
+def prune_photos():
+    """Remove downloaded photos that are no longer used by any microscope"""
+    if not photos_dir.exists():
+        return
+    for photo in photos_dir.iterdir():
+        if photo.is_file() and photo.name not in downloaded_photos:
+            photo.unlink()
+            print(f"✗ removed unused photo {photo.name}")
 
 def fetch_microscopes():
     """Fetch all microscopes from Baserow"""
@@ -234,7 +284,7 @@ def generate_page(microscope, related_microscopes=None):
         'emission_filters_list': split_list(emission_filters),
         'applications': applications,
         'samples': samples,
-        'photo': photo if photo != 'N/A' else None,
+        'photo': localize_photo(photo),
         'video_url': video_url if video_url != 'N/A' else None,
         'related_microscopes': related_microscopes,
         'category': get_category(microscope_type),
@@ -397,6 +447,8 @@ try:
         if stale.name not in current:
             stale.unlink()
             print(f"✗ removed stale page {stale.name}")
+
+    prune_photos()
 
     print("\nGenerating overview page...")
     generate_index(generated)
