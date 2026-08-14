@@ -1,7 +1,7 @@
 
 # Importing ImageXpress HCS.ai Data to OMERO
 
-Data from the [ImageXpress HT.ai](../../microscopes/mic_pages/imagexpress-htai.md) is saved in the `.JDCE` file format. This is a relatively new file format and is **not** directly supported for upload to OMERO using OMERO.insight, as OMERO.insight by default uses an older version of [bioformats](https://www.openmicroscopy.org/bio-formats/).
+Data from the [ImageXpress HT.ai](../../microscopes/mic_pages/imagexpress-hcsai.md) is saved in the `.JDCE` file format. This is a relatively new file format and is **not** directly supported for upload to OMERO using OMERO.insight, as OMERO.insight by default uses an older version of [bioformats](https://www.openmicroscopy.org/bio-formats/).
 
 - For now you can only upload data to OMERO from the ImageXpress microscope PC and the ImageXpress analysis PC, where we adjusted `OMERO.insight`.   
 - To upload the data in OMERO.insight, browse to the folder with the data. Select only the `JDCE` file. Be aware that if you have acquired **z-stacks** there is a folder with the z-stack data and a folder with the maximum intensity projections. Generally it is recommended to upload the z-stack data, but you can additionally also upload the maximum intensity files if needed.    

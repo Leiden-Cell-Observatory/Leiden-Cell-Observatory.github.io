@@ -4,7 +4,6 @@ import requests
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 from dotenv import load_dotenv
-import mkdocs_gen_files
 
 # Load environment variables
 load_dotenv()
@@ -20,9 +19,17 @@ if not BASEROW_API_TOKEN or not BASEROW_TABLE_ID:
 # Setup paths
 project_root = Path(__file__).parent.parent
 templates_dir = project_root / 'templates'
+docs_dir = project_root / 'docs'
+mic_pages_dir = docs_dir / 'microscopes' / 'mic_pages'
 
 # Setup Jinja2
 jinja_env = Environment(loader=FileSystemLoader(str(templates_dir)))
+
+def write_doc(relpath, content):
+    """Write a generated page into the docs directory"""
+    path = docs_dir / relpath
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(content, encoding='utf-8')
 
 def fetch_microscopes():
     """Fetch all microscopes from Baserow"""
@@ -239,10 +246,7 @@ def generate_page(microscope, related_microscopes=None):
     if not filename:
         return None, None
     
-    # Use mkdocs_gen_files to write the file
-    filepath = f"microscopes/mic_pages/{filename}"
-    with mkdocs_gen_files.open(filepath, 'w') as f:
-        f.write(content)
+    write_doc(f"microscopes/mic_pages/{filename}", content)
     
     print(f"✓ {context['name']}")
     return filename, context
@@ -293,8 +297,7 @@ def generate_index(microscopes):
 
     content = template.render(categories=categories)
 
-    with mkdocs_gen_files.open('microscopes/microscope_overview.md', 'w') as f:
-        f.write(content)
+    write_doc('microscopes/microscope_overview.md', content)
 
     print(f"✓ Generated index")
 
@@ -326,8 +329,7 @@ def generate_interactive_table(all_microscopes):
         institutes=institutes,
     )
 
-    with mkdocs_gen_files.open('microscopes/index.md', 'w') as f:
-        f.write(content)
+    write_doc('microscopes/index.md', content)
 
     print(f"✓ Generated interactive table (index)")
 
@@ -389,27 +391,19 @@ try:
 
     print(f"\nGenerated {len(generated)} microscope pages")
 
+    # Remove pages of microscopes that are no longer in Baserow
+    current = {filename for filename, _ in generated}
+    for stale in mic_pages_dir.glob('*.md'):
+        if stale.name not in current:
+            stale.unlink()
+            print(f"✗ removed stale page {stale.name}")
+
     print("\nGenerating overview page...")
     generate_index(generated)
 
     print("\nGenerating interactive table...")
     generate_interactive_table(all_microscopes)
 
-    # Generate navigation file
-    print("\nGenerating navigation...")
-    with mkdocs_gen_files.open("microscopes/SUMMARY.md", "w") as nav_file:
-        nav_file.write("---\nsearch:\n  exclude: true\n---\n\n")
-        # Static pages
-        nav_file.write("* [Microscopes](index.md)\n")
-        nav_file.write("* [Browse by Category](microscope_overview.md)\n")
-        nav_file.write("* [General Information](info.md)\n")
-        # Individual microscope pages grouped by category
-        for category in sorted(by_category.keys()):
-            mics = sorted(by_category[category], key=lambda m: m['name'])
-            nav_file.write(f"* {category}\n")
-            for mic in mics:
-                nav_file.write(f"    * [{mic['name']}](mic_pages/{mic['filename']})\n")
-    
     print("\n✓ All done!")
     
 except Exception as e:

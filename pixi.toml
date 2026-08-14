@@ -6,16 +6,17 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
+generate = "python scripts/generate_microscopes.py"
+build = { cmd = "zensical build -f mkdocs.yml", depends-on = ["generate"] }
+build-ci = { cmd = "zensical build -f mkdocs.yml --clean", depends-on = ["generate"] }
+serve = { cmd = "zensical serve -f mkdocs.yml", depends-on = ["generate"] }
 
 [dependencies]
 python = "==3.12"
 
 [pypi-dependencies]
-mkdocs-material = { version = ">=9.7.1, <10", extras = ["imaging"] }
+mkdocs-material = ">=9.7.1, <10"
 jinja2 = ">=3.1.6, <4"
 requests = ">=2.32.5, <3"
 dotenv = ">=0.9.9, <0.10"
-mkdocs-gen-files = ">=0.6.0, <0.7"
-mkdocs-literate-nav = ">=0.6.2, <0.7"
-mkdocs-glightbox = ">=0.4.0, <0.5"
 zensical = ">=0.0.42, <0.0.43"
