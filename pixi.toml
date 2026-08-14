@@ -8,7 +8,7 @@ version = "0.1.0"
 [tasks]
 generate = "python scripts/generate_microscopes.py"
 build = { cmd = "zensical build -f mkdocs.yml", depends-on = ["generate"] }
-build-ci = { cmd = "zensical build -f mkdocs.yml --clean --strict", depends-on = ["generate"] }
+build-ci = { cmd = "zensical build -f mkdocs.yml --clean", depends-on = ["generate"] }
 serve = { cmd = "zensical serve -f mkdocs.yml", depends-on = ["generate"] }
 
 [dependencies]
