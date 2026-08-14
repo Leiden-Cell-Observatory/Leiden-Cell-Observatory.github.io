@@ -7,7 +7,7 @@ hide:
 
 # Privacy Policy
 
-**Last updated: March 2026**
+**Last updated: August 2026**
 
 This privacy policy describes how the Leiden Cell Observatory (LCO) website collects and processes information when you visit [leiden-cell-observatory.github.io](https://leiden-cell-observatory.github.io).
 
@@ -15,7 +15,7 @@ This privacy policy describes how the Leiden Cell Observatory (LCO) website coll
 
 ## Who we are
 
-The Leiden Cell Observatory is a shared research infrastructure of Leiden University, operated jointly by the Leiden Academic Centre for Drug Research (LACDR), the Institute of Biology Leiden (IBL), and the Leiden Institute of Chemistry (LIC).
+The Leiden Cell Observatory is a shared research support infrastructure of Leiden University, operated jointly by the Leiden Academic Centre for Drug Research (LACDR), the Institute of Biology Leiden (IBL), and the Leiden Institute of Chemistry (LIC).
 
 **Contact:** [cellobservatory@biology.leidenuniv.nl](mailto:cellobservatory@biology.leidenuniv.nl)
 
@@ -60,11 +60,13 @@ You have the right to object to this processing. However, as Umami does not stor
 
 ### Data retention
 
-Aggregated and anonymised analytics data is retained for up to **24 months**. Because no personal data is stored in identifiable form, there is nothing to delete on an individual basis.
+Analytics data is retained for the retention period that applies to our Umami Cloud subscription, after which it is deleted by Umami. We do not retain a separate copy. Because no personal data is stored in identifiable form, there is nothing to delete on an individual basis.
 
 ### Data processor
 
-Umami Analytics is self-hosted. All data is processed on infrastructure controlled by Leiden University and does not leave Leiden University systems.
+We use the hosted version of Umami, operated by Umami Software, Inc. (United States), which acts as our data processor. When you load a page, your browser contacts Umami's servers and your IP address is transmitted to them in order to be hashed; the raw IP address is not stored.
+
+This involves a transfer of data to a third country outside the European Economic Area (EEA). Further information is available in the [Umami privacy policy](https://umami.is/privacy){:target="_blank"}.
 
 ---
 
@@ -72,7 +74,17 @@ Umami Analytics is self-hosted. All data is processed on infrastructure controll
 
 This website is hosted on **GitHub Pages** (GitHub, Inc., a subsidiary of Microsoft). When you visit the site, GitHub processes your IP address to deliver the requested content. This processing is necessary for the technical operation of the website.
 
-GitHub Pages is a US-based service. Visiting this website therefore involves a transfer of data to a third country outside the European Economic Area (EEA). GitHub participates in the EU-U.S. Data Privacy Framework and provides appropriate safeguards under Article 46 GDPR. For more details, please see the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement){:target="_blank"}.
+GitHub Pages is a US-based service. Visiting this website therefore involves a transfer of data to a third country outside the European Economic Area (EEA). GitHub (Microsoft) is certified under the EU-U.S. Data Privacy Framework, for which the European Commission has adopted an adequacy decision under Article 45 GDPR. For more details, please see the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement){:target="_blank"}.
+
+---
+
+## Fonts, scripts, and other third-party content
+
+This website does not load webfonts, scripts, or stylesheets from third-party content delivery networks such as Google Fonts or unpkg. All fonts and scripts are either served from this website itself or taken from the fonts already installed on your device.
+
+One exception: the [microscope tiles](../microscopes/tiles.md) page embeds public gallery views from [Baserow](https://baserow.io){:target="_blank"} (Baserow B.V., the Netherlands). If you open that page, your IP address is transmitted to Baserow so the embedded content can be displayed. Baserow is established within the EEA, so no third-country transfer is involved.
+
+Other pages link to external services (for example YouTube videos, booking systems, or institutional pages of Leiden University). Those services apply their own privacy policies, and only receive data if you follow the link.
 
 ---
 

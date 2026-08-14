@@ -6,7 +6,9 @@ When publishing research that uses Cell Observatory facilities, proper acknowled
 
 We support the "Imaging Facility Guidelines for Acknowledgement" 
 
-<iframe src="https://docs.google.com/viewer?url=https://leiden-cell-observatory.github.io/files/Imaging%20Facility%20Guidelines%20for%20Acknowledgements_all%20logos.pdf&embedded=true" frameborder="0" width="60%" height="400"></iframe>
+<object data="../../files/Imaging%20Facility%20Guidelines%20for%20Acknowledgements_all%20logos.pdf" type="application/pdf" width="60%" height="400">
+  <a href="../../files/Imaging%20Facility%20Guidelines%20for%20Acknowledgements_all%20logos.pdf">Imaging Facility Guidelines for Acknowledgements (PDF)</a>
+</object>
 
 ## Basic Acknowledgment Text
 
