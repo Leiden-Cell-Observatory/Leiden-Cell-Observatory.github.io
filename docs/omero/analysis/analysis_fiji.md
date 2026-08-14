@@ -2,6 +2,8 @@
 
 While an official OMERO plugin for Fiji exists, which allows to load images from OMERO directly in Fiji and upload results and ROIs back to OMERO, at Leiden University we have our own developed plugin, which allows to directly run developed Fiji scripts/plugins on images in OMERO.
 
+It also includes a plugin to download datasets with their original file formats from OMERO in batch, see [below](#exporting-data).
+
 By following the steps below, you can install the required plugins and run your analysis on images in Fiji.
 
 ### Installation Steps
@@ -104,6 +106,7 @@ By following the steps below, you can install the required plugins and run your 
 
 ## Exporting Data
 Within the Leiden University Fiji plugin there are several options available to download images from OMERO.    
+First of all make sure to properly install the plugin and required update sites, see [above](#installation-steps).
 
 ![Leiden OMERO Plugin options](analysis_fiji/images/export_fiji1.png)    
 
