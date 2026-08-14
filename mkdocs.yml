@@ -140,7 +140,6 @@ nav:
   
 plugins:
   - search
-  - social
   - glightbox:
       touchNavigation: true
       loop: true

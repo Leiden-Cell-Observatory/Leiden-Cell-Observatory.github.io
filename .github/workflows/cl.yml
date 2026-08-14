@@ -1,37 +1,45 @@
-name: ci 
+name: ci
 
 on:
   push:
-  repository_dispatch:  
+  repository_dispatch:
     types: [baserow_update]
+
 concurrency:
-  group: deploy-site
+  group: deploy-site-${{ github.ref }}
   cancel-in-progress: true
+
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: prefix-dev/setup-pixi@v0.10.1
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache 
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install mkdocs-material[imaging] mkdocs-gen-files mkdocs-literate-nav mkdocs-glightbox jinja2 requests python-dotenv
-
-      - run: mkdocs gh-deploy --force
+          cache: true
+      - name: Build the site
+        run: pixi run build-ci
         env:
           BASEROW_API_TOKEN: ${{ secrets.BASEROW_API_TOKEN }}
           BASEROW_TABLE_ID: ${{ secrets.BASEROW_TABLE_ID }}
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  # Only the default branch is published; every other branch stops after the
+  # build above, whose artifact can be downloaded from the run summary.
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v5
+        id: deployment
