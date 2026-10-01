@@ -19,7 +19,7 @@ This page provides a complete list of all microscopes available across the Leide
     <div class="mic-card-institute">{{ institute }}</div>
     <ul>
       {% for mic in items %}
-      <li><a href="../mic_pages/{{ mic.slug }}/">{{ mic.name }}</a> ({{ mic.location }})</li>
+      <li><a href="mic_pages/{{ mic.slug }}/">{{ mic.name }}</a> ({{ mic.location }})</li>
       {% endfor %}
     </ul>
     {% endfor %}
