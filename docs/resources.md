@@ -12,6 +12,11 @@ dateCreated: 2025-02-05T10:35:51.956Z
 
 This section provides a curated collection of external resources for bioimage analysis, training materials, and useful tools.
 
+## Microscopy Resources
+
+- [Zeiss Campus](https://zeiss-campus.magnet.fsu.edu/){:target="_blank"}   
+- [Nikon MicroscopyU](https://www.microscopyu.com/){:target="_blank"}   
+
 ## Image Analysis Resources
 
 ### Software and Tools Collections
@@ -22,6 +27,7 @@ This section provides a curated collection of external resources for bioimage an
 - [Image analysis with Python](https://datacarpentry.github.io/image-processing/){:target="_blank"} - Data Carpentry lessons on image processing with Python
 - [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/){:target="_blank"} - Interactive notebooks for learning bioimage analysis
 - [BiA-PoL blog](https://biapol.github.io/blog/){:target="_blank"} - Blog with examples of image analysis pipelines
+- [NL-BioImaging Python course](https://nl-bioimaging.github.io/NL-BioImageAnalysis-course2026/){:target="_blank"} - Training materials with notebooks for image analysis in Python
 
 ### Training Videos and Courses
 - [COBA: Center for Open Bioimage Analysis](https://www.youtube.com/@cobacenter){:target="_blank"} - Video tutorials on CellProfiler and image analysis
@@ -29,14 +35,5 @@ This section provides a curated collection of external resources for bioimage an
 - [Virtual I2K 2024](https://www.youtube.com/@I2KConference){:target="_blank"} - Workshops on different image analysis tools
 - [Euro-BioImaging](https://www.youtube.com/@EuroBioImagingCommunication/videos){:target="_blank"} - Video's from Euro-BioImaging
 - [Crick BioImage Analysis Symposium](https://www.youtube.com/channel/UCJg0WSdg1vOZFEduBF1VX4Q){:target="_blank"} - Video's with talks on image analysis
-
-## Online Resources
-- Image analysis forum [Image.sc](https://forum.image.sc/){:target="_blank"}
-- Dutch Microscopy society - [NVvM](https://nvvm.microscopie.nl/){:target="_blank"}
-
-## Conferences and Events
-
-### Conference Events Resources
-- [ELMI Conference Database](https://elmi.embl.org/conferences-meetings/){:target="_blank"} - Database with microscopy conferences
 
 
